@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameManager gameManager;
     [SerializeField] private Text drinkAction;
     [SerializeField] private Text talkAction;
+
+    [SerializeField] private AK.Wwise.Event drinkSound;
     
     private Controls _controls;
     private List<InputAction> _actions;
@@ -100,7 +102,7 @@ public class PlayerController : MonoBehaviour
     private void Drink(InputAction.CallbackContext ctx)
     {
         gameManager.Drink();
-        
+        drinkSound.Post(gameObject);
     }
 
     private void Talk(InputAction.CallbackContext ctx)

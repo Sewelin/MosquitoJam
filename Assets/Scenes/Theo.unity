@@ -1081,7 +1081,8 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2f315e185ece1ba4fa11762b0385025a,
+      type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
@@ -1296,5 +1297,10 @@ MonoBehaviour:
   gameManager: {fileID: 337269541}
   drinkAction: {fileID: 775492832}
   talkAction: {fileID: 1704129600}
+  drinkSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 73061d6612a82fe4a986a2f09c153013,
+      type: 2}
   drinkChangeTime: 4
   talkAppearTime: 2.5
