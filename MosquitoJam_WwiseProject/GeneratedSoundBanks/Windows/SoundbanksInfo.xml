@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" GUID="{EB25E386-BF4F-4B02-B167-C39FBBA32B7E}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3094318054" Name="SFX_Drink_Ch1" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch1" GUID="{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}" DurationType="OneShot" DurationMin="0.041470" DurationMax="0.342002">
+					<IncludedMemoryFiles>
+						<File Id="19307305" Language="SFX">
+							<ShortName>Drink\SFX_Drink_34.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_34_10C4C929.wem</Path>
+						</File>
+						<File Id="51749834" Language="SFX">
+							<ShortName>Drink\SFX_Drink_04.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_04_10C4C929.wem</Path>
+						</File>
+						<File Id="70833988" Language="SFX">
+							<ShortName>Drink\SFX_Drink_07.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_07_10C4C929.wem</Path>
+						</File>
+						<File Id="120636876" Language="SFX">
+							<ShortName>Drink\SFX_Drink_36.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_36_10C4C929.wem</Path>
+						</File>
+						<File Id="129380110" Language="SFX">
+							<ShortName>Drink\SFX_Drink_11.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_11_10C4C929.wem</Path>
+						</File>
+						<File Id="146277035" Language="SFX">
+							<ShortName>Drink\SFX_Drink_33.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_33_10C4C929.wem</Path>
+						</File>
+						<File Id="167252107" Language="SFX">
+							<ShortName>Drink\SFX_Drink_15.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_15_10C4C929.wem</Path>
+						</File>
+						<File Id="217607679" Language="SFX">
+							<ShortName>Drink\SFX_Drink_21.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_21_10C4C929.wem</Path>
+						</File>
+						<File Id="219732519" Language="SFX">
+							<ShortName>Drink\SFX_Drink_14.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_14_10C4C929.wem</Path>
+						</File>
+						<File Id="224210942" Language="SFX">
+							<ShortName>Drink\SFX_Drink_06.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_06_10C4C929.wem</Path>
+						</File>
+						<File Id="257394053" Language="SFX">
+							<ShortName>Drink\SFX_Drink_17.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_17_10C4C929.wem</Path>
+						</File>
+						<File Id="259374757" Language="SFX">
+							<ShortName>Drink\SFX_Drink_23.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_23_10C4C929.wem</Path>
+						</File>
+						<File Id="272292531" Language="SFX">
+							<ShortName>Drink\SFX_Drink_18.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_18_10C4C929.wem</Path>
+						</File>
+						<File Id="332746687" Language="SFX">
+							<ShortName>Drink\SFX_Drink_16.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_16_10C4C929.wem</Path>
+						</File>
+						<File Id="401455326" Language="SFX">
+							<ShortName>Drink\SFX_Drink_13.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_13_10C4C929.wem</Path>
+						</File>
+						<File Id="440317210" Language="SFX">
+							<ShortName>Drink\SFX_Drink_20.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_20_10C4C929.wem</Path>
+						</File>
+						<File Id="454099835" Language="SFX">
+							<ShortName>Drink\SFX_Drink_22.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_22_10C4C929.wem</Path>
+						</File>
+						<File Id="541620795" Language="SFX">
+							<ShortName>Drink\SFX_Drink_38.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_38_10C4C929.wem</Path>
+						</File>
+						<File Id="542765568" Language="SFX">
+							<ShortName>Drink\SFX_Drink_35.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_35_10C4C929.wem</Path>
+						</File>
+						<File Id="586127417" Language="SFX">
+							<ShortName>Drink\SFX_Drink_29.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_29_10C4C929.wem</Path>
+						</File>
+						<File Id="595971199" Language="SFX">
+							<ShortName>Drink\SFX_Drink_02.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_02_10C4C929.wem</Path>
+						</File>
+						<File Id="596022068" Language="SFX">
+							<ShortName>Drink\SFX_Drink_27.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_27_10C4C929.wem</Path>
+						</File>
+						<File Id="615012056" Language="SFX">
+							<ShortName>Drink\SFX_Drink_28.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_28_10C4C929.wem</Path>
+						</File>
+						<File Id="636197602" Language="SFX">
+							<ShortName>Drink\SFX_Drink_10.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_10_10C4C929.wem</Path>
+						</File>
+						<File Id="666080641" Language="SFX">
+							<ShortName>Drink\SFX_Drink_01.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_01_10C4C929.wem</Path>
+						</File>
+						<File Id="673643214" Language="SFX">
+							<ShortName>Drink\SFX_Drink_26.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_26_10C4C929.wem</Path>
+						</File>
+						<File Id="708195366" Language="SFX">
+							<ShortName>Drink\SFX_Drink_09.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_09_10C4C929.wem</Path>
+						</File>
+						<File Id="725034759" Language="SFX">
+							<ShortName>Drink\SFX_Drink_32.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_32_10C4C929.wem</Path>
+						</File>
+						<File Id="730271974" Language="SFX">
+							<ShortName>Drink\SFX_Drink_31.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_31_10C4C929.wem</Path>
+						</File>
+						<File Id="733034898" Language="SFX">
+							<ShortName>Drink\SFX_Drink_30.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_30_10C4C929.wem</Path>
+						</File>
+						<File Id="735996023" Language="SFX">
+							<ShortName>Drink\SFX_Drink_05.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_05_10C4C929.wem</Path>
+						</File>
+						<File Id="805349185" Language="SFX">
+							<ShortName>Drink\SFX_Drink_24.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_24_10C4C929.wem</Path>
+						</File>
+						<File Id="845429499" Language="SFX">
+							<ShortName>Drink\SFX_Drink_39.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_39_10C4C929.wem</Path>
+						</File>
+						<File Id="895049144" Language="SFX">
+							<ShortName>Drink\SFX_Drink_08.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_08_10C4C929.wem</Path>
+						</File>
+						<File Id="904502994" Language="SFX">
+							<ShortName>Drink\SFX_Drink_19.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_19_10C4C929.wem</Path>
+						</File>
+						<File Id="935666576" Language="SFX">
+							<ShortName>Drink\SFX_Drink_40.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_40_10C4C929.wem</Path>
+						</File>
+						<File Id="979151826" Language="SFX">
+							<ShortName>Drink\SFX_Drink_12.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_12_10C4C929.wem</Path>
+						</File>
+						<File Id="987780225" Language="SFX">
+							<ShortName>Drink\SFX_Drink_25.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_25_10C4C929.wem</Path>
+						</File>
+						<File Id="1007492835" Language="SFX">
+							<ShortName>Drink\SFX_Drink_37.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_37_10C4C929.wem</Path>
+						</File>
+						<File Id="1030893550" Language="SFX">
+							<ShortName>Drink\SFX_Drink_03.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3094318053" Name="SFX_Drink_Ch2" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch2" GUID="{D5F6BA38-B1BE-4C4A-AE49-61EE05E2A71B}" DurationType="OneShot" DurationMin="0.087365" DurationMax="0.720504">
+					<IncludedMemoryFiles>
+						<File Id="19307305" Language="SFX">
+							<ShortName>Drink\SFX_Drink_34.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_34_10C4C929.wem</Path>
+						</File>
+						<File Id="51749834" Language="SFX">
+							<ShortName>Drink\SFX_Drink_04.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_04_10C4C929.wem</Path>
+						</File>
+						<File Id="70833988" Language="SFX">
+							<ShortName>Drink\SFX_Drink_07.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_07_10C4C929.wem</Path>
+						</File>
+						<File Id="120636876" Language="SFX">
+							<ShortName>Drink\SFX_Drink_36.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_36_10C4C929.wem</Path>
+						</File>
+						<File Id="129380110" Language="SFX">
+							<ShortName>Drink\SFX_Drink_11.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_11_10C4C929.wem</Path>
+						</File>
+						<File Id="146277035" Language="SFX">
+							<ShortName>Drink\SFX_Drink_33.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_33_10C4C929.wem</Path>
+						</File>
+						<File Id="167252107" Language="SFX">
+							<ShortName>Drink\SFX_Drink_15.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_15_10C4C929.wem</Path>
+						</File>
+						<File Id="217607679" Language="SFX">
+							<ShortName>Drink\SFX_Drink_21.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_21_10C4C929.wem</Path>
+						</File>
+						<File Id="219732519" Language="SFX">
+							<ShortName>Drink\SFX_Drink_14.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_14_10C4C929.wem</Path>
+						</File>
+						<File Id="224210942" Language="SFX">
+							<ShortName>Drink\SFX_Drink_06.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_06_10C4C929.wem</Path>
+						</File>
+						<File Id="257394053" Language="SFX">
+							<ShortName>Drink\SFX_Drink_17.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_17_10C4C929.wem</Path>
+						</File>
+						<File Id="259374757" Language="SFX">
+							<ShortName>Drink\SFX_Drink_23.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_23_10C4C929.wem</Path>
+						</File>
+						<File Id="272292531" Language="SFX">
+							<ShortName>Drink\SFX_Drink_18.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_18_10C4C929.wem</Path>
+						</File>
+						<File Id="332746687" Language="SFX">
+							<ShortName>Drink\SFX_Drink_16.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_16_10C4C929.wem</Path>
+						</File>
+						<File Id="401455326" Language="SFX">
+							<ShortName>Drink\SFX_Drink_13.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_13_10C4C929.wem</Path>
+						</File>
+						<File Id="440317210" Language="SFX">
+							<ShortName>Drink\SFX_Drink_20.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_20_10C4C929.wem</Path>
+						</File>
+						<File Id="454099835" Language="SFX">
+							<ShortName>Drink\SFX_Drink_22.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_22_10C4C929.wem</Path>
+						</File>
+						<File Id="541620795" Language="SFX">
+							<ShortName>Drink\SFX_Drink_38.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_38_10C4C929.wem</Path>
+						</File>
+						<File Id="542765568" Language="SFX">
+							<ShortName>Drink\SFX_Drink_35.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_35_10C4C929.wem</Path>
+						</File>
+						<File Id="586127417" Language="SFX">
+							<ShortName>Drink\SFX_Drink_29.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_29_10C4C929.wem</Path>
+						</File>
+						<File Id="595971199" Language="SFX">
+							<ShortName>Drink\SFX_Drink_02.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_02_10C4C929.wem</Path>
+						</File>
+						<File Id="596022068" Language="SFX">
+							<ShortName>Drink\SFX_Drink_27.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_27_10C4C929.wem</Path>
+						</File>
+						<File Id="615012056" Language="SFX">
+							<ShortName>Drink\SFX_Drink_28.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_28_10C4C929.wem</Path>
+						</File>
+						<File Id="636197602" Language="SFX">
+							<ShortName>Drink\SFX_Drink_10.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_10_10C4C929.wem</Path>
+						</File>
+						<File Id="666080641" Language="SFX">
+							<ShortName>Drink\SFX_Drink_01.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_01_10C4C929.wem</Path>
+						</File>
+						<File Id="673643214" Language="SFX">
+							<ShortName>Drink\SFX_Drink_26.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_26_10C4C929.wem</Path>
+						</File>
+						<File Id="708195366" Language="SFX">
+							<ShortName>Drink\SFX_Drink_09.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_09_10C4C929.wem</Path>
+						</File>
+						<File Id="725034759" Language="SFX">
+							<ShortName>Drink\SFX_Drink_32.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_32_10C4C929.wem</Path>
+						</File>
+						<File Id="730271974" Language="SFX">
+							<ShortName>Drink\SFX_Drink_31.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_31_10C4C929.wem</Path>
+						</File>
+						<File Id="733034898" Language="SFX">
+							<ShortName>Drink\SFX_Drink_30.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_30_10C4C929.wem</Path>
+						</File>
+						<File Id="735996023" Language="SFX">
+							<ShortName>Drink\SFX_Drink_05.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_05_10C4C929.wem</Path>
+						</File>
+						<File Id="805349185" Language="SFX">
+							<ShortName>Drink\SFX_Drink_24.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_24_10C4C929.wem</Path>
+						</File>
+						<File Id="845429499" Language="SFX">
+							<ShortName>Drink\SFX_Drink_39.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_39_10C4C929.wem</Path>
+						</File>
+						<File Id="895049144" Language="SFX">
+							<ShortName>Drink\SFX_Drink_08.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_08_10C4C929.wem</Path>
+						</File>
+						<File Id="904502994" Language="SFX">
+							<ShortName>Drink\SFX_Drink_19.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_19_10C4C929.wem</Path>
+						</File>
+						<File Id="935666576" Language="SFX">
+							<ShortName>Drink\SFX_Drink_40.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_40_10C4C929.wem</Path>
+						</File>
+						<File Id="979151826" Language="SFX">
+							<ShortName>Drink\SFX_Drink_12.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_12_10C4C929.wem</Path>
+						</File>
+						<File Id="987780225" Language="SFX">
+							<ShortName>Drink\SFX_Drink_25.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_25_10C4C929.wem</Path>
+						</File>
+						<File Id="1007492835" Language="SFX">
+							<ShortName>Drink\SFX_Drink_37.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_37_10C4C929.wem</Path>
+						</File>
+						<File Id="1030893550" Language="SFX">
+							<ShortName>Drink\SFX_Drink_03.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3742372672" Name="SFX_Drink_Test" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Test" GUID="{63D5066D-E4DA-43AE-A8F8-931CF9B4DD1A}" DurationType="OneShot" DurationMin="1.031083" DurationMax="1.031083">
+					<IncludedMemoryFiles>
+						<File Id="875891286" Language="SFX">
+							<ShortName>SFX_Drink_01.wav</ShortName>
+							<Path>SFX\SFX_Drink_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3034623661" GUID="{5D07E693-70B3-4FE1-B278-15608CAD88B2}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\ATMOS</ObjectPath>
+			<ShortName>ATMOS</ShortName>
+			<Path>ATMOS.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" GUID="{2C710567-E650-4B35-B475-BFA234367CDF}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

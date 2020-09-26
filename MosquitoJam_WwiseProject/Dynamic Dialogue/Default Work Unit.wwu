@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9AE54B7C-A3FC-4E93-BD21-34F2C740D149}" SchemaVersion="97">
+	<DynamicDialogue>
+		<WorkUnit Name="Default Work Unit" ID="{9AE54B7C-A3FC-4E93-BD21-34F2C740D149}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MUSIC" ID="{6CF3256B-F72F-4416-91F4-C476ACD8B6A9}" ShortID="232930196"/>
+			</ChildrenList>
+		</WorkUnit>
+	</DynamicDialogue>
+</WwiseDocument>

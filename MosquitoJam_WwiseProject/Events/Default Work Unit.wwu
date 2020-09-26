@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B442830-BA06-442D-84E9-2274CB6A56DF}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3B442830-BA06-442D-84E9-2274CB6A56DF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{378E461E-FFF6-4644-A665-D10048F23E45}" ShortID="162894187">
+					<ChildrenList>
+						<Folder Name="Drink" ID="{8FF68351-F18D-4F02-BC65-D0B37AA2F38E}" ShortID="5176315">
+							<ChildrenList>
+								<Event Name="SFX_Drink_Test" ID="{63D5066D-E4DA-43AE-A8F8-931CF9B4DD1A}">
+									<ChildrenList>
+										<Action Name="" ID="{808D837B-390D-4375-8E9B-EA251ABD594F}" ShortID="188231766">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Drink_01" ID="{135AA310-4213-49BA-9BBD-95E7ECC0FFF5}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SFX_Drink_Ch2" ID="{D5F6BA38-B1BE-4C4A-AE49-61EE05E2A71B}">
+									<ChildrenList>
+										<Action Name="" ID="{D8A80C62-59A6-4A6A-B456-FF7D9DE3426A}" ShortID="366980112">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Drink_02" ID="{62099F80-F790-4077-A504-39BF9400A3C0}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="SFX_Drink_Ch1" ID="{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}">
+									<ChildrenList>
+										<Action Name="" ID="{F3914E20-CCFD-40AB-8252-AEC103B30C58}" ShortID="84644052">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Drink_01" ID="{AAE0EF19-6C08-4D08-B158-4FF39441DD85}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ATMOS" ID="{C3226046-CA42-4AB3-9A09-7986FDA848A5}" ShortID="486412176"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
