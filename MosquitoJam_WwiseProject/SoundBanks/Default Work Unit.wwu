@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{49A5D2FE-F9E8-45F4-BB52-D1488D913F46}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{49A5D2FE-F9E8-45F4-BB52-D1488D913F46}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{EB25E386-BF4F-4B02-B167-C39FBBA32B7E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{378E461E-FFF6-4644-A665-D10048F23E45}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ATMOS" ID="{5D07E693-70B3-4FE1-B278-15608CAD88B2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ATMOS" ID="{C3226046-CA42-4AB3-9A09-7986FDA848A5}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MUSIC" ID="{2C710567-E650-4B35-B475-BFA234367CDF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MUSIC" ID="{6CF3256B-F72F-4416-91F4-C476ACD8B6A9}" WorkUnitID="{9AE54B7C-A3FC-4E93-BD21-34F2C740D149}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

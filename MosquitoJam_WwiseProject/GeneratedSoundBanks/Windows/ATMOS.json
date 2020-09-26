@@ -1,0 +1,25 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3034623661",
+    "GUID": "{5D07E693-70B3-4FE1-B278-15608CAD88B2}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\ATMOS",
+    "ShortName": "ATMOS",
+    "Path": "ATMOS.bnk"
+   }
+  ]
+ }
+}
