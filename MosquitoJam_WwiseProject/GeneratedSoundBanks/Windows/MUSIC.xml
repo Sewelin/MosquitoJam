@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3991942870" GUID="{2C710567-E650-4B35-B475-BFA234367CDF}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
