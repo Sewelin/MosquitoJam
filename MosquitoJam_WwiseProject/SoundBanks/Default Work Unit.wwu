@@ -10,11 +10,6 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="ATMOS" ID="{5D07E693-70B3-4FE1-B278-15608CAD88B2}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 				<SoundBank Name="MUSIC" ID="{2C710567-E650-4B35-B475-BFA234367CDF}">
 					<ObjectInclusionList>
 						<ObjectRef Name="MUSIC" ID="{6CF3256B-F72F-4416-91F4-C476ACD8B6A9}" WorkUnitID="{9AE54B7C-A3FC-4E93-BD21-34F2C740D149}" Origin="Manual" Filter="7"/>

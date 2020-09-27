@@ -64,11 +64,23 @@
 														</Reference>
 													</ReferenceList>
 												</EventActionException>
+												<EventActionException Name="" ID="{25810498-73C9-4732-973A-89CF23A2B679}">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Grunt" ID="{0BBD862B-3659-41CA-83EF-10CB7B5E4008}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+														</Reference>
+													</ReferenceList>
+												</EventActionException>
 											</ChildrenList>
 										</Action>
 										<Action Name="" ID="{9E7D51F7-DC83-4D8F-A8CF-C20958A18238}" ShortID="909997340">
 											<PropertyList>
 												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -85,23 +97,11 @@
 										</Action>
 										<Action Name="" ID="{42E67173-6A51-469D-8D0F-F795D5BA3383}" ShortID="904443488">
 											<PropertyList>
-												<Property Name="Delay" Type="Real64" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SFX_Grunt" ID="{0BBD862B-3659-41CA-83EF-10CB7B5E4008}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{FC46D67B-D397-4889-AECD-A5105B06D7B1}" ShortID="96628659">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="38"/>
-												<Property Name="FadeTime" Type="Real64" Value="2"/>
-												<Property Name="GameParameterValue" Type="Real64" Value="100"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="RTPC_FarFromScene" ID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -180,6 +180,11 @@
 										<Action Name="" ID="{6977CFA0-EC4E-4992-96D2-2A443FF1DB1C}" ShortID="910237930">
 											<PropertyList>
 												<Property Name="Delay" Type="Real64" Value="1.5"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -190,6 +195,11 @@
 										<Action Name="" ID="{CA30E5E0-9431-4B43-BBAD-9DE558EB1BD9}" ShortID="912865774">
 											<PropertyList>
 												<Property Name="Delay" Type="Real64" Value="1.5"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -202,6 +212,11 @@
 												<Property Name="ActionType" Type="int16" Value="38"/>
 												<Property Name="FadeTime" Type="Real64" Value="2"/>
 												<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">

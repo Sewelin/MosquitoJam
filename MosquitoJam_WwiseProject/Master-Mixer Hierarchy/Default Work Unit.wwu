@@ -146,7 +146,7 @@
 								<DuckItem>
 									<BusRef Name="MUSIC" ID="{CE8806FC-FE40-4989-BA7C-84CB7F52D5C3}"/>
 									<DuckingParam>
-										<Volume>-9</Volume>
+										<Volume>-6</Volume>
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>1</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
@@ -155,7 +155,7 @@
 								<DuckItem>
 									<BusRef Name="ATMOS" ID="{D464279A-1168-4861-A9C8-1FC9212F41AA}"/>
 									<DuckingParam>
-										<Volume>-12</Volume>
+										<Volume>-9</Volume>
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>1</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
@@ -174,6 +174,11 @@
 						</Bus>
 						<AuxBus Name="Rev" ID="{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
 								<Property Name="BypassEffect0" Type="bool">
 									<ValueList>
 										<Value>True</Value>

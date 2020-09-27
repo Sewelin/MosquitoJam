@@ -550,15 +550,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\UI\\SFX_End_Kiss",
       "GUID": "{A459DAED-83B3-4FF0-8A92-38F7A52584C4}",
       "DurationType": "OneShot",
-      "DurationMin": "7.416941",
-      "DurationMax": "7.416941",
+      "DurationMin": "6.918244",
+      "DurationMax": "6.918244",
       "IncludedMemoryFiles": [
-       {
-        "Id": "123532900",
-        "Language": "SFX",
-        "ShortName": "SFX_Strong wind gusts with heavy flam in the middle Slightly flanging elements.wav",
-        "Path": "SFX\\SFX_Strong wind gusts with heavy flam in the middle Slightly flanging elements_AD65BF62.wem"
-       },
        {
         "Id": "182435311",
         "Language": "SFX",
@@ -570,20 +564,6 @@
         "Language": "SFX",
         "ShortName": "SFX_Chimes.wav",
         "Path": "SFX\\SFX_Chimes_7C5BBB4C.wem"
-       },
-       {
-        "Id": "734016576",
-        "Language": "SFX",
-        "ShortName": "SFX_Snore.wav",
-        "Path": "SFX\\SFX_Snore_2EA7E89F.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "980603520",
-        "Name": "Rev",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Rev",
-        "GUID": "{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}"
        }
       ]
      },
@@ -593,20 +573,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Slap\\SFX_End_Slap",
       "GUID": "{1A3DC964-1972-4E04-B39C-63239FF20E29}",
       "DurationType": "OneShot",
-      "DurationMin": "2.764625",
-      "DurationMax": "2.764625",
+      "DurationMin": "1.264625",
+      "DurationMax": "1.264625",
       "IncludedMemoryFiles": [
        {
         "Id": "60264027",
         "Language": "SFX",
         "ShortName": "SFX_Grunt.wav",
         "Path": "SFX\\SFX_Grunt_10C4C929.wem"
-       },
-       {
-        "Id": "123532900",
-        "Language": "SFX",
-        "ShortName": "SFX_Strong wind gusts with heavy flam in the middle Slightly flanging elements.wav",
-        "Path": "SFX\\SFX_Strong wind gusts with heavy flam in the middle Slightly flanging elements_AD65BF62.wem"
        },
        {
         "Id": "629193139",
@@ -743,14 +717,6 @@
       "GUID": "{F4544AB0-8914-42DD-BE70-2C710ED316BA}"
      }
     ]
-   },
-   {
-    "Id": "3034623661",
-    "GUID": "{5D07E693-70B3-4FE1-B278-15608CAD88B2}",
-    "Language": "SFX",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\ATMOS",
-    "ShortName": "ATMOS",
-    "Path": "ATMOS.bnk"
    },
    {
     "Id": "3313685232",
