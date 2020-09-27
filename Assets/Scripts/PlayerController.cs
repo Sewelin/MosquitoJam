@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
     {
         _controls = new Controls();
         _controls.Everything.Enable();
+        GameManager.Controls = _controls;
         
         _actions = new List<InputAction>
         {

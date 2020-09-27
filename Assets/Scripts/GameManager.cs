@@ -2,11 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
+using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static bool GameEnded { get; private set; } = false;
+    public static Controls Controls;
 
     [SerializeField] private Slider mainGauge;
     [SerializeField] private GameObject hand;
@@ -74,10 +78,44 @@ public class GameManager : MonoBehaviour
         if (DrinkGauge + TalkGauge < 0.01f)
         {
             hand.SetActive(true);
+            StartCoroutine("BindQuit");
         }
         else if (DrinkGauge + TalkGauge > 197.99f)
         {
             goodEnd.SetActive(true);
+            StartCoroutine("BindQuit");
         }
+    }
+
+    private IEnumerator BindQuit()
+    {
+        yield return new WaitForSeconds(3f);
+        BindOnAnyButtonPressed(() => Quit());
+    }
+
+    private void Quit()
+    {Debug.Log("quit");
+        Application.Quit();
+    }
+    
+    private delegate void MyDelegate();
+    private void BindOnAnyButtonPressed(MyDelegate myDelegate)
+    {
+        InputSystem.onEvent += (eventPtr, device) =>
+        {
+            if (!eventPtr.IsA<StateEvent>() && !eventPtr.IsA<DeltaStateEvent>()) return;
+        
+            var controls = device.allControls;
+            var buttonPressPoint = InputSystem.settings.defaultButtonPressPoint;
+            foreach (var c in controls)
+            {
+                var control = c as ButtonControl;
+                if (control == null || control.synthetic || control.noisy) continue;
+                if (!control.ReadValueFromEvent(eventPtr, out var value) || !(value >= buttonPressPoint)) continue;
+            
+                myDelegate();
+                break;
+            }
+        };
     }
 }
