@@ -9,8 +9,8 @@ public class GameManager : MonoBehaviour
     public static bool GameEnded { get; private set; } = false;
 
     [SerializeField] private Slider mainGauge;
-    private float _drinkGauge = 50f;
-    private float _talkGauge = 50f;
+    [SerializeField] private float drinkGauge = 50f;
+    [SerializeField] private float talkGauge = 50f;
 
     [SerializeField] private float drinkGain = 0.1f;
     [SerializeField] private float talkGain = 1f;
@@ -19,29 +19,29 @@ public class GameManager : MonoBehaviour
     
     private float DrinkGauge
     {
-        get => _drinkGauge;
+        get => drinkGauge;
         set
         {
-            _drinkGauge = value;
-            if (_drinkGauge > 100f)
-                _drinkGauge = 100f;
-            else if (_drinkGauge < 0f)
-                _drinkGauge = 0f;
-            mainGauge.value = _drinkGauge + TalkGauge;
+            drinkGauge = value;
+            if (drinkGauge > 100f)
+                drinkGauge = 100f;
+            else if (drinkGauge < 0f)
+                drinkGauge = 0f;
+            mainGauge.value = drinkGauge + TalkGauge;
         }
     }
 
     private float TalkGauge
     {
-        get => _talkGauge;
+        get => talkGauge;
         set
         {
-            _talkGauge = value;
-            if (_talkGauge > 100f)
-                _talkGauge = 100f;
-            else if (_talkGauge < 0f)
-                _talkGauge = 0f;
-            mainGauge.value = DrinkGauge + _talkGauge;
+            talkGauge = value;
+            if (talkGauge > 100f)
+                talkGauge = 100f;
+            else if (talkGauge < 0f)
+                talkGauge = 0f;
+            mainGauge.value = DrinkGauge + talkGauge;
         }
     }
 
@@ -53,6 +53,11 @@ public class GameManager : MonoBehaviour
     public void Talk()
     {
         TalkGauge += talkGain;
+    }
+
+    private void Start()
+    {
+        mainGauge.value = DrinkGauge + TalkGauge;
     }
 
     private void Update()
