@@ -17,10 +17,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float drinkLoss = 0.5f;
     [SerializeField] private float talkLoss = 0.8f;
     
-    private float DrinkGauge
+    public float DrinkGauge
     {
         get => drinkGauge;
-        set
+        private set
         {
             drinkGauge = value;
             if (drinkGauge > 100f)
@@ -31,10 +31,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private float TalkGauge
+    public float TalkGauge
     {
         get => talkGauge;
-        set
+        private set
         {
             talkGauge = value;
             if (talkGauge > 100f)
