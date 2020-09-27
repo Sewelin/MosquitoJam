@@ -766,12 +766,12 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e62cfd8541df04749ae89b76c0d31745,
       type: 2}
-  drinkGauge: 50
-  talkGauge: 50
-  drinkGain: 0.1
-  talkGain: 1
-  drinkLoss: 0.5
-  talkLoss: 0.8
+  drinkGauge: 26
+  talkGauge: 26
+  drinkGain: 0.8
+  talkGain: 3
+  drinkLoss: 1
+  talkLoss: 1.6
 --- !u!1 &350251335
 GameObject:
   m_ObjectHideFlags: 0
