@@ -1,0 +1,25 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "GUID": "{2C710567-E650-4B35-B475-BFA234367CDF}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC",
+    "ShortName": "MUSIC",
+    "Path": "MUSIC.bnk"
+   }
+  ]
+ }
+}
