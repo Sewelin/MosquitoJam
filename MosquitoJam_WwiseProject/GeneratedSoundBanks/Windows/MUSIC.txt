@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1745028472	Mx_LesticosSong			\Default Work Unit\MUSIC\Mx_LesticosSong	
+	1751147339	Atm_Background_TV			\Default Work Unit\ATMOS\Atm_Background_TV	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	690456766	RTPC_FarFromScene			\Default Work Unit\RTPC_FarFromScene	
+	2025725552	RTPC_Gauge			\Default Work Unit\RTPC_Gauge	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	13599532	ENJAM 2020 - Mosquito's Song - Intro	D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\SFX\ENJAM 2020 - Mosquito's Song - Intro_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\OST\IntroToLoop\ENJAM 2020 - Mosquito's Song - Intro		219743
+	226483068	ENJAM 2020 - Mosquito's Song - Loop_Good	D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\OST\IntroToLoop\Loop\ENJAM 2020 - Mosquito's Song - Loop_Good		3116
+	852303102	ENJAM 2020 - Mosquito's Song - Loop	D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\OST\IntroToLoop\Loop\ENJAM 2020 - Mosquito's Song - Loop		2313
+	928785681	Atm_TVShow_Close	D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\SFX\TV\Atm_TVShow_Close_0241D95F.wem		\Actor-Mixer Hierarchy\Default Work Unit\ATMOS\Background\TV\Atm_TVShow_Close		34267660
+	971791574	ENJAM 2020 - Mosquito's Song - Loop_Noob	D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\OST\IntroToLoop\Loop\ENJAM 2020 - Mosquito's Song - Loop_Noob		2208
+	1027392780	Atm_TVShow	D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\SFX\TV\Atm_TVShow_79F67471.wem		\Actor-Mixer Hierarchy\Default Work Unit\ATMOS\Background\TV\Atm_TVShow		34267660
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	226483068	ENJAM 2020 - Mosquito's Song - Loop_Good	D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem	226483068.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\OST\IntroToLoop\Loop\ENJAM 2020 - Mosquito's Song - Loop_Good	
+	852303102	ENJAM 2020 - Mosquito's Song - Loop	D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem	852303102.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\OST\IntroToLoop\Loop\ENJAM 2020 - Mosquito's Song - Loop	
+	971791574	ENJAM 2020 - Mosquito's Song - Loop_Noob	D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\.cache\Windows\SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem	971791574.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\OST\IntroToLoop\Loop\ENJAM 2020 - Mosquito's Song - Loop_Noob	
+

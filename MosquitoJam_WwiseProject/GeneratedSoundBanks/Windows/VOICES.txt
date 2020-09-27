@@ -1,12 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
+	462475734	Vx_Bored_Ch1_Stop			\Default Work Unit\VOICES\Bored\Vx_Bored_Ch1_Stop	
+	480278434	Vx_Mad_Ch1_Stop			\Default Work Unit\VOICES\Mad\Vx_Mad_Ch1_Stop	
+	2073976291	Vx_Flirt_Ch1_Stop			\Default Work Unit\VOICES\Flirt\Vx_Flirt_Ch1_Stop	
 	2375616132	Vx_Flirt_Ch1			\Default Work Unit\VOICES\Flirt\Vx_Flirt_Ch1	
 	2375616135	Vx_Flirt_Ch2			\Default Work Unit\VOICES\Flirt\Vx_Flirt_Ch2	
 	2559308004	Vx_Mad_Ch2			\Default Work Unit\VOICES\Mad\Vx_Mad_Ch2	
 	2559308007	Vx_Mad_Ch1			\Default Work Unit\VOICES\Mad\Vx_Mad_Ch1	
-	2787111741	Vx_Laugh_Ch2			\Default Work Unit\VOICES\Laughts\Vx_Laugh_Ch2	
-	2787111742	Vx_Laugh_Ch1			\Default Work Unit\VOICES\Laughts\Vx_Laugh_Ch1	
+	2787111741	Vx_Laugh_Ch2			\Default Work Unit\VOICES\Laughs\Vx_Laugh_Ch2	
+	2787111742	Vx_Laugh_Ch1			\Default Work Unit\VOICES\Laughs\Vx_Laugh_Ch1	
 	3148242360	Vx_Yawn_Ch1			\Default Work Unit\VOICES\Yawn\Vx_Yawn_Ch1	
 	3148242363	Vx_Yawn_Ch2			\Default Work Unit\VOICES\Yawn\Vx_Yawn_Ch2	
+	3349905026	Vx_Flirt_Ch2_Stop			\Default Work Unit\VOICES\Flirt\Vx_Flirt_Ch2_Stop	
+	3499316739	Vx_Mad_Ch2_Stop			\Default Work Unit\VOICES\Mad\Vx_Mad_Ch2_Stop	
+	3588820663	Vx_Bored_Ch2_Stop			\Default Work Unit\VOICES\Bored\Vx_Bored_Ch2_Stop	
 	4121514104	Vx_Bored_Ch2			\Default Work Unit\VOICES\Bored\Vx_Bored_Ch2	
 	4121514107	Vx_Bored_Ch1			\Default Work Unit\VOICES\Bored\Vx_Bored_Ch1	
 

@@ -12,6 +12,9 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="690456766" Name="RTPC_FarFromScene" ObjectPath="\Game Parameters\Default Work Unit\RTPC_FarFromScene" GUID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

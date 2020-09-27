@@ -18,38 +18,7 @@
     "Language": "SFX",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ATMOS",
     "ShortName": "ATMOS",
-    "Path": "ATMOS.bnk",
-    "IncludedEvents": [
-     {
-      "Id": "1751147339",
-      "Name": "Atm_Background_TV",
-      "ObjectPath": "\\Events\\Default Work Unit\\ATMOS\\Atm_Background_TV",
-      "GUID": "{D46ACC6B-36FD-476F-A6DA-BE2E26141792}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "928785681",
-        "Language": "SFX",
-        "ShortName": "TV\\Atm_TVShow_Close.wav",
-        "Path": "SFX\\TV\\Atm_TVShow_Close_0241D95F.wem"
-       },
-       {
-        "Id": "1027392780",
-        "Language": "SFX",
-        "ShortName": "TV\\Atm_TVShow.wav",
-        "Path": "SFX\\TV\\Atm_TVShow_79F67471.wem"
-       }
-      ]
-     }
-    ],
-    "GameParameters": [
-     {
-      "Id": "690456766",
-      "Name": "RTPC_FarFromScene",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_FarFromScene",
-      "GUID": "{F4544AB0-8914-42DD-BE70-2C710ED316BA}"
-     }
-    ]
+    "Path": "ATMOS.bnk"
    }
   ]
  }

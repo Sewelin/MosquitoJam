@@ -12,23 +12,6 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\ATMOS</ObjectPath>
 			<ShortName>ATMOS</ShortName>
 			<Path>ATMOS.bnk</Path>
-			<IncludedEvents>
-				<Event Id="1751147339" Name="Atm_Background_TV" ObjectPath="\Events\Default Work Unit\ATMOS\Atm_Background_TV" GUID="{D46ACC6B-36FD-476F-A6DA-BE2E26141792}" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="928785681" Language="SFX">
-							<ShortName>TV\Atm_TVShow_Close.wav</ShortName>
-							<Path>SFX\TV\Atm_TVShow_Close_0241D95F.wem</Path>
-						</File>
-						<File Id="1027392780" Language="SFX">
-							<ShortName>TV\Atm_TVShow.wav</ShortName>
-							<Path>SFX\TV\Atm_TVShow_79F67471.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-			</IncludedEvents>
-			<GameParameters>
-				<GameParameter Id="690456766" Name="RTPC_FarFromScene" ObjectPath="\Game Parameters\Default Work Unit\RTPC_FarFromScene" GUID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
-			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

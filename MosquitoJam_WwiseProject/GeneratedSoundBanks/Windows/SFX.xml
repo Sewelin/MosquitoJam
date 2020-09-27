@@ -13,7 +13,7 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3094318054" Name="SFX_Drink_Ch1" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch1" GUID="{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}" DurationType="OneShot" DurationMin="0.037591" DurationMax="0.202806">
+				<Event Id="3094318054" Name="SFX_Drink_Ch1" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch1" GUID="{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}" DurationType="OneShot" DurationMin="0.034075" DurationMax="0.183838">
 					<IncludedMemoryFiles>
 						<File Id="19307305" Language="SFX">
 							<ShortName>Drink\SFX_Drink_34.wav</ShortName>
@@ -338,6 +338,18 @@
 						<File Id="1007492835" Language="SFX">
 							<ShortName>Drink\SFX_Drink_37.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_37_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3114543140" Name="SFX_Ending" ObjectPath="\Events\Default Work Unit\SFX\UI\SFX_Ending" GUID="{A459DAED-83B3-4FF0-8A92-38F7A52584C4}" DurationType="OneShot" DurationMin="6.918244" DurationMax="6.918244">
+					<IncludedMemoryFiles>
+						<File Id="182435311" Language="SFX">
+							<ShortName>SFX_Cartoon, Kiss.wav</ShortName>
+							<Path>SFX\SFX_Cartoon, Kiss_10C4C929.wem</Path>
+						</File>
+						<File Id="571644507" Language="SFX">
+							<ShortName>SFX_Chimes.wav</ShortName>
+							<Path>SFX\SFX_Chimes_7C598BAD.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

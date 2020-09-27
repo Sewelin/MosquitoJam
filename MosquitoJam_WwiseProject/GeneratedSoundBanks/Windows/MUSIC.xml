@@ -12,6 +12,64 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1751147339" Name="Atm_Background_TV" ObjectPath="\Events\Default Work Unit\ATMOS\Atm_Background_TV" GUID="{D46ACC6B-36FD-476F-A6DA-BE2E26141792}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="928785681" Language="SFX">
+							<ShortName>TV\Atm_TVShow_Close.wav</ShortName>
+							<Path>SFX\TV\Atm_TVShow_Close_0241D95F.wem</Path>
+						</File>
+						<File Id="1027392780" Language="SFX">
+							<ShortName>TV\Atm_TVShow.wav</ShortName>
+							<Path>SFX\TV\Atm_TVShow_79F67471.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1745028472" Name="Mx_LesticosSong" ObjectPath="\Events\Default Work Unit\MUSIC\Mx_LesticosSong" GUID="{733A547C-42D6-416E-9060-7E0AC88DBAF5}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="226483068" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="852303102" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem</Path>
+						</File>
+						<File Id="971791574" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="13599532" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Intro.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Intro_C1F52A07.wem</Path>
+						</File>
+						<File Id="226483068" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem</Path>
+							<PrefetchSize>3116</PrefetchSize>
+						</File>
+						<File Id="852303102" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem</Path>
+							<PrefetchSize>2313</PrefetchSize>
+						</File>
+						<File Id="971791574" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem</Path>
+							<PrefetchSize>2208</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1751147339" Name="Atm_Background_TV" ObjectPath="\Events\Default Work Unit\ATMOS\Atm_Background_TV" GUID="{D46ACC6B-36FD-476F-A6DA-BE2E26141792}"/>
+					</ActionPostEvent>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="690456766" Name="RTPC_FarFromScene" ObjectPath="\Game Parameters\Default Work Unit\RTPC_FarFromScene" GUID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
+				<GameParameter Id="2025725552" Name="RTPC_Gauge" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Gauge" GUID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

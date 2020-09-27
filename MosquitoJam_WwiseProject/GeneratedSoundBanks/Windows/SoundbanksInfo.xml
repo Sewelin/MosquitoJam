@@ -8,7 +8,20 @@
 		<ExternalSourcesOutputRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="226483068" Language="SFX">
+			<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
+			<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem</Path>
+		</File>
+		<File Id="852303102" Language="SFX">
+			<ShortName>ENJAM 2020 - Mosquito's Song - Loop.wav</ShortName>
+			<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem</Path>
+		</File>
+		<File Id="971791574" Language="SFX">
+			<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</ShortName>
+			<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="393239870" GUID="{EB25E386-BF4F-4B02-B167-C39FBBA32B7E}" Language="SFX">
@@ -16,7 +29,7 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3094318054" Name="SFX_Drink_Ch1" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch1" GUID="{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}" DurationType="OneShot" DurationMin="0.037591" DurationMax="0.202806">
+				<Event Id="3094318054" Name="SFX_Drink_Ch1" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch1" GUID="{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}" DurationType="OneShot" DurationMin="0.034075" DurationMax="0.183838">
 					<IncludedMemoryFiles>
 						<File Id="19307305" Language="SFX">
 							<ShortName>Drink\SFX_Drink_34.wav</ShortName>
@@ -344,6 +357,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3114543140" Name="SFX_Ending" ObjectPath="\Events\Default Work Unit\SFX\UI\SFX_Ending" GUID="{A459DAED-83B3-4FF0-8A92-38F7A52584C4}" DurationType="OneShot" DurationMin="6.918244" DurationMax="6.918244">
+					<IncludedMemoryFiles>
+						<File Id="182435311" Language="SFX">
+							<ShortName>SFX_Cartoon, Kiss.wav</ShortName>
+							<Path>SFX\SFX_Cartoon, Kiss_10C4C929.wem</Path>
+						</File>
+						<File Id="571644507" Language="SFX">
+							<ShortName>SFX_Chimes.wav</ShortName>
+							<Path>SFX\SFX_Chimes_7C598BAD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3956444467" Name="SFX_Pop_Out" ObjectPath="\Events\Default Work Unit\SFX\UI\SFX_Pop_Out" GUID="{F2FBEF2C-CAE8-46A7-96F7-AA206AA227EA}" DurationType="OneShot" DurationMin="0.243270" DurationMax="0.382116">
 					<IncludedMemoryFiles>
 						<File Id="53486594" Language="SFX">
@@ -414,28 +439,14 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="690456766" Name="RTPC_FarFromScene" ObjectPath="\Game Parameters\Default Work Unit\RTPC_FarFromScene" GUID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3034623661" GUID="{5D07E693-70B3-4FE1-B278-15608CAD88B2}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\ATMOS</ObjectPath>
 			<ShortName>ATMOS</ShortName>
 			<Path>ATMOS.bnk</Path>
-			<IncludedEvents>
-				<Event Id="1751147339" Name="Atm_Background_TV" ObjectPath="\Events\Default Work Unit\ATMOS\Atm_Background_TV" GUID="{D46ACC6B-36FD-476F-A6DA-BE2E26141792}" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="928785681" Language="SFX">
-							<ShortName>TV\Atm_TVShow_Close.wav</ShortName>
-							<Path>SFX\TV\Atm_TVShow_Close_0241D95F.wem</Path>
-						</File>
-						<File Id="1027392780" Language="SFX">
-							<ShortName>TV\Atm_TVShow.wav</ShortName>
-							<Path>SFX\TV\Atm_TVShow_79F67471.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-			</IncludedEvents>
-			<GameParameters>
-				<GameParameter Id="690456766" Name="RTPC_FarFromScene" ObjectPath="\Game Parameters\Default Work Unit\RTPC_FarFromScene" GUID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
-			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3313685232" GUID="{FA34593D-B2D6-42E3-AC23-354575E1DA28}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\VOICES</ObjectPath>
@@ -662,6 +673,34 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="462475734" Name="Vx_Bored_Ch1_Stop" ObjectPath="\Events\Default Work Unit\VOICES\Bored\Vx_Bored_Ch1_Stop" GUID="{64DF2C3C-07FC-46EA-BCCB-9777A5FDC522}" DurationType="OneShot" DurationMin="0.817711" DurationMax="1.288172">
+					<IncludedMemoryFiles>
+						<File Id="158904851" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_11.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_11_10C4C929.wem</Path>
+						</File>
+						<File Id="187023469" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_09.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_09_10C4C929.wem</Path>
+						</File>
+						<File Id="317388020" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_10.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_10_10C4C929.wem</Path>
+						</File>
+						<File Id="420402105" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_08.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_08_10C4C929.wem</Path>
+						</File>
+						<File Id="569397010" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_13.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_13_10C4C929.wem</Path>
+						</File>
+						<File Id="667229448" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_12.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_12_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4121514104" Name="Vx_Bored_Ch2" ObjectPath="\Events\Default Work Unit\VOICES\Bored\Vx_Bored_Ch2" GUID="{B0866F77-3F2F-4E22-A696-DC3A2A210B60}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="43311077" Language="SFX">
@@ -882,6 +921,34 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3588820663" Name="Vx_Bored_Ch2_Stop" ObjectPath="\Events\Default Work Unit\VOICES\Bored\Vx_Bored_Ch2_Stop" GUID="{6A68E5CB-E845-4E24-B5B8-106BC9BDEAAA}" DurationType="OneShot" DurationMin="0.841223" DurationMax="1.496628">
+					<IncludedMemoryFiles>
+						<File Id="77019479" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_02_10C4C929.wem</Path>
+						</File>
+						<File Id="87576229" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_03_10C4C929.wem</Path>
+						</File>
+						<File Id="116794088" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_04.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_04_10C4C929.wem</Path>
+						</File>
+						<File Id="430091001" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_05.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_05_10C4C929.wem</Path>
+						</File>
+						<File Id="436526702" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_07.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_07_10C4C929.wem</Path>
+						</File>
+						<File Id="907419385" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_06.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2375616132" Name="Vx_Flirt_Ch1" ObjectPath="\Events\Default Work Unit\VOICES\Flirt\Vx_Flirt_Ch1" GUID="{AF33938A-55EF-4955-9947-557AA2E6232E}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="26463452" Language="SFX">
@@ -983,6 +1050,22 @@
 						<File Id="1043569706" Language="SFX">
 							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
 							<Path>SFX\Vx_Sentences_Good_Ch2_02_E94D7E7F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2073976291" Name="Vx_Flirt_Ch1_Stop" ObjectPath="\Events\Default Work Unit\VOICES\Flirt\Vx_Flirt_Ch1_Stop" GUID="{C69B4C9F-A092-4B27-957D-FB0257DC0EC9}" DurationType="OneShot" DurationMin="0.508135" DurationMax="0.816997">
+					<IncludedMemoryFiles>
+						<File Id="600161241" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_02_10C4C929.wem</Path>
+						</File>
+						<File Id="736571307" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_01_10C4C929.wem</Path>
+						</File>
+						<File Id="903207299" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_03.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1090,6 +1173,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3349905026" Name="Vx_Flirt_Ch2_Stop" ObjectPath="\Events\Default Work Unit\VOICES\Flirt\Vx_Flirt_Ch2_Stop" GUID="{29E4B6F9-0EC9-4002-AD95-908B70EE20F9}" DurationType="OneShot" DurationMin="0.670488" DurationMax="1.078034">
+					<IncludedMemoryFiles>
+						<File Id="600161241" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_02_10C4C929.wem</Path>
+						</File>
+						<File Id="736571307" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_01_10C4C929.wem</Path>
+						</File>
+						<File Id="903207299" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_03.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2787111742" Name="Vx_Laugh_Ch1" ObjectPath="\Events\Default Work Unit\VOICES\Laughs\Vx_Laugh_Ch1" GUID="{B1908943-EF35-4A8D-84DC-5054E25D44DA}" DurationType="OneShot" DurationMin="0.508135" DurationMax="0.816997">
 					<IncludedMemoryFiles>
 						<File Id="600161241" Language="SFX">
@@ -1194,6 +1293,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="480278434" Name="Vx_Mad_Ch1_Stop" ObjectPath="\Events\Default Work Unit\VOICES\Mad\Vx_Mad_Ch1_Stop" GUID="{55DBD98B-A05C-4E9C-806A-7CADFD1C9CA3}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2559308004" Name="Vx_Mad_Ch2" ObjectPath="\Events\Default Work Unit\VOICES\Mad\Vx_Mad_Ch2" GUID="{AF63F6F1-3870-4F82-8E8A-1A4A3F666B5A}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="6886913" Language="SFX">
@@ -1266,6 +1366,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3499316739" Name="Vx_Mad_Ch2_Stop" ObjectPath="\Events\Default Work Unit\VOICES\Mad\Vx_Mad_Ch2_Stop" GUID="{B8E71E6F-229F-4EE1-B2C6-49294AE757FB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3148242360" Name="Vx_Yawn_Ch1" ObjectPath="\Events\Default Work Unit\VOICES\Yawn\Vx_Yawn_Ch1" GUID="{4F8AB630-BFE2-43CE-ADCB-61F910F3DAAB}" DurationType="OneShot" DurationMin="0.817711" DurationMax="1.288172">
 					<IncludedMemoryFiles>
 						<File Id="158904851" Language="SFX">
@@ -1328,6 +1429,64 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1751147339" Name="Atm_Background_TV" ObjectPath="\Events\Default Work Unit\ATMOS\Atm_Background_TV" GUID="{D46ACC6B-36FD-476F-A6DA-BE2E26141792}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="928785681" Language="SFX">
+							<ShortName>TV\Atm_TVShow_Close.wav</ShortName>
+							<Path>SFX\TV\Atm_TVShow_Close_0241D95F.wem</Path>
+						</File>
+						<File Id="1027392780" Language="SFX">
+							<ShortName>TV\Atm_TVShow.wav</ShortName>
+							<Path>SFX\TV\Atm_TVShow_79F67471.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1745028472" Name="Mx_LesticosSong" ObjectPath="\Events\Default Work Unit\MUSIC\Mx_LesticosSong" GUID="{733A547C-42D6-416E-9060-7E0AC88DBAF5}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="226483068" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="852303102" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem</Path>
+						</File>
+						<File Id="971791574" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="13599532" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Intro.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Intro_C1F52A07.wem</Path>
+						</File>
+						<File Id="226483068" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem</Path>
+							<PrefetchSize>3116</PrefetchSize>
+						</File>
+						<File Id="852303102" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem</Path>
+							<PrefetchSize>2313</PrefetchSize>
+						</File>
+						<File Id="971791574" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem</Path>
+							<PrefetchSize>2208</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1751147339" Name="Atm_Background_TV" ObjectPath="\Events\Default Work Unit\ATMOS\Atm_Background_TV" GUID="{D46ACC6B-36FD-476F-A6DA-BE2E26141792}"/>
+					</ActionPostEvent>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="690456766" Name="RTPC_FarFromScene" ObjectPath="\Game Parameters\Default Work Unit\RTPC_FarFromScene" GUID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
+				<GameParameter Id="2025725552" Name="RTPC_Gauge" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Gauge" GUID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

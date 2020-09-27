@@ -1,3 +1,6 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	690456766	RTPC_FarFromScene			\Default Work Unit\RTPC_FarFromScene	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	3034623661	ATMOS			\Default Work Unit\Master Audio Bus\ATMOS	

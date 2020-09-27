@@ -14,19 +14,27 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID ATM_BACKGROUND_TV = 1751147339U;
+        static const AkUniqueID MX_LESTICOSSONG = 1745028472U;
         static const AkUniqueID SFX_DRINK_CH1 = 3094318054U;
         static const AkUniqueID SFX_DRINK_CH2 = 3094318053U;
+        static const AkUniqueID SFX_ENDING = 3114543140U;
         static const AkUniqueID SFX_POP_OUT = 3956444467U;
         static const AkUniqueID SFX_POP_UP = 1782989462U;
         static const AkUniqueID SFX_SLAP = 682607339U;
         static const AkUniqueID VX_BORED_CH1 = 4121514107U;
+        static const AkUniqueID VX_BORED_CH1_STOP = 462475734U;
         static const AkUniqueID VX_BORED_CH2 = 4121514104U;
+        static const AkUniqueID VX_BORED_CH2_STOP = 3588820663U;
         static const AkUniqueID VX_FLIRT_CH1 = 2375616132U;
+        static const AkUniqueID VX_FLIRT_CH1_STOP = 2073976291U;
         static const AkUniqueID VX_FLIRT_CH2 = 2375616135U;
+        static const AkUniqueID VX_FLIRT_CH2_STOP = 3349905026U;
         static const AkUniqueID VX_LAUGH_CH1 = 2787111742U;
         static const AkUniqueID VX_LAUGH_CH2 = 2787111741U;
         static const AkUniqueID VX_MAD_CH1 = 2559308007U;
+        static const AkUniqueID VX_MAD_CH1_STOP = 480278434U;
         static const AkUniqueID VX_MAD_CH2 = 2559308004U;
+        static const AkUniqueID VX_MAD_CH2_STOP = 3499316739U;
         static const AkUniqueID VX_YAWN_CH1 = 3148242360U;
         static const AkUniqueID VX_YAWN_CH2 = 3148242363U;
     } // namespace EVENTS

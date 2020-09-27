@@ -10,22 +10,90 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Drink_A" ID="{62099F80-F790-4077-A504-39BF9400A3C0}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+							<ObjectRef Name="Vx_Bored_Ch1" ID="{E47F8C1E-18F7-4C6F-BF82-9B7EA260F184}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Flirt_Ch1" ID="{AF33938A-55EF-4955-9947-557AA2E6232E}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Mad_Ch1" ID="{29BB1B1C-0B75-4AEE-A349-F818D81B39B0}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Drink_Ch2" ID="{D5F6BA38-B1BE-4C4A-AE49-61EE05E2A71B}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Vx_Bored_Ch1" ID="{4BC2A367-99B9-4961-82E3-7BB0BC4FD961}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
-							<Position X="2" Y="2"/>
+							<ObjectRef Name="Vx_Bored_Ch1_Stop" ID="{64DF2C3C-07FC-46EA-BCCB-9777A5FDC522}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Flirt_Ch1_Stop" ID="{C69B4C9F-A092-4B27-957D-FB0257DC0EC9}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Mad_Ch1_Stop" ID="{55DBD98B-A05C-4E9C-806A-7CADFD1C9CA3}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="1" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Bored_Ch2" ID="{B0866F77-3F2F-4E22-A696-DC3A2A210B60}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Flirt_Ch2" ID="{DEF72542-9C27-4616-860D-928E1726A16C}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Mad_Ch2" ID="{AF63F6F1-3870-4F82-8E8A-1A4A3F666B5A}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Bored_Ch2_Stop" ID="{6A68E5CB-E845-4E24-B5B8-106BC9BDEAAA}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Flirt_Ch2_Stop" ID="{29E4B6F9-0EC9-4002-AD95-908B70EE20F9}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Mad_Ch2_Stop" ID="{B8E71E6F-229F-4EE1-B2C6-49294AE757FB}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mx_LesticosSong" ID="{733A547C-42D6-416E-9060-7E0AC88DBAF5}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Atm_Background_TV" ID="{D46ACC6B-36FD-476F-A6DA-BE2E26141792}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Pop_Up" ID="{C67F6F82-574A-4B32-AAE2-E2B9836B49AD}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="4" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Pop_Out" ID="{F2FBEF2C-CAE8-46A7-96F7-AA206AA227EA}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="4" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Ending" ID="{A459DAED-83B3-4FF0-8A92-38F7A52584C4}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="5" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Slap" ID="{1A3DC964-1972-4E04-B39C-63239FF20E29}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="5" Y="5"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_FarFromScene" ID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}"/>
-							<Value>50</Value>
+							<Value>5</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

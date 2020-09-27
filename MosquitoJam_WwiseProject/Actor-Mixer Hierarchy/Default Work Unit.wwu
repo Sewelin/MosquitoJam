@@ -14,6 +14,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="Background" ID="{29A11DF0-E0E0-48C9-9F6B-BB092E72FC04}" ShortID="247072513">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -223,14 +230,16 @@
 												<Value>15</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>1260</Value>
+												<Value>1430</Value>
 											</ValueList>
 										</Property>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>9</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1780,6 +1789,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{560C3650-6946-4E77-913C-2E7CDC40A100}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-60"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 								</BlendContainer>
 								<BlendContainer Name="Drink_02" ID="{1E60670C-0917-4CB6-93FB-78E7E082E5EB}" ShortID="295265954">
 									<PropertyList>
@@ -1788,11 +1804,13 @@
 												<Value>15</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
 												<Value>680</Value>
 											</ValueList>
 										</Property>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>6</Value>
@@ -3345,10 +3363,24 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{940ED2F7-2E17-459E-8117-4CDF61985E9B}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="60"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 								</BlendContainer>
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Slap" ID="{93E7AFFA-3EF1-4AC2-B2AF-9F5EC637993F}" ShortID="231830409">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -3976,6 +4008,177 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<BlendContainer Name="Ending" ID="{A22DD89C-E1C1-4343-9CF0-2E5060844E73}" ShortID="87202013">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Kiss" ID="{E9CE110A-44C3-48CF-AF0D-D684BB07004C}" ShortID="588278043">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36C7F312-55D5-42E9-87C8-1A3DD59B91C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{BD7A3D14-54E1-457C-B050-B86F3DC8654D}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Kiss_01" ID="{1A37DAFF-E8F3-4E83-A665-B7185778EE6A}" ShortID="437194341">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Kiss_01" ID="{18E39399-9B31-48B4-8838-EE1371A7C2DA}">
+													<Language>SFX</Language>
+													<AudioFile>Kiss\SFX_Kiss_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1063723893"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Kiss_01" ID="{18E39399-9B31-48B4-8838-EE1371A7C2DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Kiss_02" ID="{E0322066-1B56-46A3-8AFB-64A946ADE425}" ShortID="908435143">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Kiss_02" ID="{3BBE854F-795D-493C-BB49-28763CEBAE6E}">
+													<Language>SFX</Language>
+													<AudioFile>Kiss\SFX_Kiss_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="223380272"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Kiss_02" ID="{3BBE854F-795D-493C-BB49-28763CEBAE6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Kiss_03" ID="{1EC581FB-0538-4507-B817-5190C29F5691}" ShortID="504338338">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Kiss_03" ID="{181E254E-80B3-43F6-939B-3CA256A3E5C6}">
+													<Language>SFX</Language>
+													<AudioFile>Kiss\SFX_Kiss_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="170138770"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Kiss_03" ID="{181E254E-80B3-43F6-939B-3CA256A3E5C6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="SFX_Chimes" ID="{83805C2D-D6AF-4EFB-BA8C-1903ACC60141}" ShortID="451358977">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Chimes" ID="{4B2E89FF-DA70-47D7-A321-81CA5A24D2B4}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.210352010547132"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.68227993847506"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.91824390243902"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Chimes.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="571644507"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Chimes" ID="{4B2E89FF-DA70-47D7-A321-81CA5A24D2B4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Cartoon, Kiss" ID="{4D64DF2C-F597-4B74-B628-037BB587A2B7}" ShortID="405179538">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Cartoon, Kiss" ID="{2965C40A-5D77-4978-9D3D-55269BD6EB9F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Cartoon, Kiss.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="182435311"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Cartoon, Kiss" ID="{2965C40A-5D77-4978-9D3D-55269BD6EB9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="VOICES" ID="{15F1BBEC-D9D4-4CCA-91E6-5B946BA954BA}" ShortID="1033472543">
@@ -4033,6 +4236,7 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Vx_Mad_Ch1" ID="{E0B7AB95-A789-4F58-907B-A7CA51A57CF5}" ShortID="38203115">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>990</Value>
@@ -4043,6 +4247,7 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-3</Value>
@@ -4615,9 +4820,17 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{CD8B370B-EFA6-4112-B9BA-D9C76F8B1265}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-60"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Vx_Mad_Ch2" ID="{70EDD229-3EE4-45E5-B6EF-794479F20E5A}" ShortID="307320079">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>480</Value>
@@ -4628,6 +4841,7 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-3</Value>
@@ -5200,6 +5414,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{CA50A742-325D-4831-9769-4B10C26F6701}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="60"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 										<Sound Name="Vx_Sentences_Bad_Ch2_01" ID="{33C9443C-3DA3-419A-A16B-09CFE8A30BAA}" ShortID="79731651">
 											<PropertyList>
@@ -5418,6 +5639,7 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Vx_Bored_Ch1" ID="{4BC2A367-99B9-4961-82E3-7BB0BC4FD961}" ShortID="978339097">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>990</Value>
@@ -5428,6 +5650,7 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -7101,14 +7324,23 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{131DC0FD-96D5-4F79-8D2A-28EAF9A1D2E1}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-60"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Vx_Bored_Ch2" ID="{6426B523-2E1A-4D21-AE48-B8910BB79BCB}" ShortID="663251365">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>480</Value>
 													</ValueList>
 												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -8952,6 +9184,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{188FB293-D23B-47B5-94B1-11421479AE9C}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="60"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Vx_Yawn" ID="{D9E3B64D-3890-4E25-828E-8D7C879022AD}" ShortID="391803908">
 											<ReferenceList>
@@ -8980,6 +9219,7 @@
 																		<Value>15</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="Pitch" Type="int32">
 																	<ValueList>
 																		<Value>480</Value>
@@ -8990,6 +9230,7 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
+																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>-3</Value>
@@ -9138,6 +9379,13 @@
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{89698541-FC4B-47B4-817B-B789564D08CD}">
+																	<PropertyList>
+																		<Property Name="PanX" Type="Real64" Value="60"/>
+																	</PropertyList>
+																</Panner>
+															</PositioningInfo>
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="Ch1" ID="{CC3B4F99-2872-4CB8-9D03-82A207514792}" ShortID="891325068">
 															<PropertyList>
@@ -9146,6 +9394,7 @@
 																		<Value>15</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="Pitch" Type="int32">
 																	<ValueList>
 																		<Value>990</Value>
@@ -9156,6 +9405,7 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
+																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>-3</Value>
@@ -9304,6 +9554,13 @@
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{6A88177E-B5D1-4AB2-9540-CDC0222B97F3}">
+																	<PropertyList>
+																		<Property Name="PanX" Type="Real64" Value="-60"/>
+																	</PropertyList>
+																</Panner>
+															</PositioningInfo>
 														</RandomSequenceContainer>
 													</ChildrenList>
 												</BlendContainer>
@@ -9323,11 +9580,13 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Vx_Flirt_Ch1" ID="{09443B3D-0E41-457C-B49D-A42DC6CCFA85}" ShortID="129220427">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>910</Value>
 													</ValueList>
 												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -10119,14 +10378,23 @@
 													</ReferenceList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{C09C0AE9-0409-4999-B68E-55416ABBF27D}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-60"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Vx_Flirt_Ch2" ID="{4BE7D269-86D3-4F53-8ABD-2E7CFDAB7AE4}" ShortID="692059489">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>550</Value>
 													</ValueList>
 												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -10901,6 +11169,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{1270CAE8-3F48-4DE7-A775-47268E9B30ED}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="60"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 										<Sound Name="Vx_Sentences_Good_Ch2_01" ID="{BA227034-039F-4DD1-A0AE-5DC5CFFB58F6}" ShortID="50571438">
 											<PropertyList>
@@ -11056,11 +11331,13 @@
 										</Sound>
 										<RandomSequenceContainer Name="Laugh_Ch1" ID="{E3104AB5-7B7B-42A6-8BD8-607DDB0BC698}" ShortID="570291221">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>1190</Value>
 													</ValueList>
 												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -11138,14 +11415,23 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{E7D0F930-42B2-44D0-9C6F-9A1F3939692B}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-60"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Laugh_Ch2" ID="{F4DF3271-59B1-408A-AED4-7F9C29AB5810}" ShortID="400568446">
 											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>710</Value>
 													</ValueList>
 												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -11223,9 +11509,301 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{C1C29447-28F1-49B2-B7BF-8C42DE6FC49E}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="60"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="MUSIC" ID="{E4A7B96C-8F1F-453E-B88C-D6B86144692B}" ShortID="963955449">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUSIC" ID="{CE8806FC-FE40-4989-BA7C-84CB7F52D5C3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="OST" ID="{A47B56A2-2E7D-4E7C-9B9B-C6963591F900}" ShortID="228958538">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="IntroToLoop" ID="{E9D0EEB6-663D-4A3A-8516-1C32739359F3}" ShortID="436017569">
+									<PropertyList>
+										<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ENJAM 2020 - Mosquito's Song - Intro" ID="{684BC54F-4550-4013-A88B-FA936607B794}" ShortID="781249099">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENJAM 2020 - Mosquito's Song - Intro" ID="{E0FC1947-18C0-4773-9E1F-42B57F5E1B7A}">
+													<Language>SFX</Language>
+													<AudioFile>ENJAM 2020 - Mosquito's Song - Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="13599532"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ENJAM 2020 - Mosquito's Song - Intro" ID="{E0FC1947-18C0-4773-9E1F-42B57F5E1B7A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<BlendContainer Name="Loop" ID="{5B42F866-A388-4149-8741-F46447E87158}" ShortID="661285555">
+											<PropertyList>
+												<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ENJAM 2020 - Mosquito's Song - Loop_Noob" ID="{F0199574-ABB0-4595-A6CE-34944DD93FAA}" ShortID="489402588">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ENJAM 2020 - Mosquito's Song - Loop_Noob" ID="{2340BC0A-7B02-43BC-B486-EFD7A367E6CD}">
+															<Language>SFX</Language>
+															<AudioFile>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="971791574"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ENJAM 2020 - Mosquito's Song - Loop_Noob" ID="{2340BC0A-7B02-43BC-B486-EFD7A367E6CD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ENJAM 2020 - Mosquito's Song - Loop" ID="{24669170-90CE-4CC7-B86C-DD22AC24FE05}" ShortID="931989274">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ENJAM 2020 - Mosquito's Song - Loop" ID="{33C77CAE-7133-4F36-96CB-F0211A9331BA}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>ENJAM 2020 - Mosquito's Song - Loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="852303102"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ENJAM 2020 - Mosquito's Song - Loop" ID="{33C77CAE-7133-4F36-96CB-F0211A9331BA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ENJAM 2020 - Mosquito's Song - Loop_Good" ID="{5F30B81C-C674-450B-8D95-44DC7DE0334A}" ShortID="490791058">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ENJAM 2020 - Mosquito's Song - Loop_Good" ID="{4201E848-87EC-4CBC-AE24-3893A088B736}">
+															<Language>SFX</Language>
+															<AudioFile>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="226483068"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ENJAM 2020 - Mosquito's Song - Loop_Good" ID="{4201E848-87EC-4CBC-AE24-3893A088B736}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<BlendTrackList>
+												<BlendTrack Name="Blending" ID="{AAFA9566-E430-47C6-AA23-9D867B9E72A1}" ShortID="355200035">
+													<PropertyList>
+														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{EE844BD4-6D7F-433D-A506-9957EB2FEE99}" ShortID="353253863">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{BBE4F18E-B5BD-4FAC-97F7-F0B9DB1AFE8C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="LayerCrossFadeControlInput">
+															<ObjectRef Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
+														</Reference>
+													</ReferenceList>
+													<BlendTrackAssocList>
+														<BlendTrackAssoc>
+															<ItemRef Name="ENJAM 2020 - Mosquito's Song - Loop_Noob" ID="{F0199574-ABB0-4595-A6CE-34944DD93FAA}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>0</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>40</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="ENJAM 2020 - Mosquito's Song - Loop" ID="{24669170-90CE-4CC7-B86C-DD22AC24FE05}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>15</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>95</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="ENJAM 2020 - Mosquito's Song - Loop_Good" ID="{5F30B81C-C674-450B-8D95-44DC7DE0334A}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>70</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>100</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+													</BlendTrackAssocList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="ENJAM 2020 - Mosquito's Song - Intro" ID="{684BC54F-4550-4013-A88B-FA936607B794}"/>
+										<ItemRef Name="Loop" ID="{5B42F866-A388-4149-8741-F46447E87158}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>

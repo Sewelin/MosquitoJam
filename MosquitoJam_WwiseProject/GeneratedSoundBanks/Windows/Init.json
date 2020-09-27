@@ -18,7 +18,15 @@
     "Language": "SFX",
     "ObjectPath": "Init",
     "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Path": "Init.bnk",
+    "GameParameters": [
+     {
+      "Id": "690456766",
+      "Name": "RTPC_FarFromScene",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_FarFromScene",
+      "GUID": "{F4544AB0-8914-42DD-BE70-2C710ED316BA}"
+     }
+    ]
    }
   ]
  }
