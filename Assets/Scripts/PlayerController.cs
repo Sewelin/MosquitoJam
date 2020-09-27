@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private List<Text> drinkActionText = new List<Text>();
     [SerializeField] private List<Image> talkAction = new List<Image>();
     [SerializeField] private List<Text> talkActionText = new List<Text>();
+    [SerializeField] private List<Sprite> buttonSprites = new List<Sprite>();
 
     [SerializeField] private AK.Wwise.Event drinkSound;
     
@@ -29,10 +30,9 @@ public class PlayerController : MonoBehaviour
 
     private readonly List<bool> _talkPossible = new List<bool> {false, false};
 
-    private void SetTalkPossible(int num, bool value, string actionName = "")
+    private void SetTalkPossible(int num, bool value, string actionName = "", Sprite buttonSprite = null)
     {
         _talkPossible[num] = value;
-        talkActionText[num].text = actionName;
         if (value)
         {
             var talkZone = num == 0 ? talkZone0 : talkZone1;
@@ -40,6 +40,9 @@ public class PlayerController : MonoBehaviour
                 Random.Range(talkZone.yMin, talkZone.yMax));
             ((RectTransform) talkAction[num].transform).anchorMin = min;
             ((RectTransform) talkAction[num].transform).anchorMax = min + new Vector2(0.07f, 0.124f);
+
+            talkAction[num].sprite = buttonSprite;
+            talkActionText[num].text = actionName;
         }
         talkAction[num].gameObject.SetActive(_talkPossible[num]);
     }
@@ -98,14 +101,17 @@ public class PlayerController : MonoBehaviour
         while (!GameManager.GameEnded)
         {
             var testAction = _currentTalkAction[num];
+            Sprite buttonSprite = talkAction[num].sprite;
             while (testAction == _currentDrinkAction[0] || testAction == _currentDrinkAction[1] ||
                    testAction == _currentTalkAction[0] || testAction == _currentTalkAction[1])
             {
-                testAction = _actions[Random.Range(0, _actions.Count - 4)];
+                var i = Random.Range(0, _actions.Count - 4);
+                testAction = _actions[i];
+                buttonSprite = buttonSprites[i];
             }
             _currentTalkAction[num] = testAction;
 
-            SetTalkPossible(num, true, _currentTalkAction[num].name);
+            SetTalkPossible(num, true, _currentTalkAction[num].name, buttonSprite);
             switch (num)
             {
                 case 0:
