@@ -5,6 +5,26 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Silence",
+    "ID": "6619138",
+    "DLL": "AkSilenceGenerator"
+   },
+   {
+    "Name": "Wwise Matrix Reverb",
+    "ID": "7536643",
+    "DLL": "AkMatrixReverb"
+   },
+   {
+    "Name": "Wwise RoomVerb",
+    "ID": "7733251",
+    "DLL": "AkRoomVerb"
+   },
+   {
+    "Name": "Wwise Guitar Distortion",
+    "ID": "8257539",
+    "DLL": "AkGuitarDistortion"
+   },
+   {
     "Name": "System",
     "ID": "11403271",
     "DLL": "DefaultSink"

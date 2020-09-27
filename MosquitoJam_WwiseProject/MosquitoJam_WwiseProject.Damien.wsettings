@@ -3,9 +3,37 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{0E5556F9-04FC-4C14-A706-7FA83E84B5DB}">
 			<PropertyList>
+				<Property Name="Event Action List\{197D3667-864E-4BE3-8069-4DB155A7C935}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1A3DC964-1972-4E04-B39C-63239FF20E29}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{22120CD7-87B7-43FA-8D58-1C3E88DB1FE3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{29BB1B1C-0B75-4AEE-A349-F818D81B39B0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{29E4B6F9-0EC9-4002-AD95-908B70EE20F9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4F8AB630-BFE2-43CE-ADCB-61F910F3DAAB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{55DBD98B-A05C-4E9C-806A-7CADFD1C9CA3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5BA2EED8-6BA9-4E53-9ECD-83CF2D2B6418}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{63D5066D-E4DA-43AE-A8F8-931CF9B4DD1A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{64DF2C3C-07FC-46EA-BCCB-9777A5FDC522}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6A68E5CB-E845-4E24-B5B8-106BC9BDEAAA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6BA17135-4548-4AAC-968C-28B6636C109E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6FF3ED6A-D709-46F0-880D-A9E279E3786E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{733A547C-42D6-416E-9060-7E0AC88DBAF5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{99BDECCC-4B75-4670-AC39-BB777A5A2AD5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A3D6BEEF-F8E1-4882-8223-F1EBEC803A15}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A459DAED-83B3-4FF0-8A92-38F7A52584C4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AF33938A-55EF-4955-9947-557AA2E6232E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AF63F6F1-3870-4F82-8E8A-1A4A3F666B5A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B0866F77-3F2F-4E22-A696-DC3A2A210B60}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B1908943-EF35-4A8D-84DC-5054E25D44DA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B8E71E6F-229F-4EE1-B2C6-49294AE757FB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C67F6F82-574A-4B32-AAE2-E2B9836B49AD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C69B4C9F-A092-4B27-957D-FB0257DC0EC9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D46ACC6B-36FD-476F-A6DA-BE2E26141792}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D5F6BA38-B1BE-4C4A-AE49-61EE05E2A71B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DEF72542-9C27-4616-860D-928E1726A16C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E47F8C1E-18F7-4C6F-BF82-9B7EA260F184}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F2FBEF2C-CAE8-46A7-96F7-AA206AA227EA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F4BA28CC-C39C-4540-BD76-664319D3D311}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventCreationSettingsOverride" Type="bool" Value="True"/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -26,9 +54,12 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="jTQx3u7vmU+fE6D7ZuH7Yw=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="k+YHXbNw4U+yeBVgjK2IsmcFcSxQ5jVLtHW/ojQ2fN+G4yXrT78CS7Fnw5+7oyt+"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="k+YHXbNw4U+yeBVgjK2IsmcFcSxQ5jVLtHW/ojQ2fN+G4yXrT78CS7Fnw5+7oyt+PVk0+tay40KsIzVFdeHaKA=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="W3tDifE+Rk+XVm+H5thmrAGEPO7/////4Rsa84xPeki36Pyvs8zJsgGEPO7/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="W3tDifE+Rk+XVm+H5thmrAGE37X/////4Rsa84xPeki36Pyvs8zJsgGE37X/////"/>
+				<Property Name="Interactive Music\x64_{45EC59B1-85BB-4519-A93F-0282EDF3119C} - SegmentEditorZoomInfo" Type="string" Value="W3NH4pwFxz8AAAAAAADwPwEctg0zKVFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{8ABB10E4-1145-4CA7-95C2-A562AF658CDB} - SegmentEditorZoomInfo" Type="string" Value="TrfxbtVyvz8uLNjjESYBQAAAAAAAhHhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{A67EC96E-E3E1-449E-AB35-689E38E770B7} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP/WmN73pDSFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="LoudnessMeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="LoudnessMeterView\LastObject2" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
@@ -47,6 +78,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="Music Transition List\{44F1F53D-5AF8-4572-84E2-A4294E873F37}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{FF515EB5-64C1-48FB-8AA3-594A73F04DDB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
@@ -55,7 +87,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_0" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_0" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_0" Type="string" Value="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_0" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
@@ -69,13 +101,13 @@
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_0" Type="string" Value="xps8vgAF9ECg0yspudlH/g=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_0" Type="string" Value="xps8vgAF9ECg0yspudlH/rFZ7EW7hRlFqT8Cgu3zEZw99fFE+FpyRYTipClOhz835BC7ikURp0yVwqVir2WM28y2ys/aPpJOhlj6mGhWCQM="/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="xps8vgAF9ECg0yspudlH/m7Jfqbh455EqzVonjjncLexWexFu4UZRak/AoLt8xGcPfXxRPhackWE4qQpToc/N8y2ys/aPpJOhlj6mGhWCQM="/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_15_0" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_15_0" Type="string" Value="fEvlmvyjk069ITTyx0DRSQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value="fEvlmvyjk069ITTyx0DRSQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_16_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_16_1" Type="string" Value=""/>
@@ -91,20 +123,22 @@
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_0" Type="string" Value="gJ8JYpD3d0ClBDm/lACjwFTRyRAmLS5Ej9O+W88g3WmJ4c5x028KS5XqCLgsHqBpPwMAKbhKFU2d8H5FTOC+3g=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_0" Type="string" Value="MChEOwa6LUSE6SJ0y2pW3x5Gjjf2/0RGpmXRAEjyPkVRg/aPjfECT7xl0LN6ovOO"/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="MChEOwa6LUSE6SJ0y2pW3w=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_0" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_0" Type="string" Value="Tm0I3YIWJ0C4cEkc/8oTxWb4QluIo0lBh0H0ZEfocViGT9kYv+FWQa7BcCRmPRU/wQXRBQRviEGnzhCkzR10OPRHPQSRGepBgF1J4yCV4Vq1ShDje3umQovYYH3bC8aY8likft/YwkK+aG8kjw+0cTRMsrjGxupDn3YNWvbmrzBU0ckQJi0uRI/TvlvPIN1p9u28t6lUCEWhqSNtwCdPaGy5p+Qfjz5FuIzWuGFEaSs9O0QJQQ58RbSdpC3GzPqFQjlR7HIVk0WbUpYiTt8k4vzLgvBuJ91HnDwTFpjQEVzwHaEp4ODJSJ9ruwkucvwEiEC+n+7KbUm+lK6PvdAhDLbu0Ok9ZjpKhRYcMnOTWfOJ4c5x028KS5XqCLgsHqBpknBAh/7+nEuy6SAXLILWC542TInJ5uhLvN7oaZ0s+qjsu/EV1NnKTJHmW5RrqVS6VUpGgOjm1ky/ZQOT311K6kycuRj1t+dMlNk++U+WfeU/AwApuEoVTZ3wfkVM4L7eMIV+K/NmPE6Y/aATyo/5/KJWe6R9LnxOm5vGljWR+QCVq7fgiadYT5B7p8pRpXz1"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="nNgtosHhQ0Oc8C5QYIROc1TRyRAmLS5Ej9O+W88g3WlsuafkH48+RbiM1rhhRGkrtu7Q6T1mOkqFFhwyc5NZ84nhznHTbwpLleoIuCweoGk/AwApuEoVTZ3wfkVM4L7eolZ7pH0ufE6bm8aWNZH5AA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_0" Type="string" Value="MChEOwa6LUSE6SJ0y2pW32zeT7C9l3ZFvTGcCB50arweRo439v9ERqZl0QBI8j5FZfii33iEdUiooH0MvbRa40ZgIsNCyrNKmgl5hv2oSKUrCl2FwwCcTbg0Vm11zW1BUYP2j43xAk+8ZdCzeqLzjh1JeE2wcIRPmMhWUOijtdg="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="MChEOwa6LUSE6SJ0y2pW32zeT7C9l3ZFvTGcCB50arweRo439v9ERqZl0QBI8j5FRmAiw0LKs0qaCXmG/ahIpQ=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_0" Type="string" Value="85ixykBN9kajypFhykJjMMZFyS24x3tPqVo3KRNWqa8="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_0" Type="string" Value="/tKlSej59EW7UtFIjZE/Rg=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_7_0" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="/tKlSej59EW7UtFIjZE/Rg=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_7_0" Type="string" Value="yKQO5Wbq/EuLO56fTzpujg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
+				<Property Name="RTPC\GameParameterSimValue\{C77F48BE-49E5-4F18-B953-727FA48DF73E}" Type="Real64" Value="35"/>
+				<Property Name="RTPC\GameParameterSimValue\{F4544AB0-8914-42DD-BE70-2C710ED316BA}" Type="Real64" Value="0"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="/tKlSej59EW7UtFIjZE/Rg=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
@@ -137,6 +171,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{466F9D77-5B64-438E-8F03-E508BF00FFDA}"/>
 				<Property Name="UseActionNameForEvent" Type="bool" Value="False"/>
 			</PropertyList>
 		</UserProjectSettings>
