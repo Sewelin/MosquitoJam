@@ -30,7 +30,7 @@ public class Characters : MonoBehaviour
         var c2 = white;
         
         while (!GameManager.GameEnded)
-        {Debug.Log(c1.name + " " + c2.name);
+        {
             yield return new WaitForSeconds(breakTime);
             c1.SetTrigger(StartTalking);
             var ratio = (gameManager.DrinkGauge + gameManager.TalkGauge) / 200f;
