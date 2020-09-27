@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     private List<InputAction> _actions;
     private readonly List<InputAction> _currentDrinkAction = new List<InputAction> {null, null};
     private readonly List<InputAction> _currentTalkAction = new List<InputAction> {null, null};
+    private List<Animator> _drinkAnimators = new List<Animator>();
+    private readonly List<bool> _talkPossible = new List<bool> {false, false};
 
     [SerializeField] private Rect talkZone0 = new Rect();
     [SerializeField] private Rect talkZone1 = new Rect();
@@ -28,7 +30,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float drinkChangeTime = 4f; 
     [SerializeField] private float talkAppearTime = 1f;
 
-    private readonly List<bool> _talkPossible = new List<bool> {false, false};
+    private static readonly int Pressed = Animator.StringToHash("Pressed");
 
     private void SetTalkPossible(int num, bool value, string actionName = "", Sprite buttonSprite = null)
     {
@@ -67,6 +69,8 @@ public class PlayerController : MonoBehaviour
             _controls.Everything.RS,
             _controls.Everything.RT
         };
+        
+        drinkAction.ForEach(action => _drinkAnimators.Add(action.GetComponent<Animator>()));
     }
 
     private void Start()
@@ -94,9 +98,25 @@ public class PlayerController : MonoBehaviour
             drinkAction[num].sprite = buttonSprite;
             drinkActionText[num].text = _currentDrinkAction[num].name;
             
-            _currentDrinkAction[num].performed += Drink;
+            switch (num)
+            {
+                case 0:
+                    _currentDrinkAction[num].performed += Drink0;
+                    break;
+                case 1:
+                    _currentDrinkAction[num].performed += Drink1;
+                    break;
+            }
             yield return new WaitForSeconds(drinkChangeTime);
-            _currentDrinkAction[num].performed -= Drink;
+            switch (num)
+            {
+                case 0:
+                    _currentDrinkAction[num].performed -= Drink0;
+                    break;
+                case 1:
+                    _currentDrinkAction[num].performed -= Drink1;
+                    break;
+            }
         }
     }
     
@@ -138,9 +158,17 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Drink(InputAction.CallbackContext ctx)
+    private void Drink0(InputAction.CallbackContext ctx)
     {
         gameManager.Drink();
+        _drinkAnimators[0].SetTrigger(Pressed);
+        drinkSound.Post(gameObject);
+    }
+    
+    private void Drink1(InputAction.CallbackContext ctx)
+    {
+        gameManager.Drink();
+        _drinkAnimators[1].SetTrigger(Pressed);
         drinkSound.Post(gameObject);
     }
 
