@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Slider mainGauge;
     [SerializeField] private GameObject hand;
+    [SerializeField] private GameObject goodEnd;
     
     [SerializeField] private float drinkGauge = 50f;
     [SerializeField] private float talkGauge = 50f;
@@ -73,6 +74,10 @@ public class GameManager : MonoBehaviour
         if (DrinkGauge + TalkGauge < 0.01f)
         {
             hand.SetActive(true);
+        }
+        else if (DrinkGauge + TalkGauge > 197.99f)
+        {
+            goodEnd.SetActive(true);
         }
     }
 }
