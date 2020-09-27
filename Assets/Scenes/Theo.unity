@@ -766,6 +766,16 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e62cfd8541df04749ae89b76c0d31745,
       type: 2}
+  badEnding:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1706df8ea21f7ea40aaeeb421a0058ac,
+      type: 2}
+  goodEnding:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 85ad3734ea1e39943beb5453b63cb8dd,
+      type: 2}
   drinkGauge: 26
   talkGauge: 26
   drinkGain: 0.8
