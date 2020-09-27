@@ -9,31 +9,27 @@ using Random = UnityEngine.Random;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private GameManager gameManager;
-    [SerializeField] private Text drinkAction;
-    [SerializeField] private Text talkAction;
+    [SerializeField] private List<Text> drinkAction = new List<Text>();
+    [SerializeField] private List<Text> talkAction = new List<Text>();
 
     [SerializeField] private AK.Wwise.Event drinkSound;
     
     private Controls _controls;
     private List<InputAction> _actions;
-    private InputAction _currentDrinkAction;
-    private InputAction _currentTalkAction;
+    private readonly List<InputAction> _currentDrinkAction = new List<InputAction> {null, null};
+    private readonly List<InputAction> _currentTalkAction = new List<InputAction> {null, null};
 
     [SerializeField] private float drinkChangeTime = 4f; 
     [SerializeField] private float talkAppearTime = 1f;
 
-    private bool _talkPossible = false;
+    private readonly List<bool> _talkPossible = new List<bool> {false, false};
 
-    private bool TalkPossible
+    private void SetTalkPossible(int num, bool value)
     {
-        get => _talkPossible;
-        set
-        {
-            _talkPossible = value;
-            talkAction.gameObject.SetActive(_talkPossible);
-        }
+        _talkPossible[num] = value;
+        talkAction[num].gameObject.SetActive(_talkPossible[num]);
     }
-
+    
     private void Awake()
     {
         _controls = new Controls();
@@ -58,44 +54,64 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine("DrinkAssignation");
-        StartCoroutine("TalkAssignation");
+        StartCoroutine("DrinkAssignation", 0);
+        StartCoroutine("TalkAssignation", 0);
+        StartCoroutine("DrinkAssignation", 1);
+        StartCoroutine("TalkAssignation", 1);
     }
 
-    private IEnumerator DrinkAssignation()
+    private IEnumerator DrinkAssignation(int num)
     {
         while (!GameManager.GameEnded)
         {
-            var testAction = _currentDrinkAction;
-            while (testAction == _currentDrinkAction || testAction == _currentTalkAction)
+            var testAction = _currentDrinkAction[num];
+            while (testAction == _currentDrinkAction[0] || testAction == _currentDrinkAction[1] ||
+                   testAction == _currentTalkAction[0] || testAction == _currentTalkAction[1])
             {
                 testAction = _actions[Random.Range(0, _actions.Count - 4)];
             }
-            _currentDrinkAction = testAction;
-            drinkAction.text = _currentDrinkAction.name;
+            _currentDrinkAction[num] = testAction;
+            drinkAction[num].text = _currentDrinkAction[num].name;
             
-            _currentDrinkAction.performed += Drink;
+            _currentDrinkAction[num].performed += Drink;
             yield return new WaitForSeconds(drinkChangeTime);
-            _currentDrinkAction.performed -= Drink;
+            _currentDrinkAction[num].performed -= Drink;
         }
     }
     
-    private IEnumerator TalkAssignation()
+    private IEnumerator TalkAssignation(int num)
     {
         while (!GameManager.GameEnded)
         {
-            var testAction = _currentTalkAction;
-            while (testAction == _currentDrinkAction || testAction == _currentTalkAction)
+            var testAction = _currentTalkAction[num];
+            while (testAction == _currentDrinkAction[0] || testAction == _currentDrinkAction[1] ||
+                   testAction == _currentTalkAction[0] || testAction == _currentTalkAction[1])
             {
                 testAction = _actions[Random.Range(0, _actions.Count - 4)];
             }
-            _currentTalkAction = testAction;
-            talkAction.text = _currentTalkAction.name;
+            _currentTalkAction[num] = testAction;
+            talkAction[num].text = _currentTalkAction[num].name;
 
-            TalkPossible = true;
-            _currentTalkAction.performed += Talk;
+            SetTalkPossible(num, true);
+            switch (num)
+            {
+                case 0:
+                    _currentTalkAction[num].performed += Talk0;
+                    break;
+                case 1:
+                    _currentTalkAction[num].performed += Talk1;
+                    break;
+            }
             yield return new WaitForSeconds(talkAppearTime);
-            _currentTalkAction.performed -= Talk;
+            switch (num)
+            {
+                case 0:
+                    _currentTalkAction[num].performed -= Talk0;
+                    break;
+                case 1:
+                    _currentTalkAction[num].performed -= Talk1;
+                    break;
+            }
         }
     }
 
@@ -105,10 +121,17 @@ public class PlayerController : MonoBehaviour
         drinkSound.Post(gameObject);
     }
 
-    private void Talk(InputAction.CallbackContext ctx)
+    private void Talk0(InputAction.CallbackContext ctx)
     {
-        if (!TalkPossible) return;
-        TalkPossible = false;
+        if (!_talkPossible[0]) return;
+        SetTalkPossible(0, false);
+        gameManager.Talk();
+    }
+    
+    private void Talk1(InputAction.CallbackContext ctx)
+    {
+        if (!_talkPossible[1]) return;
+        SetTalkPossible(1, false);
         gameManager.Talk();
     }
 }
