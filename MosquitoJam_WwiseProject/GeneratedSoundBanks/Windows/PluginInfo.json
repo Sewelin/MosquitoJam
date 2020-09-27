@@ -5,6 +5,11 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Guitar Distortion",
+    "ID": "8257539",
+    "DLL": "AkGuitarDistortion"
+   },
+   {
     "Name": "System",
     "ID": "11403271",
     "DLL": "DefaultSink"

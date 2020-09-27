@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="0.2"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="0.2"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_FarFromScene" ID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

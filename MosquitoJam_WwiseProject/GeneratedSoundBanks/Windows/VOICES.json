@@ -1,0 +1,1385 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3313685232",
+    "GUID": "{FA34593D-B2D6-42E3-AC23-354575E1DA28}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\VOICES",
+    "ShortName": "VOICES",
+    "Path": "VOICES.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4121514107",
+      "Name": "Vx_Bored_Ch1",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Bored\\Vx_Bored_Ch1",
+      "GUID": "{E47F8C1E-18F7-4C6F-BF82-9B7EA260F184}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "43311077",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_C2EBCDD7.wem"
+       },
+       {
+        "Id": "52005449",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_53810D7B.wem"
+       },
+       {
+        "Id": "105497965",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_1FF59D6E.wem"
+       },
+       {
+        "Id": "130196909",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_EC3AF78A.wem"
+       },
+       {
+        "Id": "131773003",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_A7D9363E.wem"
+       },
+       {
+        "Id": "137500171",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_9C73CA93.wem"
+       },
+       {
+        "Id": "194646047",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_7C8CA28F.wem"
+       },
+       {
+        "Id": "223976991",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_0473B0B5.wem"
+       },
+       {
+        "Id": "225656067",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_B5D8F829.wem"
+       },
+       {
+        "Id": "242000775",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_776BF736.wem"
+       },
+       {
+        "Id": "277105410",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_C2C659FE.wem"
+       },
+       {
+        "Id": "282284284",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_01F46AF0.wem"
+       },
+       {
+        "Id": "288213728",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_987CFF34.wem"
+       },
+       {
+        "Id": "328359565",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_1065EF99.wem"
+       },
+       {
+        "Id": "340167229",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_43E6D46E.wem"
+       },
+       {
+        "Id": "358155434",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_6E41DD2B.wem"
+       },
+       {
+        "Id": "366383927",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_BD8D9F3B.wem"
+       },
+       {
+        "Id": "367246750",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_14B1F6C7.wem"
+       },
+       {
+        "Id": "378544819",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_1BB402E8.wem"
+       },
+       {
+        "Id": "384308540",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_C0EA426C.wem"
+       },
+       {
+        "Id": "414371596",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_912DD766.wem"
+       },
+       {
+        "Id": "425962726",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_C076DB61.wem"
+       },
+       {
+        "Id": "476576348",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_B5CAE60D.wem"
+       },
+       {
+        "Id": "485508575",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_315FA339.wem"
+       },
+       {
+        "Id": "503001097",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_0128AD79.wem"
+       },
+       {
+        "Id": "503218574",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_C50BCC75.wem"
+       },
+       {
+        "Id": "563489306",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_3BBDE4A0.wem"
+       },
+       {
+        "Id": "563706583",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_1000970E.wem"
+       },
+       {
+        "Id": "575968081",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_C4195177.wem"
+       },
+       {
+        "Id": "621809787",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_0FF592F5.wem"
+       },
+       {
+        "Id": "625005486",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_18E4C2D1.wem"
+       },
+       {
+        "Id": "648255932",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_45A3560F.wem"
+       },
+       {
+        "Id": "651832254",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_B9592B91.wem"
+       },
+       {
+        "Id": "665787629",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_4FFC85A2.wem"
+       },
+       {
+        "Id": "694320869",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_EEB1554B.wem"
+       },
+       {
+        "Id": "726569166",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_EF4ECDF7.wem"
+       },
+       {
+        "Id": "778949430",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_0547D9C4.wem"
+       },
+       {
+        "Id": "845812315",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_0CA227D3.wem"
+       },
+       {
+        "Id": "849459371",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_6A60E508.wem"
+       },
+       {
+        "Id": "849570420",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_EA7DFE86.wem"
+       },
+       {
+        "Id": "870003165",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_466E8208.wem"
+       },
+       {
+        "Id": "895873022",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_EEA8FD9C.wem"
+       },
+       {
+        "Id": "910759707",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_5993F40B.wem"
+       },
+       {
+        "Id": "916138291",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_96EA956A.wem"
+       },
+       {
+        "Id": "925278952",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_A8905AE1.wem"
+       },
+       {
+        "Id": "932348280",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_512BEF53.wem"
+       },
+       {
+        "Id": "982622575",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_57A2A348.wem"
+       },
+       {
+        "Id": "996199351",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_92C266D0.wem"
+       },
+       {
+        "Id": "1001575401",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_36EB80FA.wem"
+       },
+       {
+        "Id": "1009506491",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_AB2A75BA.wem"
+       },
+       {
+        "Id": "1009893983",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_F1528AD3.wem"
+       },
+       {
+        "Id": "1031769413",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_0F462B7C.wem"
+       },
+       {
+        "Id": "1032260100",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_F88CF64A.wem"
+       },
+       {
+        "Id": "1037668369",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_EE3F8F79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4121514104",
+      "Name": "Vx_Bored_Ch2",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Bored\\Vx_Bored_Ch2",
+      "GUID": "{B0866F77-3F2F-4E22-A696-DC3A2A210B60}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "43311077",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_C2EBCDD7.wem"
+       },
+       {
+        "Id": "52005449",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_53810D7B.wem"
+       },
+       {
+        "Id": "105497965",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_1FF59D6E.wem"
+       },
+       {
+        "Id": "130196909",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_EC3AF78A.wem"
+       },
+       {
+        "Id": "131773003",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_A7D9363E.wem"
+       },
+       {
+        "Id": "137500171",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_9C73CA93.wem"
+       },
+       {
+        "Id": "194646047",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_7C8CA28F.wem"
+       },
+       {
+        "Id": "223976991",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_0473B0B5.wem"
+       },
+       {
+        "Id": "225656067",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_B5D8F829.wem"
+       },
+       {
+        "Id": "242000775",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_776BF736.wem"
+       },
+       {
+        "Id": "277105410",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_C2C659FE.wem"
+       },
+       {
+        "Id": "282284284",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_01F46AF0.wem"
+       },
+       {
+        "Id": "288213728",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_987CFF34.wem"
+       },
+       {
+        "Id": "328359565",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_1065EF99.wem"
+       },
+       {
+        "Id": "340167229",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_43E6D46E.wem"
+       },
+       {
+        "Id": "358155434",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_6E41DD2B.wem"
+       },
+       {
+        "Id": "366383927",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_BD8D9F3B.wem"
+       },
+       {
+        "Id": "367246750",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_14B1F6C7.wem"
+       },
+       {
+        "Id": "378544819",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_1BB402E8.wem"
+       },
+       {
+        "Id": "384308540",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_C0EA426C.wem"
+       },
+       {
+        "Id": "414371596",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_912DD766.wem"
+       },
+       {
+        "Id": "425962726",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_C076DB61.wem"
+       },
+       {
+        "Id": "476576348",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_B5CAE60D.wem"
+       },
+       {
+        "Id": "485508575",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_315FA339.wem"
+       },
+       {
+        "Id": "503001097",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_0128AD79.wem"
+       },
+       {
+        "Id": "503218574",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_C50BCC75.wem"
+       },
+       {
+        "Id": "563489306",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_3BBDE4A0.wem"
+       },
+       {
+        "Id": "563706583",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_1000970E.wem"
+       },
+       {
+        "Id": "575968081",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_C4195177.wem"
+       },
+       {
+        "Id": "621809787",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_0FF592F5.wem"
+       },
+       {
+        "Id": "625005486",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_18E4C2D1.wem"
+       },
+       {
+        "Id": "648255932",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_45A3560F.wem"
+       },
+       {
+        "Id": "651832254",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_B9592B91.wem"
+       },
+       {
+        "Id": "665787629",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_4FFC85A2.wem"
+       },
+       {
+        "Id": "694320869",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_EEB1554B.wem"
+       },
+       {
+        "Id": "726569166",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_EF4ECDF7.wem"
+       },
+       {
+        "Id": "778949430",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_0547D9C4.wem"
+       },
+       {
+        "Id": "845812315",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_0CA227D3.wem"
+       },
+       {
+        "Id": "849459371",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_6A60E508.wem"
+       },
+       {
+        "Id": "849570420",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_EA7DFE86.wem"
+       },
+       {
+        "Id": "870003165",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_466E8208.wem"
+       },
+       {
+        "Id": "895873022",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_EEA8FD9C.wem"
+       },
+       {
+        "Id": "910759707",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_5993F40B.wem"
+       },
+       {
+        "Id": "916138291",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_96EA956A.wem"
+       },
+       {
+        "Id": "925278952",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_A8905AE1.wem"
+       },
+       {
+        "Id": "932348280",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_512BEF53.wem"
+       },
+       {
+        "Id": "982622575",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_57A2A348.wem"
+       },
+       {
+        "Id": "996199351",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_92C266D0.wem"
+       },
+       {
+        "Id": "1001575401",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_36EB80FA.wem"
+       },
+       {
+        "Id": "1009506491",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_AB2A75BA.wem"
+       },
+       {
+        "Id": "1009893983",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_F1528AD3.wem"
+       },
+       {
+        "Id": "1031769413",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_03_0F462B7C.wem"
+       },
+       {
+        "Id": "1032260100",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_02_F88CF64A.wem"
+       },
+       {
+        "Id": "1037668369",
+        "Language": "SFX",
+        "ShortName": "Voices\\Vx_Sentences_Bored_Ch2_01.wav",
+        "Path": "SFX\\Voices\\Vx_Sentences_Bored_Ch2_01_EE3F8F79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2375616132",
+      "Name": "Vx_Flirt_Ch1",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Flirt\\Vx_Flirt_Ch1",
+      "GUID": "{AF33938A-55EF-4955-9947-557AA2E6232E}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "26463452",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_77CCA5E8.wem"
+       },
+       {
+        "Id": "121651179",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_DACC67F8.wem"
+       },
+       {
+        "Id": "125026326",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_F13229B1.wem"
+       },
+       {
+        "Id": "132189293",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_9BDFF7C1.wem"
+       },
+       {
+        "Id": "229787349",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_9526624B.wem"
+       },
+       {
+        "Id": "291796340",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_86B3BF46.wem"
+       },
+       {
+        "Id": "336160307",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_48F39FC0.wem"
+       },
+       {
+        "Id": "349575227",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_A99CAFCC.wem"
+       },
+       {
+        "Id": "417064176",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_6E2C2762.wem"
+       },
+       {
+        "Id": "422545785",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_C23B2CDD.wem"
+       },
+       {
+        "Id": "461036783",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_0E4E1E16.wem"
+       },
+       {
+        "Id": "580409958",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_885EED34.wem"
+       },
+       {
+        "Id": "595006944",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_8705D58D.wem"
+       },
+       {
+        "Id": "668750773",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_1856A506.wem"
+       },
+       {
+        "Id": "671764571",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_F117148B.wem"
+       },
+       {
+        "Id": "675576625",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_756F0C17.wem"
+       },
+       {
+        "Id": "676743867",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_BC949375.wem"
+       },
+       {
+        "Id": "774893888",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_B560736B.wem"
+       },
+       {
+        "Id": "816074482",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_441A9D9D.wem"
+       },
+       {
+        "Id": "819789367",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_D0D9856C.wem"
+       },
+       {
+        "Id": "919307384",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_241B86E0.wem"
+       },
+       {
+        "Id": "923935641",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_E49E5771.wem"
+       },
+       {
+        "Id": "927224820",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_C3204020.wem"
+       },
+       {
+        "Id": "968976730",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_0B0639A4.wem"
+       },
+       {
+        "Id": "1043569706",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_E94D7E7F.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2375616135",
+      "Name": "Vx_Flirt_Ch2",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Flirt\\Vx_Flirt_Ch2",
+      "GUID": "{DEF72542-9C27-4616-860D-928E1726A16C}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "26463452",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_77CCA5E8.wem"
+       },
+       {
+        "Id": "93572197",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_28D927BF.wem"
+       },
+       {
+        "Id": "121651179",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_DACC67F8.wem"
+       },
+       {
+        "Id": "132189293",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_9BDFF7C1.wem"
+       },
+       {
+        "Id": "229787349",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_9526624B.wem"
+       },
+       {
+        "Id": "291796340",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_86B3BF46.wem"
+       },
+       {
+        "Id": "336160307",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_48F39FC0.wem"
+       },
+       {
+        "Id": "349575227",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_A99CAFCC.wem"
+       },
+       {
+        "Id": "384585216",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_D6687E3E.wem"
+       },
+       {
+        "Id": "461036783",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_0E4E1E16.wem"
+       },
+       {
+        "Id": "513363956",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_426578BB.wem"
+       },
+       {
+        "Id": "580409958",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_885EED34.wem"
+       },
+       {
+        "Id": "624401663",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_F28A7B86.wem"
+       },
+       {
+        "Id": "671764571",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_F117148B.wem"
+       },
+       {
+        "Id": "675576625",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_756F0C17.wem"
+       },
+       {
+        "Id": "692432169",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_220795DC.wem"
+       },
+       {
+        "Id": "774893888",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_B560736B.wem"
+       },
+       {
+        "Id": "816074482",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_441A9D9D.wem"
+       },
+       {
+        "Id": "819789367",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_D0D9856C.wem"
+       },
+       {
+        "Id": "916364965",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_723F0EAE.wem"
+       },
+       {
+        "Id": "957269775",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_43D7496F.wem"
+       },
+       {
+        "Id": "968976730",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_0B0639A4.wem"
+       },
+       {
+        "Id": "995916378",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_01_6CB74029.wem"
+       },
+       {
+        "Id": "998798179",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_63CE50F0.wem"
+       },
+       {
+        "Id": "1043569706",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Good_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Good_Ch2_02_E94D7E7F.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2787111742",
+      "Name": "Vx_Laugh_Ch1",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Laughs\\Vx_Laugh_Ch1",
+      "GUID": "{B1908943-EF35-4A8D-84DC-5054E25D44DA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.508135",
+      "DurationMax": "0.816997",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "600161241",
+        "Language": "SFX",
+        "ShortName": "Laugh\\Vx_Laugh_Good_Ch2_02.wav",
+        "Path": "SFX\\Laugh\\Vx_Laugh_Good_Ch2_02_10C4C929.wem"
+       },
+       {
+        "Id": "736571307",
+        "Language": "SFX",
+        "ShortName": "Laugh\\Vx_Laugh_Good_Ch2_01.wav",
+        "Path": "SFX\\Laugh\\Vx_Laugh_Good_Ch2_01_10C4C929.wem"
+       },
+       {
+        "Id": "903207299",
+        "Language": "SFX",
+        "ShortName": "Laugh\\Vx_Laugh_Good_Ch2_03.wav",
+        "Path": "SFX\\Laugh\\Vx_Laugh_Good_Ch2_03_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2787111741",
+      "Name": "Vx_Laugh_Ch2",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Laughs\\Vx_Laugh_Ch2",
+      "GUID": "{99BDECCC-4B75-4670-AC39-BB777A5A2AD5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.670488",
+      "DurationMax": "1.078034",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "600161241",
+        "Language": "SFX",
+        "ShortName": "Laugh\\Vx_Laugh_Good_Ch2_02.wav",
+        "Path": "SFX\\Laugh\\Vx_Laugh_Good_Ch2_02_10C4C929.wem"
+       },
+       {
+        "Id": "736571307",
+        "Language": "SFX",
+        "ShortName": "Laugh\\Vx_Laugh_Good_Ch2_01.wav",
+        "Path": "SFX\\Laugh\\Vx_Laugh_Good_Ch2_01_10C4C929.wem"
+       },
+       {
+        "Id": "903207299",
+        "Language": "SFX",
+        "ShortName": "Laugh\\Vx_Laugh_Good_Ch2_03.wav",
+        "Path": "SFX\\Laugh\\Vx_Laugh_Good_Ch2_03_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2559308007",
+      "Name": "Vx_Mad_Ch1",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Mad\\Vx_Mad_Ch1",
+      "GUID": "{29BB1B1C-0B75-4AEE-A349-F818D81B39B0}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "6886913",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_3B44FF2A.wem"
+       },
+       {
+        "Id": "110735802",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_816D983A.wem"
+       },
+       {
+        "Id": "179142042",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_A662DBD1.wem"
+       },
+       {
+        "Id": "193407472",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_DBDFC95A.wem"
+       },
+       {
+        "Id": "218156430",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_52663E6B.wem"
+       },
+       {
+        "Id": "453299586",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_4E2E1EFF.wem"
+       },
+       {
+        "Id": "537305308",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_35EAF456.wem"
+       },
+       {
+        "Id": "641114926",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_B499FAF3.wem"
+       },
+       {
+        "Id": "659858682",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_51FDA200.wem"
+       },
+       {
+        "Id": "720779459",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_AEC6816C.wem"
+       },
+       {
+        "Id": "783101836",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_6AFF6681.wem"
+       },
+       {
+        "Id": "898170741",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_566CD212.wem"
+       },
+       {
+        "Id": "922440710",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_5A2D1633.wem"
+       },
+       {
+        "Id": "977767096",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_03A18B8B.wem"
+       },
+       {
+        "Id": "989963085",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_1098BD66.wem"
+       },
+       {
+        "Id": "991389407",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_79202B6C.wem"
+       },
+       {
+        "Id": "996019480",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_A67C5112.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2559308004",
+      "Name": "Vx_Mad_Ch2",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Mad\\Vx_Mad_Ch2",
+      "GUID": "{AF63F6F1-3870-4F82-8E8A-1A4A3F666B5A}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "6886913",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_3B44FF2A.wem"
+       },
+       {
+        "Id": "110735802",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_816D983A.wem"
+       },
+       {
+        "Id": "179142042",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_A662DBD1.wem"
+       },
+       {
+        "Id": "193407472",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_DBDFC95A.wem"
+       },
+       {
+        "Id": "218156430",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_52663E6B.wem"
+       },
+       {
+        "Id": "453299586",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_4E2E1EFF.wem"
+       },
+       {
+        "Id": "537305308",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_35EAF456.wem"
+       },
+       {
+        "Id": "641114926",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_B499FAF3.wem"
+       },
+       {
+        "Id": "659858682",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_51FDA200.wem"
+       },
+       {
+        "Id": "720779459",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_AEC6816C.wem"
+       },
+       {
+        "Id": "783101836",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_6AFF6681.wem"
+       },
+       {
+        "Id": "898170741",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_566CD212.wem"
+       },
+       {
+        "Id": "922440710",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_5A2D1633.wem"
+       },
+       {
+        "Id": "977767096",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_03A18B8B.wem"
+       },
+       {
+        "Id": "989963085",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_1098BD66.wem"
+       },
+       {
+        "Id": "991389407",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_01.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_01_79202B6C.wem"
+       },
+       {
+        "Id": "996019480",
+        "Language": "SFX",
+        "ShortName": "Vx_Sentences_Bad_Ch2_02.wav",
+        "Path": "SFX\\Vx_Sentences_Bad_Ch2_02_A67C5112.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3148242360",
+      "Name": "Vx_Yawn_Ch1",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Yawn\\Vx_Yawn_Ch1",
+      "GUID": "{4F8AB630-BFE2-43CE-ADCB-61F910F3DAAB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.817711",
+      "DurationMax": "1.288172",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "158904851",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_11.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_11_10C4C929.wem"
+       },
+       {
+        "Id": "187023469",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_09.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_09_10C4C929.wem"
+       },
+       {
+        "Id": "317388020",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_10.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_10_10C4C929.wem"
+       },
+       {
+        "Id": "420402105",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_08.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_08_10C4C929.wem"
+       },
+       {
+        "Id": "569397010",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_13.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_13_10C4C929.wem"
+       },
+       {
+        "Id": "667229448",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_12.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_12_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3148242363",
+      "Name": "Vx_Yawn_Ch2",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Yawn\\Vx_Yawn_Ch2",
+      "GUID": "{5BA2EED8-6BA9-4E53-9ECD-83CF2D2B6418}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.841223",
+      "DurationMax": "1.496628",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "77019479",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_02.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_02_10C4C929.wem"
+       },
+       {
+        "Id": "87576229",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_03.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_03_10C4C929.wem"
+       },
+       {
+        "Id": "116794088",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_04.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_04_10C4C929.wem"
+       },
+       {
+        "Id": "430091001",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_05.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_05_10C4C929.wem"
+       },
+       {
+        "Id": "436526702",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_07.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_07_10C4C929.wem"
+       },
+       {
+        "Id": "907419385",
+        "Language": "SFX",
+        "ShortName": "Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_06.wav",
+        "Path": "SFX\\Voices\\Yawn\\Ch2\\Vx_Yawn_Bored_Ch2_06_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

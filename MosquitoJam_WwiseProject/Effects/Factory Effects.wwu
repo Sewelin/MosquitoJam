@@ -1587,9 +1587,11 @@
 							<ChildrenList>
 								<Effect Name="Chorus_Like" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="10"/>
-										<Property Name="ModDepth" Type="Real32" Value="60"/>
-										<Property Name="ModFrequency" Type="Real32" Value="0.85"/>
+										<Property Name="DelayTime" Type="Real32" Value="13.3"/>
+										<Property Name="FeedBackLevel" Type="Real32" Value="0.5"/>
+										<Property Name="FeedForwardLevel" Type="Real32" Value="0.9"/>
+										<Property Name="ModDepth" Type="Real32" Value="78.9"/>
+										<Property Name="ModFrequency" Type="Real32" Value="1.61"/>
 										<Property Name="ModPWM" Type="Real32" Value="0"/>
 									</PropertyList>
 								</Effect>

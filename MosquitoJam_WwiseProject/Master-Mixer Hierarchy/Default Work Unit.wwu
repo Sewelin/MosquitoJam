@@ -13,6 +13,7 @@
 						<Bus Name="ATMOS" ID="{D464279A-1168-4861-A9C8-1FC9212F41AA}"/>
 						<Bus Name="SFX" ID="{BD7A3D14-54E1-457C-B050-B86F3DC8654D}"/>
 						<Bus Name="MUSIC" ID="{CE8806FC-FE40-4989-BA7C-84CB7F52D5C3}"/>
+						<Bus Name="VOICES" ID="{8DAEBE4E-919A-48E4-8C4E-F59C58E4D36E}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

@@ -1,6 +1,7 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	3034623661	ATMOS			\Default Work Unit\Master Audio Bus\ATMOS	
+	3313685232	VOICES			\Default Work Unit\Master Audio Bus\VOICES	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
 

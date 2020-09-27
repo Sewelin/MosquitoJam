@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1826B76B-A9D8-4A44-828D-D31F324EA9B2}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{1826B76B-A9D8-4A44-828D-D31F324EA9B2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1826B76B-A9D8-4A44-828D-D31F324EA9B2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{466F9D77-5B64-438E-8F03-E508BF00FFDA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="SFX_Drink_Ch1" ID="{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Drink_A" ID="{62099F80-F790-4077-A504-39BF9400A3C0}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vx_Bored_Ch1" ID="{4BC2A367-99B9-4961-82E3-7BB0BC4FD961}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_FarFromScene" ID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
