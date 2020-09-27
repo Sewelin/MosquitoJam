@@ -19,6 +19,14 @@
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "980603520",
+      "Name": "Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Rev",
+      "GUID": "{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}"
+     }
+    ],
     "GameParameters": [
      {
       "Id": "690456766",

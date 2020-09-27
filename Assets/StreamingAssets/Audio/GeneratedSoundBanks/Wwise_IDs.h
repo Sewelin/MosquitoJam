@@ -17,27 +17,31 @@ namespace AK
         static const AkUniqueID MX_LESTICOSSONG = 1745028472U;
         static const AkUniqueID SFX_DRINK_CH1 = 3094318054U;
         static const AkUniqueID SFX_DRINK_CH2 = 3094318053U;
-        static const AkUniqueID SFX_ENDING = 3114543140U;
+        static const AkUniqueID SFX_END_KISS = 2428466393U;
+        static const AkUniqueID SFX_END_SLAP = 2842188021U;
         static const AkUniqueID SFX_POP_OUT = 3956444467U;
         static const AkUniqueID SFX_POP_UP = 1782989462U;
-        static const AkUniqueID SFX_SLAP = 682607339U;
-        static const AkUniqueID VX_BORED_CH1 = 4121514107U;
-        static const AkUniqueID VX_BORED_CH1_STOP = 462475734U;
-        static const AkUniqueID VX_BORED_CH2 = 4121514104U;
-        static const AkUniqueID VX_BORED_CH2_STOP = 3588820663U;
-        static const AkUniqueID VX_FLIRT_CH1 = 2375616132U;
-        static const AkUniqueID VX_FLIRT_CH1_STOP = 2073976291U;
-        static const AkUniqueID VX_FLIRT_CH2 = 2375616135U;
-        static const AkUniqueID VX_FLIRT_CH2_STOP = 3349905026U;
-        static const AkUniqueID VX_LAUGH_CH1 = 2787111742U;
-        static const AkUniqueID VX_LAUGH_CH2 = 2787111741U;
-        static const AkUniqueID VX_MAD_CH1 = 2559308007U;
-        static const AkUniqueID VX_MAD_CH1_STOP = 480278434U;
-        static const AkUniqueID VX_MAD_CH2 = 2559308004U;
-        static const AkUniqueID VX_MAD_CH2_STOP = 3499316739U;
-        static const AkUniqueID VX_YAWN_CH1 = 3148242360U;
-        static const AkUniqueID VX_YAWN_CH2 = 3148242363U;
+        static const AkUniqueID VX_DIALOGUES_CH1 = 3346929408U;
+        static const AkUniqueID VX_DIALOGUES_CH1_STOP = 2235524911U;
+        static const AkUniqueID VX_DIALOGUES_CH2 = 3346929411U;
+        static const AkUniqueID VX_DIALOGUES_CH2_STOP = 546057326U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SS_STATES
+        {
+            static const AkUniqueID GROUP = 1504714416U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BORED = 2890913445U;
+                static const AkUniqueID FLIRT = 1273057318U;
+                static const AkUniqueID MAD = 1048449617U;
+            } // namespace SWITCH
+        } // namespace SS_STATES
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
@@ -62,6 +66,11 @@ namespace AK
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID VOICES = 3313685232U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REV = 980603520U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

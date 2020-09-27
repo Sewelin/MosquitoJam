@@ -1,3 +1,11 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1504714416	Ss_States			\Default Work Unit\Ss_States	
+
+Switch	ID	Name	Switch Group			Notes
+	1048449617	Mad	Ss_States			
+	1273057318	Flirt	Ss_States			
+	2890913445	Bored	Ss_States			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	690456766	RTPC_FarFromScene			\Default Work Unit\RTPC_FarFromScene	
 
@@ -7,6 +15,13 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3313685232	VOICES			\Default Work Unit\Master Audio Bus\VOICES	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	980603520	Rev			\Default Work Unit\Master Audio Bus\Rev	
+
+Effect plug-ins	ID	Name	Type				Notes
+	825441742	Medium_Room1_(Custom)	Wwise Matrix Reverb			
+	2513915904	Hall_Large	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

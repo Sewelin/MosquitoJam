@@ -172,6 +172,32 @@
 								</DuckItem>
 							</DuckingList>
 						</Bus>
+						<AuxBus Name="Rev" ID="{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}">
+										<Effect Name="Medium_Room1_(Custom)" ID="{25CC873D-1DEB-4618-BAEA-F048B795E00E}" ShortID="825441742" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<PropertyList>
+												<Property Name="HFRatio" Type="Real32" Value="6"/>
+												<Property Name="NumberOfDelays" Type="int32" Value="12"/>
+												<Property Name="ReverbTime" Type="Real32" Value="2"/>
+												<Property Name="WetLevel" Type="Real32" Value="-30"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

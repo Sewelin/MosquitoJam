@@ -341,17 +341,47 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3114543140" Name="SFX_Ending" ObjectPath="\Events\Default Work Unit\SFX\UI\SFX_Ending" GUID="{A459DAED-83B3-4FF0-8A92-38F7A52584C4}" DurationType="OneShot" DurationMin="6.918244" DurationMax="6.918244">
+				<Event Id="2428466393" Name="SFX_End_Kiss" ObjectPath="\Events\Default Work Unit\SFX\UI\SFX_End_Kiss" GUID="{A459DAED-83B3-4FF0-8A92-38F7A52584C4}" DurationType="OneShot" DurationMin="7.416941" DurationMax="7.416941">
 					<IncludedMemoryFiles>
+						<File Id="123532900" Language="SFX">
+							<ShortName>SFX_Strong wind gusts with heavy flam in the middle Slightly flanging elements.wav</ShortName>
+							<Path>SFX\SFX_Strong wind gusts with heavy flam in the middle Slightly flanging elements_AD65BF62.wem</Path>
+						</File>
 						<File Id="182435311" Language="SFX">
 							<ShortName>SFX_Cartoon, Kiss.wav</ShortName>
 							<Path>SFX\SFX_Cartoon, Kiss_10C4C929.wem</Path>
 						</File>
 						<File Id="571644507" Language="SFX">
 							<ShortName>SFX_Chimes.wav</ShortName>
-							<Path>SFX\SFX_Chimes_7C598BAD.wem</Path>
+							<Path>SFX\SFX_Chimes_7C5BBB4C.wem</Path>
+						</File>
+						<File Id="734016576" Language="SFX">
+							<ShortName>SFX_Snore.wav</ShortName>
+							<Path>SFX\SFX_Snore_2EA7E89F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="980603520" Name="Rev" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Rev" GUID="{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2842188021" Name="SFX_End_Slap" ObjectPath="\Events\Default Work Unit\SFX\Slap\SFX_End_Slap" GUID="{1A3DC964-1972-4E04-B39C-63239FF20E29}" DurationType="OneShot" DurationMin="2.764625" DurationMax="2.764625">
+					<IncludedMemoryFiles>
+						<File Id="60264027" Language="SFX">
+							<ShortName>SFX_Grunt.wav</ShortName>
+							<Path>SFX\SFX_Grunt_10C4C929.wem</Path>
+						</File>
+						<File Id="123532900" Language="SFX">
+							<ShortName>SFX_Strong wind gusts with heavy flam in the middle Slightly flanging elements.wav</ShortName>
+							<Path>SFX\SFX_Strong wind gusts with heavy flam in the middle Slightly flanging elements_AD65BF62.wem</Path>
+						</File>
+						<File Id="629193139" Language="SFX">
+							<ShortName>SFX_Slap_01.wav</ShortName>
+							<Path>SFX\SFX_Slap_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="980603520" Name="Rev" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Rev" GUID="{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3956444467" Name="SFX_Pop_Out" ObjectPath="\Events\Default Work Unit\SFX\UI\SFX_Pop_Out" GUID="{F2FBEF2C-CAE8-46A7-96F7-AA206AA227EA}" DurationType="OneShot" DurationMin="0.243270" DurationMax="0.382116">
 					<IncludedMemoryFiles>
@@ -406,14 +436,6 @@
 						<File Id="1069386461" Language="SFX">
 							<ShortName>SFX_PopUp_02.wav</ShortName>
 							<Path>SFX\SFX_PopUp_02_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="682607339" Name="SFX_Slap" ObjectPath="\Events\Default Work Unit\SFX\Slap\SFX_Slap" GUID="{1A3DC964-1972-4E04-B39C-63239FF20E29}" DurationType="OneShot" DurationMin="1.016937" DurationMax="1.016937">
-					<IncludedMemoryFiles>
-						<File Id="629193139" Language="SFX">
-							<ShortName>SFX_Slap_01.wav</ShortName>
-							<Path>SFX\SFX_Slap_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

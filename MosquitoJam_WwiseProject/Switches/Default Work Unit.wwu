@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2DC945C6-C7B8-4F7B-A95A-37291356A9AF}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{2DC945C6-C7B8-4F7B-A95A-37291356A9AF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2DC945C6-C7B8-4F7B-A95A-37291356A9AF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Ss_States" ID="{CAB198F3-4D40-46F6-A3CA-9161CA426330}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Bored" ID="{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}"/>
+						<Switch Name="Mad" ID="{C1523511-B33A-4A32-9C3D-D9006950D4F0}"/>
+						<Switch Name="Flirt" ID="{E343BF40-8DD6-4617-BFCE-4B29B30BD3E7}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}"/>
+						<Curve Name="" ID="{FABB23FD-8F1D-493A-862E-C283DFADD66D}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>25</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>3</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

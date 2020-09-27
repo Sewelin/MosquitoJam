@@ -78,22 +78,22 @@
 							<Position X="4" Y="7"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="SFX_Ending" ID="{A459DAED-83B3-4FF0-8A92-38F7A52584C4}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<ObjectRef Name="SFX_End_Kiss" ID="{A459DAED-83B3-4FF0-8A92-38F7A52584C4}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
 							<Position X="5" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="SFX_Slap" ID="{1A3DC964-1972-4E04-B39C-63239FF20E29}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
+							<ObjectRef Name="SFX_End_Slap" ID="{1A3DC964-1972-4E04-B39C-63239FF20E29}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}"/>
 							<Position X="5" Y="5"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_FarFromScene" ID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
-							<Value>100</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}"/>
-							<Value>5</Value>
+							<Value>26</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
