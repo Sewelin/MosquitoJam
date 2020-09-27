@@ -581,6 +581,26 @@ MonoBehaviour:
   gameManager: {fileID: 337269541}
   white: {fileID: 2112827939}
   black: {fileID: 5208411}
+  startTalk1:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 52b28753a317426449fb97f3911a615a,
+      type: 2}
+  stopTalk1:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6e437913b0b1e7043a1dcb3fcba66d72,
+      type: 2}
+  startTalk2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cb5f7f49b4c32214c97669777a71b4b0,
+      type: 2}
+  stopTalk2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f2f57ae32fc83ba4080bd4985a34f3ef,
+      type: 2}
   talkTime: 3
   breakTime: 3
 --- !u!1 &149348523
@@ -741,6 +761,11 @@ MonoBehaviour:
   mainGauge: {fileID: 926429772}
   hand: {fileID: 1221108163}
   goodEnd: {fileID: 149348523}
+  gauge:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e62cfd8541df04749ae89b76c0d31745,
+      type: 2}
   drinkGauge: 50
   talkGauge: 50
   drinkGain: 0.1
@@ -1217,7 +1242,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 200
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1970,7 +1995,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1738568549}
   - component: {fileID: 1738568548}
-  - component: {fileID: 1738568550}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -2019,31 +2043,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1738568550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738568547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 058673a1f44451747905a14c0c20f12b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 2f315e185ece1ba4fa11762b0385025a,
-      type: 2}
-  decodeBank: 0
-  loadAsynchronous: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
-  bankNameInternal: 
-  valueGuidInternal: 
 --- !u!1 &1818003844
 GameObject:
   m_ObjectHideFlags: 0
@@ -2448,10 +2447,15 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 27b429249f8c53e4fb6331f43420c97e, type: 3}
   - {fileID: 21300000, guid: c75a488c302069e4e8339cedb7d24afb, type: 3}
   - {fileID: 21300000, guid: f5476b50ae3d11e469cdb72a626c089d, type: 3}
-  drinkSound:
+  drinkSound1:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 73061d6612a82fe4a986a2f09c153013,
+      type: 2}
+  drinkSound2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 585121ca8bae9594296c1f943258a10e,
       type: 2}
   talkZone0:
     serializedVersion: 2

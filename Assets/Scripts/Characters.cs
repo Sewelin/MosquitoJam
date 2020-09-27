@@ -10,6 +10,11 @@ public class Characters : MonoBehaviour
     [SerializeField] private Animator white;
     [SerializeField] private Animator black;
 
+    [SerializeField] private AK.Wwise.Event startTalk1;
+    [SerializeField] private AK.Wwise.Event stopTalk1;
+    [SerializeField] private AK.Wwise.Event startTalk2;
+    [SerializeField] private AK.Wwise.Event stopTalk2;
+
     [SerializeField] private float talkTime;
     [SerializeField] private float breakTime;
     
@@ -37,12 +42,14 @@ public class Characters : MonoBehaviour
                 break;
             
             c1.SetTrigger(StartTalking);
+            (c1 == white ? startTalk1 : startTalk2).Post(gameObject);
             var ratio = (gameManager.DrinkGauge + gameManager.TalkGauge) / 200f;
             c2.SetTrigger(ratio < 0.25 ? StartRolling : ratio < 0.5 ? StartYawning : StartDrinking);
             yield return new WaitForSeconds(talkTime);
             
             c1.SetTrigger(Stop);
             c2.SetTrigger(Stop);
+            (c1 == white ? stopTalk1 : stopTalk2).Post(gameObject);
 
             var cTemp = c2;
             c2 = c1;

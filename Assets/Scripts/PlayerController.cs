@@ -15,7 +15,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private List<Text> talkActionText = new List<Text>();
     [SerializeField] private List<Sprite> buttonSprites = new List<Sprite>();
 
-    [SerializeField] private AK.Wwise.Event drinkSound;
+    [SerializeField] private AK.Wwise.Event drinkSound1;
+    [SerializeField] private AK.Wwise.Event drinkSound2;
     
     private Controls _controls;
     private List<InputAction> _actions;
@@ -164,7 +165,7 @@ public class PlayerController : MonoBehaviour
         if (GameManager.GameEnded) return;
         gameManager.Drink();
         _drinkAnimators[0].SetTrigger(Pressed);
-        drinkSound.Post(gameObject);
+        drinkSound1.Post(gameObject);
     }
     
     private void Drink1(InputAction.CallbackContext ctx)
@@ -172,7 +173,7 @@ public class PlayerController : MonoBehaviour
         if (GameManager.GameEnded) return;
         gameManager.Drink();
         _drinkAnimators[1].SetTrigger(Pressed);
-        drinkSound.Post(gameObject);
+        drinkSound2.Post(gameObject);
     }
 
     private void Talk0(InputAction.CallbackContext ctx)

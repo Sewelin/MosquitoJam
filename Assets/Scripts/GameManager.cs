@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Slider mainGauge;
     [SerializeField] private GameObject hand;
     [SerializeField] private GameObject goodEnd;
+
+    [SerializeField] private AK.Wwise.RTPC gauge;
     
     [SerializeField] private float drinkGauge = 50f;
     [SerializeField] private float talkGauge = 50f;
@@ -35,6 +37,7 @@ public class GameManager : MonoBehaviour
             else if (drinkGauge < 0f)
                 drinkGauge = 0f;
             mainGauge.value = drinkGauge + TalkGauge;
+            gauge.SetValue(gameObject, mainGauge.value);
         }
     }
 
@@ -49,6 +52,7 @@ public class GameManager : MonoBehaviour
             else if (talkGauge < 0f)
                 talkGauge = 0f;
             mainGauge.value = DrinkGauge + talkGauge;
+            gauge.SetValue(gameObject, mainGauge.value);
         }
     }
 
@@ -75,12 +79,12 @@ public class GameManager : MonoBehaviour
         DrinkGauge -= drinkLoss * Time.deltaTime;
         TalkGauge -= talkLoss * Time.deltaTime;
 
-        if (DrinkGauge + TalkGauge < 0.01f)
+        if (DrinkGauge + TalkGauge < 20f)
         {
             hand.SetActive(true);
             StartCoroutine("BindQuit");
         }
-        else if (DrinkGauge + TalkGauge > 197.99f)
+        else if (DrinkGauge + TalkGauge > 181f)
         {
             goodEnd.SetActive(true);
             StartCoroutine("BindQuit");
