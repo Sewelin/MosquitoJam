@@ -82,12 +82,16 @@ public class PlayerController : MonoBehaviour
         while (!GameManager.GameEnded)
         {
             var testAction = _currentDrinkAction[num];
+            var buttonSprite = drinkAction[num].sprite;
             while (testAction == _currentDrinkAction[0] || testAction == _currentDrinkAction[1] ||
                    testAction == _currentTalkAction[0] || testAction == _currentTalkAction[1])
             {
-                testAction = _actions[Random.Range(0, _actions.Count - 4)];
+                var i = Random.Range(0, _actions.Count - 4);
+                testAction = _actions[i];
+                buttonSprite = buttonSprites[i];
             }
             _currentDrinkAction[num] = testAction;
+            drinkAction[num].sprite = buttonSprite;
             drinkActionText[num].text = _currentDrinkAction[num].name;
             
             _currentDrinkAction[num].performed += Drink;
@@ -101,7 +105,7 @@ public class PlayerController : MonoBehaviour
         while (!GameManager.GameEnded)
         {
             var testAction = _currentTalkAction[num];
-            Sprite buttonSprite = talkAction[num].sprite;
+            var buttonSprite = talkAction[num].sprite;
             while (testAction == _currentDrinkAction[0] || testAction == _currentDrinkAction[1] ||
                    testAction == _currentTalkAction[0] || testAction == _currentTalkAction[1])
             {
