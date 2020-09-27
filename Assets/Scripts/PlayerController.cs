@@ -9,8 +9,10 @@ using Random = UnityEngine.Random;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private GameManager gameManager;
-    [SerializeField] private List<Text> drinkAction = new List<Text>();
-    [SerializeField] private List<Text> talkAction = new List<Text>();
+    [SerializeField] private List<Image> drinkAction = new List<Image>();
+    [SerializeField] private List<Text> drinkActionText = new List<Text>();
+    [SerializeField] private List<Image> talkAction = new List<Image>();
+    [SerializeField] private List<Text> talkActionText = new List<Text>();
 
     [SerializeField] private AK.Wwise.Event drinkSound;
     
@@ -19,17 +21,29 @@ public class PlayerController : MonoBehaviour
     private readonly List<InputAction> _currentDrinkAction = new List<InputAction> {null, null};
     private readonly List<InputAction> _currentTalkAction = new List<InputAction> {null, null};
 
+    [SerializeField] private Rect talkZone0 = new Rect();
+    [SerializeField] private Rect talkZone1 = new Rect();
+
     [SerializeField] private float drinkChangeTime = 4f; 
     [SerializeField] private float talkAppearTime = 1f;
 
     private readonly List<bool> _talkPossible = new List<bool> {false, false};
 
-    private void SetTalkPossible(int num, bool value)
+    private void SetTalkPossible(int num, bool value, string actionName = "")
     {
         _talkPossible[num] = value;
+        talkActionText[num].text = actionName;
+        if (value)
+        {
+            var talkZone = num == 0 ? talkZone0 : talkZone1;
+            var min = new Vector2(Random.Range(talkZone.xMin, talkZone.xMax),
+                Random.Range(talkZone.yMin, talkZone.yMax));
+            ((RectTransform) talkAction[num].transform).anchorMin = min;
+            ((RectTransform) talkAction[num].transform).anchorMax = min + new Vector2(0.07f, 0.124f);
+        }
         talkAction[num].gameObject.SetActive(_talkPossible[num]);
     }
-    
+
     private void Awake()
     {
         _controls = new Controls();
@@ -71,7 +85,7 @@ public class PlayerController : MonoBehaviour
                 testAction = _actions[Random.Range(0, _actions.Count - 4)];
             }
             _currentDrinkAction[num] = testAction;
-            drinkAction[num].text = _currentDrinkAction[num].name;
+            drinkActionText[num].text = _currentDrinkAction[num].name;
             
             _currentDrinkAction[num].performed += Drink;
             yield return new WaitForSeconds(drinkChangeTime);
@@ -90,9 +104,8 @@ public class PlayerController : MonoBehaviour
                 testAction = _actions[Random.Range(0, _actions.Count - 4)];
             }
             _currentTalkAction[num] = testAction;
-            talkAction[num].text = _currentTalkAction[num].name;
 
-            SetTalkPossible(num, true);
+            SetTalkPossible(num, true, _currentTalkAction[num].name);
             switch (num)
             {
                 case 0:
