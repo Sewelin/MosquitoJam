@@ -145,38 +145,6 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
-										<Action Name="" ID="{CF9D7CE5-B22F-4B01-AD20-CD3E91EDFDF0}" ShortID="415576690">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="3"/>
-												<Property Name="Delay" Type="Real64" Value="0.5"/>
-												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
-												<Property Name="FadeTime" Type="Real64" Value="1.5"/>
-											</PropertyList>
-											<ReferenceList/>
-											<ChildrenList>
-												<EventActionException Name="" ID="{5D238D6C-D6DA-4EEB-8BEA-F2D78AD44CDD}">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Ending" ID="{A22DD89C-E1C1-4343-9CF0-2E5060844E73}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
-														</Reference>
-													</ReferenceList>
-												</EventActionException>
-												<EventActionException Name="" ID="{867E4C7B-A194-4E45-8F33-BDAD65B25E30}">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="SFX_GoingFar" ID="{00DAF034-6DBA-4499-BD8E-D952BA3E25A1}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
-														</Reference>
-													</ReferenceList>
-												</EventActionException>
-												<EventActionException Name="" ID="{2210763E-09F8-4ECE-864D-F3CF92941264}">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="SFX_Snore" ID="{6116A293-805B-401F-A8BD-91980A0957CF}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
-														</Reference>
-													</ReferenceList>
-												</EventActionException>
-											</ChildrenList>
-										</Action>
 										<Action Name="" ID="{6977CFA0-EC4E-4992-96D2-2A443FF1DB1C}" ShortID="910237930">
 											<PropertyList>
 												<Property Name="Delay" Type="Real64" Value="1.5"/>
@@ -223,6 +191,21 @@
 													<ObjectRef Name="RTPC_FarFromScene" ID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
 												</Reference>
 											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5DF7289B-0F90-4CD2-AF06-BC154E53A092}" ShortID="989112865">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList/>
+											<ChildrenList>
+												<EventActionException Name="" ID="{147C214F-A359-4E51-B3A5-C669443DB834}">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Ending" ID="{A22DD89C-E1C1-4343-9CF0-2E5060844E73}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+														</Reference>
+													</ReferenceList>
+												</EventActionException>
+											</ChildrenList>
 										</Action>
 									</ChildrenList>
 								</Event>
