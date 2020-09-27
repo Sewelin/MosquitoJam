@@ -195,6 +195,7 @@
 										<Action Name="" ID="{5DF7289B-0F90-4CD2-AF06-BC154E53A092}" ShortID="989112865">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="3"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
 											</PropertyList>
 											<ReferenceList/>
 											<ChildrenList>
@@ -206,6 +207,17 @@
 													</ReferenceList>
 												</EventActionException>
 											</ChildrenList>
+										</Action>
+										<Action Name="" ID="{F2251E37-4AF3-4C9A-BD78-064AC2F5C3A3}" ShortID="53585775">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="OST" ID="{A47B56A2-2E7D-4E7C-9B9B-C6963591F900}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+												</Reference>
+											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
