@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public static bool GameEnded { get; private set; } = false;
 
     [SerializeField] private Slider mainGauge;
+    [SerializeField] private GameObject hand;
+    
     [SerializeField] private float drinkGauge = 50f;
     [SerializeField] private float talkGauge = 50f;
 
@@ -62,7 +64,15 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        if (GameEnded)
+            return;
+        
         DrinkGauge -= drinkLoss * Time.deltaTime;
         TalkGauge -= talkLoss * Time.deltaTime;
+
+        if (DrinkGauge + TalkGauge < 0.01f)
+        {
+            hand.SetActive(true);
+        }
     }
 }

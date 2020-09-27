@@ -160,6 +160,7 @@ public class PlayerController : MonoBehaviour
 
     private void Drink0(InputAction.CallbackContext ctx)
     {
+        if (GameManager.GameEnded) return;
         gameManager.Drink();
         _drinkAnimators[0].SetTrigger(Pressed);
         drinkSound.Post(gameObject);
@@ -167,6 +168,7 @@ public class PlayerController : MonoBehaviour
     
     private void Drink1(InputAction.CallbackContext ctx)
     {
+        if (GameManager.GameEnded) return;
         gameManager.Drink();
         _drinkAnimators[1].SetTrigger(Pressed);
         drinkSound.Post(gameObject);
@@ -174,14 +176,14 @@ public class PlayerController : MonoBehaviour
 
     private void Talk0(InputAction.CallbackContext ctx)
     {
-        if (!_talkPossible[0]) return;
+        if (!_talkPossible[0] || GameManager.GameEnded) return;
         SetTalkPossible(0, false);
         gameManager.Talk();
     }
     
     private void Talk1(InputAction.CallbackContext ctx)
     {
-        if (!_talkPossible[1]) return;
+        if (!_talkPossible[1] || GameManager.GameEnded) return;
         SetTalkPossible(1, false);
         gameManager.Talk();
     }

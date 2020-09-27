@@ -32,10 +32,15 @@ public class Characters : MonoBehaviour
         while (!GameManager.GameEnded)
         {
             yield return new WaitForSeconds(breakTime);
+
+            if (GameManager.GameEnded)
+                break;
+            
             c1.SetTrigger(StartTalking);
             var ratio = (gameManager.DrinkGauge + gameManager.TalkGauge) / 200f;
             c2.SetTrigger(ratio < 0.25 ? StartRolling : ratio < 0.5 ? StartYawning : StartDrinking);
             yield return new WaitForSeconds(talkTime);
+            
             c1.SetTrigger(Stop);
             c2.SetTrigger(Stop);
 
