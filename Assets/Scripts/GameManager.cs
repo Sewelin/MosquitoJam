@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
             else if (drinkGauge < 0f)
                 drinkGauge = 0f;
             mainGauge.value = drinkGauge + TalkGauge;
-            gauge.SetValue(gameObject, mainGauge.value/2f);
+            gauge.SetGlobalValue(mainGauge.value/2f);
         }
     }
 
@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
             else if (talkGauge < 0f)
                 talkGauge = 0f;
             mainGauge.value = DrinkGauge + talkGauge;
-            gauge.SetValue(gameObject, mainGauge.value/2f);
+            gauge.SetGlobalValue(mainGauge.value/2f);
         }
     }
 
