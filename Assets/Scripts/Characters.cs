@@ -96,9 +96,9 @@ public class Characters : MonoBehaviour
             
             c1.SetTrigger(StartTalking);
             var ratio = (gameManager.DrinkGauge + gameManager.TalkGauge) / 200f;
-            c2.SetTrigger(ratio < 0.25 ? StartRolling : ratio < 0.5 ? StartYawning : StartDrinking);
+            c2.SetTrigger(ratio < 0.25 ? StartRolling : ratio < 0.75 ? StartYawning : StartDrinking);
             (c1 == white ? dialogue1 : dialogue2).SetActive(true);
-            var dialogues = (ratio < 0.25 ? _redDialogues : ratio < 0.5 ? _yellowDialogues : _greenDialogues);
+            var dialogues = (ratio < 0.25 ? _redDialogues : ratio < 0.75 ? _yellowDialogues : _greenDialogues);
             (c1 == white ? dialogueText1 : dialogueText2).text = dialogues[Random.Range(0, dialogues.Count)];
             yield return new WaitForSeconds(talkTime);
             
