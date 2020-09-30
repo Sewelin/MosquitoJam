@@ -1,0 +1,30 @@
+Red Zone
+{
+    "Bloody hell, what is wrong with you? ",
+    "Listen, I'm not so pumped up tonight",
+    "I think this whole date might be in vein",
+    "Sorry but I am more of a AB-type person",
+    "Maybe we should start again from scratch?",
+    "This place/this date sucks"
+}
+
+Yellow Zone
+{
+    "As a software developer I do get rid of bugs",
+    "I only bite vegetarians",
+    "Have you found still waters to stay nearby?",
+    "Ever been to the mosque-ito?", 
+    "Do you often go skin-diving? ",
+    "I mostly listen to Sting",
+    "Are you into astronomy? Because tonight's the blood moon"
+}
+
+Green Zone
+
+{
+    "You're bloody gorgeous, you know that?",
+    "One would say this date is a total success",
+    "I'm actually itching for another drink",
+    "A human tried to clap me once",
+    "I got a déjà vu, aren't we blood related?"
+}
