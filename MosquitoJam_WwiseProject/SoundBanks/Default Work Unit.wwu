@@ -10,16 +10,17 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="ATMOS" ID="{5D07E693-70B3-4FE1-B278-15608CAD88B2}">
+				<SoundBank Name="MUSIC" ID="{2C710567-E650-4B35-B475-BFA234367CDF}">
 					<ObjectInclusionList>
-						<ObjectRef Name="ATMOS" ID="{C3226046-CA42-4AB3-9A09-7986FDA848A5}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC" ID="{6CF3256B-F72F-4416-91F4-C476ACD8B6A9}" WorkUnitID="{9AE54B7C-A3FC-4E93-BD21-34F2C740D149}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC" ID="{4D78491D-70B0-4F84-98C8-5650E8A3B5D8}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="MUSIC" ID="{2C710567-E650-4B35-B475-BFA234367CDF}">
+				<SoundBank Name="VOICES" ID="{FA34593D-B2D6-42E3-AC23-354575E1DA28}">
 					<ObjectInclusionList>
-						<ObjectRef Name="MUSIC" ID="{6CF3256B-F72F-4416-91F4-C476ACD8B6A9}" WorkUnitID="{9AE54B7C-A3FC-4E93-BD21-34F2C740D149}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VOICES" ID="{B04FDE6C-97BD-4576-BD31-9C081E746ABC}" WorkUnitID="{3B442830-BA06-442D-84E9-2274CB6A56DF}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

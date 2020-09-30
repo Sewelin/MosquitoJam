@@ -8,7 +8,20 @@
 		<ExternalSourcesOutputRoot>D:\ENJMIN\4 - ENJAM 2020 - Mosquitos\Git\MosquitoJam\MosquitoJam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="226483068" Language="SFX">
+			<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
+			<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem</Path>
+		</File>
+		<File Id="852303102" Language="SFX">
+			<ShortName>ENJAM 2020 - Mosquito's Song - Loop.wav</ShortName>
+			<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem</Path>
+		</File>
+		<File Id="971791574" Language="SFX">
+			<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</ShortName>
+			<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="393239870" GUID="{EB25E386-BF4F-4B02-B167-C39FBBA32B7E}" Language="SFX">
@@ -16,75 +29,87 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3094318054" Name="SFX_Drink_Ch1" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch1" GUID="{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}" DurationType="OneShot" DurationMin="0.041470" DurationMax="0.342002">
+				<Event Id="3094318054" Name="SFX_Drink_Ch1" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch1" GUID="{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}" DurationType="OneShot" DurationMin="0.034075" DurationMax="0.183838">
 					<IncludedMemoryFiles>
 						<File Id="19307305" Language="SFX">
 							<ShortName>Drink\SFX_Drink_34.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_34_10C4C929.wem</Path>
 						</File>
-						<File Id="51749834" Language="SFX">
-							<ShortName>Drink\SFX_Drink_04.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_04_10C4C929.wem</Path>
+						<File Id="26076559" Language="SFX">
+							<ShortName>Drink\SFX_Drink_23.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_23_F84A3F25.wem</Path>
 						</File>
-						<File Id="70833988" Language="SFX">
+						<File Id="59604473" Language="SFX">
 							<ShortName>Drink\SFX_Drink_07.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_07_10C4C929.wem</Path>
+							<Path>SFX\Drink\SFX_Drink_07_9672A6F6.wem</Path>
+						</File>
+						<File Id="114483156" Language="SFX">
+							<ShortName>Drink\SFX_Drink_06.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_06_F1633FC8.wem</Path>
 						</File>
 						<File Id="120636876" Language="SFX">
 							<ShortName>Drink\SFX_Drink_36.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_36_10C4C929.wem</Path>
 						</File>
-						<File Id="129380110" Language="SFX">
-							<ShortName>Drink\SFX_Drink_11.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_11_10C4C929.wem</Path>
-						</File>
-						<File Id="146277035" Language="SFX">
-							<ShortName>Drink\SFX_Drink_33.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_33_10C4C929.wem</Path>
-						</File>
-						<File Id="167252107" Language="SFX">
-							<ShortName>Drink\SFX_Drink_15.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_15_10C4C929.wem</Path>
-						</File>
-						<File Id="217607679" Language="SFX">
-							<ShortName>Drink\SFX_Drink_21.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_21_10C4C929.wem</Path>
-						</File>
-						<File Id="219732519" Language="SFX">
-							<ShortName>Drink\SFX_Drink_14.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_14_10C4C929.wem</Path>
-						</File>
-						<File Id="224210942" Language="SFX">
-							<ShortName>Drink\SFX_Drink_06.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_06_10C4C929.wem</Path>
+						<File Id="215829065" Language="SFX">
+							<ShortName>Drink\SFX_Drink_12.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_12_EB6B1ED7.wem</Path>
 						</File>
 						<File Id="257394053" Language="SFX">
 							<ShortName>Drink\SFX_Drink_17.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_17_10C4C929.wem</Path>
 						</File>
-						<File Id="259374757" Language="SFX">
-							<ShortName>Drink\SFX_Drink_23.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_23_10C4C929.wem</Path>
+						<File Id="261860865" Language="SFX">
+							<ShortName>Drink\SFX_Drink_09.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_09_3E047799.wem</Path>
 						</File>
 						<File Id="272292531" Language="SFX">
 							<ShortName>Drink\SFX_Drink_18.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_18_10C4C929.wem</Path>
 						</File>
+						<File Id="281228963" Language="SFX">
+							<ShortName>Drink\SFX_Drink_15.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_15_D8C60625.wem</Path>
+						</File>
+						<File Id="287706206" Language="SFX">
+							<ShortName>Drink\SFX_Drink_10.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_10_89EEE0FD.wem</Path>
+						</File>
 						<File Id="332746687" Language="SFX">
 							<ShortName>Drink\SFX_Drink_16.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_16_10C4C929.wem</Path>
 						</File>
-						<File Id="401455326" Language="SFX">
-							<ShortName>Drink\SFX_Drink_13.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_13_10C4C929.wem</Path>
+						<File Id="333267927" Language="SFX">
+							<ShortName>Drink\SFX_Drink_28.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_28_54193CE2.wem</Path>
+						</File>
+						<File Id="374181212" Language="SFX">
+							<ShortName>Drink\SFX_Drink_29.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_29_D7512461.wem</Path>
+						</File>
+						<File Id="380595528" Language="SFX">
+							<ShortName>Drink\SFX_Drink_03.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_03_D14B0007.wem</Path>
+						</File>
+						<File Id="391982382" Language="SFX">
+							<ShortName>Drink\SFX_Drink_08.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_08_CA8004BA.wem</Path>
+						</File>
+						<File Id="392133611" Language="SFX">
+							<ShortName>Drink\SFX_Drink_22.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_22_0F9A9710.wem</Path>
 						</File>
 						<File Id="440317210" Language="SFX">
 							<ShortName>Drink\SFX_Drink_20.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_20_10C4C929.wem</Path>
 						</File>
-						<File Id="454099835" Language="SFX">
-							<ShortName>Drink\SFX_Drink_22.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_22_10C4C929.wem</Path>
+						<File Id="511392884" Language="SFX">
+							<ShortName>Drink\SFX_Drink_13.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_13_785AF916.wem</Path>
+						</File>
+						<File Id="530767652" Language="SFX">
+							<ShortName>Drink\SFX_Drink_14.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_14_59AB311F.wem</Path>
 						</File>
 						<File Id="541620795" Language="SFX">
 							<ShortName>Drink\SFX_Drink_38.wav</ShortName>
@@ -94,37 +119,29 @@
 							<ShortName>Drink\SFX_Drink_35.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_35_10C4C929.wem</Path>
 						</File>
-						<File Id="586127417" Language="SFX">
-							<ShortName>Drink\SFX_Drink_29.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_29_10C4C929.wem</Path>
+						<File Id="552671402" Language="SFX">
+							<ShortName>Drink\SFX_Drink_04.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_04_FEE2D8B4.wem</Path>
 						</File>
-						<File Id="595971199" Language="SFX">
-							<ShortName>Drink\SFX_Drink_02.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_02_10C4C929.wem</Path>
+						<File Id="561816934" Language="SFX">
+							<ShortName>Drink\SFX_Drink_33.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_33_5A4004CA.wem</Path>
 						</File>
 						<File Id="596022068" Language="SFX">
 							<ShortName>Drink\SFX_Drink_27.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_27_10C4C929.wem</Path>
 						</File>
-						<File Id="615012056" Language="SFX">
-							<ShortName>Drink\SFX_Drink_28.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_28_10C4C929.wem</Path>
+						<File Id="669779386" Language="SFX">
+							<ShortName>Drink\SFX_Drink_21.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_21_E05D496E.wem</Path>
 						</File>
-						<File Id="636197602" Language="SFX">
-							<ShortName>Drink\SFX_Drink_10.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_10_10C4C929.wem</Path>
-						</File>
-						<File Id="666080641" Language="SFX">
-							<ShortName>Drink\SFX_Drink_01.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_01_10C4C929.wem</Path>
+						<File Id="673027948" Language="SFX">
+							<ShortName>Drink\SFX_Drink_02.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_02_10642000.wem</Path>
 						</File>
 						<File Id="673643214" Language="SFX">
 							<ShortName>Drink\SFX_Drink_26.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_26_10C4C929.wem</Path>
-						</File>
-						<File Id="708195366" Language="SFX">
-							<ShortName>Drink\SFX_Drink_09.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_09_10C4C929.wem</Path>
 						</File>
 						<File Id="725034759" Language="SFX">
 							<ShortName>Drink\SFX_Drink_32.wav</ShortName>
@@ -138,21 +155,21 @@
 							<ShortName>Drink\SFX_Drink_30.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_30_10C4C929.wem</Path>
 						</File>
-						<File Id="735996023" Language="SFX">
-							<ShortName>Drink\SFX_Drink_05.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_05_10C4C929.wem</Path>
-						</File>
-						<File Id="805349185" Language="SFX">
-							<ShortName>Drink\SFX_Drink_24.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_24_10C4C929.wem</Path>
+						<File Id="801731481" Language="SFX">
+							<ShortName>Drink\SFX_Drink_01.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_01_C5AE4148.wem</Path>
 						</File>
 						<File Id="845429499" Language="SFX">
 							<ShortName>Drink\SFX_Drink_39.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_39_10C4C929.wem</Path>
 						</File>
-						<File Id="895049144" Language="SFX">
-							<ShortName>Drink\SFX_Drink_08.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_08_10C4C929.wem</Path>
+						<File Id="857136574" Language="SFX">
+							<ShortName>Drink\SFX_Drink_11.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_11_276C7F9D.wem</Path>
+						</File>
+						<File Id="869737112" Language="SFX">
+							<ShortName>Drink\SFX_Drink_05.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_05_FCAD6C64.wem</Path>
 						</File>
 						<File Id="904502994" Language="SFX">
 							<ShortName>Drink\SFX_Drink_19.wav</ShortName>
@@ -162,9 +179,9 @@
 							<ShortName>Drink\SFX_Drink_40.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_40_10C4C929.wem</Path>
 						</File>
-						<File Id="979151826" Language="SFX">
-							<ShortName>Drink\SFX_Drink_12.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_12_10C4C929.wem</Path>
+						<File Id="977863426" Language="SFX">
+							<ShortName>Drink\SFX_Drink_24.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_24_5C4B9089.wem</Path>
 						</File>
 						<File Id="987780225" Language="SFX">
 							<ShortName>Drink\SFX_Drink_25.wav</ShortName>
@@ -174,81 +191,89 @@
 							<ShortName>Drink\SFX_Drink_37.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_37_10C4C929.wem</Path>
 						</File>
-						<File Id="1030893550" Language="SFX">
-							<ShortName>Drink\SFX_Drink_03.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_03_10C4C929.wem</Path>
-						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3094318053" Name="SFX_Drink_Ch2" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch2" GUID="{D5F6BA38-B1BE-4C4A-AE49-61EE05E2A71B}" DurationType="OneShot" DurationMin="0.087365" DurationMax="0.720504">
+				<Event Id="3094318053" Name="SFX_Drink_Ch2" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Ch2" GUID="{D5F6BA38-B1BE-4C4A-AE49-61EE05E2A71B}" DurationType="OneShot" DurationMin="0.052551" DurationMax="0.283517">
 					<IncludedMemoryFiles>
 						<File Id="19307305" Language="SFX">
 							<ShortName>Drink\SFX_Drink_34.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_34_10C4C929.wem</Path>
 						</File>
-						<File Id="51749834" Language="SFX">
-							<ShortName>Drink\SFX_Drink_04.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_04_10C4C929.wem</Path>
+						<File Id="26076559" Language="SFX">
+							<ShortName>Drink\SFX_Drink_23.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_23_F84A3F25.wem</Path>
 						</File>
-						<File Id="70833988" Language="SFX">
+						<File Id="59604473" Language="SFX">
 							<ShortName>Drink\SFX_Drink_07.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_07_10C4C929.wem</Path>
+							<Path>SFX\Drink\SFX_Drink_07_9672A6F6.wem</Path>
+						</File>
+						<File Id="114483156" Language="SFX">
+							<ShortName>Drink\SFX_Drink_06.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_06_F1633FC8.wem</Path>
 						</File>
 						<File Id="120636876" Language="SFX">
 							<ShortName>Drink\SFX_Drink_36.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_36_10C4C929.wem</Path>
 						</File>
-						<File Id="129380110" Language="SFX">
-							<ShortName>Drink\SFX_Drink_11.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_11_10C4C929.wem</Path>
-						</File>
-						<File Id="146277035" Language="SFX">
-							<ShortName>Drink\SFX_Drink_33.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_33_10C4C929.wem</Path>
-						</File>
-						<File Id="167252107" Language="SFX">
-							<ShortName>Drink\SFX_Drink_15.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_15_10C4C929.wem</Path>
-						</File>
-						<File Id="217607679" Language="SFX">
-							<ShortName>Drink\SFX_Drink_21.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_21_10C4C929.wem</Path>
-						</File>
-						<File Id="219732519" Language="SFX">
-							<ShortName>Drink\SFX_Drink_14.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_14_10C4C929.wem</Path>
-						</File>
-						<File Id="224210942" Language="SFX">
-							<ShortName>Drink\SFX_Drink_06.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_06_10C4C929.wem</Path>
+						<File Id="215829065" Language="SFX">
+							<ShortName>Drink\SFX_Drink_12.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_12_EB6B1ED7.wem</Path>
 						</File>
 						<File Id="257394053" Language="SFX">
 							<ShortName>Drink\SFX_Drink_17.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_17_10C4C929.wem</Path>
 						</File>
-						<File Id="259374757" Language="SFX">
-							<ShortName>Drink\SFX_Drink_23.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_23_10C4C929.wem</Path>
+						<File Id="261860865" Language="SFX">
+							<ShortName>Drink\SFX_Drink_09.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_09_3E047799.wem</Path>
 						</File>
 						<File Id="272292531" Language="SFX">
 							<ShortName>Drink\SFX_Drink_18.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_18_10C4C929.wem</Path>
 						</File>
+						<File Id="281228963" Language="SFX">
+							<ShortName>Drink\SFX_Drink_15.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_15_D8C60625.wem</Path>
+						</File>
+						<File Id="287706206" Language="SFX">
+							<ShortName>Drink\SFX_Drink_10.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_10_89EEE0FD.wem</Path>
+						</File>
 						<File Id="332746687" Language="SFX">
 							<ShortName>Drink\SFX_Drink_16.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_16_10C4C929.wem</Path>
 						</File>
-						<File Id="401455326" Language="SFX">
-							<ShortName>Drink\SFX_Drink_13.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_13_10C4C929.wem</Path>
+						<File Id="333267927" Language="SFX">
+							<ShortName>Drink\SFX_Drink_28.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_28_54193CE2.wem</Path>
+						</File>
+						<File Id="374181212" Language="SFX">
+							<ShortName>Drink\SFX_Drink_29.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_29_D7512461.wem</Path>
+						</File>
+						<File Id="380595528" Language="SFX">
+							<ShortName>Drink\SFX_Drink_03.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_03_D14B0007.wem</Path>
+						</File>
+						<File Id="391982382" Language="SFX">
+							<ShortName>Drink\SFX_Drink_08.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_08_CA8004BA.wem</Path>
+						</File>
+						<File Id="392133611" Language="SFX">
+							<ShortName>Drink\SFX_Drink_22.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_22_0F9A9710.wem</Path>
 						</File>
 						<File Id="440317210" Language="SFX">
 							<ShortName>Drink\SFX_Drink_20.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_20_10C4C929.wem</Path>
 						</File>
-						<File Id="454099835" Language="SFX">
-							<ShortName>Drink\SFX_Drink_22.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_22_10C4C929.wem</Path>
+						<File Id="511392884" Language="SFX">
+							<ShortName>Drink\SFX_Drink_13.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_13_785AF916.wem</Path>
+						</File>
+						<File Id="530767652" Language="SFX">
+							<ShortName>Drink\SFX_Drink_14.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_14_59AB311F.wem</Path>
 						</File>
 						<File Id="541620795" Language="SFX">
 							<ShortName>Drink\SFX_Drink_38.wav</ShortName>
@@ -258,37 +283,29 @@
 							<ShortName>Drink\SFX_Drink_35.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_35_10C4C929.wem</Path>
 						</File>
-						<File Id="586127417" Language="SFX">
-							<ShortName>Drink\SFX_Drink_29.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_29_10C4C929.wem</Path>
+						<File Id="552671402" Language="SFX">
+							<ShortName>Drink\SFX_Drink_04.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_04_FEE2D8B4.wem</Path>
 						</File>
-						<File Id="595971199" Language="SFX">
-							<ShortName>Drink\SFX_Drink_02.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_02_10C4C929.wem</Path>
+						<File Id="561816934" Language="SFX">
+							<ShortName>Drink\SFX_Drink_33.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_33_5A4004CA.wem</Path>
 						</File>
 						<File Id="596022068" Language="SFX">
 							<ShortName>Drink\SFX_Drink_27.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_27_10C4C929.wem</Path>
 						</File>
-						<File Id="615012056" Language="SFX">
-							<ShortName>Drink\SFX_Drink_28.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_28_10C4C929.wem</Path>
+						<File Id="669779386" Language="SFX">
+							<ShortName>Drink\SFX_Drink_21.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_21_E05D496E.wem</Path>
 						</File>
-						<File Id="636197602" Language="SFX">
-							<ShortName>Drink\SFX_Drink_10.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_10_10C4C929.wem</Path>
-						</File>
-						<File Id="666080641" Language="SFX">
-							<ShortName>Drink\SFX_Drink_01.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_01_10C4C929.wem</Path>
+						<File Id="673027948" Language="SFX">
+							<ShortName>Drink\SFX_Drink_02.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_02_10642000.wem</Path>
 						</File>
 						<File Id="673643214" Language="SFX">
 							<ShortName>Drink\SFX_Drink_26.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_26_10C4C929.wem</Path>
-						</File>
-						<File Id="708195366" Language="SFX">
-							<ShortName>Drink\SFX_Drink_09.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_09_10C4C929.wem</Path>
 						</File>
 						<File Id="725034759" Language="SFX">
 							<ShortName>Drink\SFX_Drink_32.wav</ShortName>
@@ -302,21 +319,21 @@
 							<ShortName>Drink\SFX_Drink_30.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_30_10C4C929.wem</Path>
 						</File>
-						<File Id="735996023" Language="SFX">
-							<ShortName>Drink\SFX_Drink_05.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_05_10C4C929.wem</Path>
-						</File>
-						<File Id="805349185" Language="SFX">
-							<ShortName>Drink\SFX_Drink_24.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_24_10C4C929.wem</Path>
+						<File Id="801731481" Language="SFX">
+							<ShortName>Drink\SFX_Drink_01.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_01_C5AE4148.wem</Path>
 						</File>
 						<File Id="845429499" Language="SFX">
 							<ShortName>Drink\SFX_Drink_39.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_39_10C4C929.wem</Path>
 						</File>
-						<File Id="895049144" Language="SFX">
-							<ShortName>Drink\SFX_Drink_08.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_08_10C4C929.wem</Path>
+						<File Id="857136574" Language="SFX">
+							<ShortName>Drink\SFX_Drink_11.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_11_276C7F9D.wem</Path>
+						</File>
+						<File Id="869737112" Language="SFX">
+							<ShortName>Drink\SFX_Drink_05.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_05_FCAD6C64.wem</Path>
 						</File>
 						<File Id="904502994" Language="SFX">
 							<ShortName>Drink\SFX_Drink_19.wav</ShortName>
@@ -326,9 +343,9 @@
 							<ShortName>Drink\SFX_Drink_40.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_40_10C4C929.wem</Path>
 						</File>
-						<File Id="979151826" Language="SFX">
-							<ShortName>Drink\SFX_Drink_12.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_12_10C4C929.wem</Path>
+						<File Id="977863426" Language="SFX">
+							<ShortName>Drink\SFX_Drink_24.wav</ShortName>
+							<Path>SFX\Drink\SFX_Drink_24_5C4B9089.wem</Path>
 						</File>
 						<File Id="987780225" Language="SFX">
 							<ShortName>Drink\SFX_Drink_25.wav</ShortName>
@@ -338,17 +355,88 @@
 							<ShortName>Drink\SFX_Drink_37.wav</ShortName>
 							<Path>SFX\Drink\SFX_Drink_37_10C4C929.wem</Path>
 						</File>
-						<File Id="1030893550" Language="SFX">
-							<ShortName>Drink\SFX_Drink_03.wav</ShortName>
-							<Path>SFX\Drink\SFX_Drink_03_10C4C929.wem</Path>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2428466393" Name="SFX_End_Kiss" ObjectPath="\Events\Default Work Unit\SFX\UI\SFX_End_Kiss" GUID="{A459DAED-83B3-4FF0-8A92-38F7A52584C4}" DurationType="OneShot" DurationMin="6.918244" DurationMax="6.918244">
+					<IncludedMemoryFiles>
+						<File Id="182435311" Language="SFX">
+							<ShortName>SFX_Cartoon, Kiss.wav</ShortName>
+							<Path>SFX\SFX_Cartoon, Kiss_10C4C929.wem</Path>
+						</File>
+						<File Id="571644507" Language="SFX">
+							<ShortName>SFX_Chimes.wav</ShortName>
+							<Path>SFX\SFX_Chimes_7C5BBB4C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3742372672" Name="SFX_Drink_Test" ObjectPath="\Events\Default Work Unit\SFX\Drink\SFX_Drink_Test" GUID="{63D5066D-E4DA-43AE-A8F8-931CF9B4DD1A}" DurationType="OneShot" DurationMin="1.031083" DurationMax="1.031083">
+				<Event Id="2842188021" Name="SFX_End_Slap" ObjectPath="\Events\Default Work Unit\SFX\Slap\SFX_End_Slap" GUID="{1A3DC964-1972-4E04-B39C-63239FF20E29}" DurationType="OneShot" DurationMin="1.264625" DurationMax="1.264625">
 					<IncludedMemoryFiles>
-						<File Id="875891286" Language="SFX">
-							<ShortName>SFX_Drink_01.wav</ShortName>
-							<Path>SFX\SFX_Drink_01_10C4C929.wem</Path>
+						<File Id="60264027" Language="SFX">
+							<ShortName>SFX_Grunt.wav</ShortName>
+							<Path>SFX\SFX_Grunt_10C4C929.wem</Path>
+						</File>
+						<File Id="629193139" Language="SFX">
+							<ShortName>SFX_Slap_01.wav</ShortName>
+							<Path>SFX\SFX_Slap_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="980603520" Name="Rev" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Rev" GUID="{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3956444467" Name="SFX_Pop_Out" ObjectPath="\Events\Default Work Unit\SFX\UI\SFX_Pop_Out" GUID="{F2FBEF2C-CAE8-46A7-96F7-AA206AA227EA}" DurationType="OneShot" DurationMin="0.243270" DurationMax="0.382116">
+					<IncludedMemoryFiles>
+						<File Id="53486594" Language="SFX">
+							<ShortName>SFX_PopUp_03.wav</ShortName>
+							<Path>SFX\SFX_PopUp_03_10C4C929.wem</Path>
+						</File>
+						<File Id="182741952" Language="SFX">
+							<ShortName>SFX_PopUp_c_01.wav</ShortName>
+							<Path>SFX\SFX_PopUp_c_01_10C4C929.wem</Path>
+						</File>
+						<File Id="664109693" Language="SFX">
+							<ShortName>SFX_PopUp_04.wav</ShortName>
+							<Path>SFX\SFX_PopUp_04_10C4C929.wem</Path>
+						</File>
+						<File Id="992977486" Language="SFX">
+							<ShortName>SFX_PopUp_c_02.wav</ShortName>
+							<Path>SFX\SFX_PopUp_c_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1782989462" Name="SFX_Pop_Up" ObjectPath="\Events\Default Work Unit\SFX\UI\SFX_Pop_Up" GUID="{C67F6F82-574A-4B32-AAE2-E2B9836B49AD}" DurationType="OneShot" DurationMin="0.206942" DurationMax="0.506999">
+					<IncludedMemoryFiles>
+						<File Id="53486594" Language="SFX">
+							<ShortName>SFX_PopUp_03.wav</ShortName>
+							<Path>SFX\SFX_PopUp_03_10C4C929.wem</Path>
+						</File>
+						<File Id="100923663" Language="SFX">
+							<ShortName>SFX_PopUp_06.wav</ShortName>
+							<Path>SFX\SFX_PopUp_06_10C4C929.wem</Path>
+						</File>
+						<File Id="182741952" Language="SFX">
+							<ShortName>SFX_PopUp_c_01.wav</ShortName>
+							<Path>SFX\SFX_PopUp_c_01_10C4C929.wem</Path>
+						</File>
+						<File Id="497342484" Language="SFX">
+							<ShortName>SFX_PopUp_05.wav</ShortName>
+							<Path>SFX\SFX_PopUp_05_10C4C929.wem</Path>
+						</File>
+						<File Id="664109693" Language="SFX">
+							<ShortName>SFX_PopUp_04.wav</ShortName>
+							<Path>SFX\SFX_PopUp_04_10C4C929.wem</Path>
+						</File>
+						<File Id="992977486" Language="SFX">
+							<ShortName>SFX_PopUp_c_02.wav</ShortName>
+							<Path>SFX\SFX_PopUp_c_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1037594266" Language="SFX">
+							<ShortName>SFX_PopUp_01.wav</ShortName>
+							<Path>SFX\SFX_PopUp_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1069386461" Language="SFX">
+							<ShortName>SFX_PopUp_02.wav</ShortName>
+							<Path>SFX\SFX_PopUp_02_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -358,16 +446,1212 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="980603520" Name="Rev" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Rev" GUID="{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="690456766" Name="RTPC_FarFromScene" ObjectPath="\Game Parameters\Default Work Unit\RTPC_FarFromScene" GUID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3034623661" GUID="{5D07E693-70B3-4FE1-B278-15608CAD88B2}" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\ATMOS</ObjectPath>
-			<ShortName>ATMOS</ShortName>
-			<Path>ATMOS.bnk</Path>
+		<SoundBank Id="3313685232" GUID="{FA34593D-B2D6-42E3-AC23-354575E1DA28}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\VOICES</ObjectPath>
+			<ShortName>VOICES</ShortName>
+			<Path>VOICES.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3346929408" Name="Vx_Dialogues_Ch1" ObjectPath="\Events\Default Work Unit\VOICES\Dialogues\Vx_Dialogues_Ch1" GUID="{6BA17135-4548-4AAC-968C-28B6636C109E}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="6886913" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_F4D233AF.wem</Path>
+						</File>
+						<File Id="26463452" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_82C2ACF1.wem</Path>
+						</File>
+						<File Id="43311077" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_55CB2CF4.wem</Path>
+						</File>
+						<File Id="52005449" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_32D23010.wem</Path>
+						</File>
+						<File Id="105497965" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_0E983EC6.wem</Path>
+						</File>
+						<File Id="110735802" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_3944DD88.wem</Path>
+						</File>
+						<File Id="121651179" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_B56D1AF1.wem</Path>
+						</File>
+						<File Id="125026326" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_129FB618.wem</Path>
+						</File>
+						<File Id="130196909" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_68098537.wem</Path>
+						</File>
+						<File Id="131773003" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_7AF83B74.wem</Path>
+						</File>
+						<File Id="132189293" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_F435CED7.wem</Path>
+						</File>
+						<File Id="137500171" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_9C73CA93.wem</Path>
+						</File>
+						<File Id="179142042" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_05F039F9.wem</Path>
+						</File>
+						<File Id="193407472" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_126E1894.wem</Path>
+						</File>
+						<File Id="194646047" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_7C8CA28F.wem</Path>
+						</File>
+						<File Id="218156430" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_7FE56477.wem</Path>
+						</File>
+						<File Id="223976991" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_BCA62E85.wem</Path>
+						</File>
+						<File Id="225656067" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_B5D8F829.wem</Path>
+						</File>
+						<File Id="229787349" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_7405B5A7.wem</Path>
+						</File>
+						<File Id="242000775" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_EAD074CC.wem</Path>
+						</File>
+						<File Id="277105410" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_C2C659FE.wem</Path>
+						</File>
+						<File Id="282284284" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_788CC53E.wem</Path>
+						</File>
+						<File Id="288213728" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_987CFF34.wem</Path>
+						</File>
+						<File Id="291796340" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_7BA90D4F.wem</Path>
+						</File>
+						<File Id="328359565" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_85B3F907.wem</Path>
+						</File>
+						<File Id="336160307" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_58B7C75E.wem</Path>
+						</File>
+						<File Id="340167229" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_43E6D46E.wem</Path>
+						</File>
+						<File Id="349575227" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_9CAE2470.wem</Path>
+						</File>
+						<File Id="358155434" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_97E2FC88.wem</Path>
+						</File>
+						<File Id="366383927" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_A213968D.wem</Path>
+						</File>
+						<File Id="367246750" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_14B1F6C7.wem</Path>
+						</File>
+						<File Id="378544819" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_DB44D7D4.wem</Path>
+						</File>
+						<File Id="384308540" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_DC7957E0.wem</Path>
+						</File>
+						<File Id="414371596" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_912DD766.wem</Path>
+						</File>
+						<File Id="417064176" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_1573C3F5.wem</Path>
+						</File>
+						<File Id="422545785" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_A824D977.wem</Path>
+						</File>
+						<File Id="425962726" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_30D01E26.wem</Path>
+						</File>
+						<File Id="453299586" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_1FE31DBA.wem</Path>
+						</File>
+						<File Id="461036783" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_716F2424.wem</Path>
+						</File>
+						<File Id="476576348" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_CBC560F9.wem</Path>
+						</File>
+						<File Id="485508575" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_06DA0B8E.wem</Path>
+						</File>
+						<File Id="503001097" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_0128AD79.wem</Path>
+						</File>
+						<File Id="503218574" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_35109B5A.wem</Path>
+						</File>
+						<File Id="537305308" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_749F439C.wem</Path>
+						</File>
+						<File Id="563489306" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_70D5A275.wem</Path>
+						</File>
+						<File Id="563706583" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_978A8AF5.wem</Path>
+						</File>
+						<File Id="575968081" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_096B5D33.wem</Path>
+						</File>
+						<File Id="580409958" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_1AA515A0.wem</Path>
+						</File>
+						<File Id="595006944" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_87044720.wem</Path>
+						</File>
+						<File Id="621809787" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_6A078066.wem</Path>
+						</File>
+						<File Id="625005486" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_9E37833D.wem</Path>
+						</File>
+						<File Id="641114926" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_3530D4FC.wem</Path>
+						</File>
+						<File Id="648255932" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_45A3560F.wem</Path>
+						</File>
+						<File Id="651832254" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_E6BC4800.wem</Path>
+						</File>
+						<File Id="659858682" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_402338EA.wem</Path>
+						</File>
+						<File Id="665787629" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_4FFC85A2.wem</Path>
+						</File>
+						<File Id="668750773" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_5BE93633.wem</Path>
+						</File>
+						<File Id="671764571" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_A948A3D9.wem</Path>
+						</File>
+						<File Id="675576625" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_D6E5EDA4.wem</Path>
+						</File>
+						<File Id="676743867" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_13878529.wem</Path>
+						</File>
+						<File Id="694320869" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_A663A2B2.wem</Path>
+						</File>
+						<File Id="720779459" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_761E3641.wem</Path>
+						</File>
+						<File Id="726569166" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_B9CD5813.wem</Path>
+						</File>
+						<File Id="774893888" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_6898572B.wem</Path>
+						</File>
+						<File Id="778949430" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_0E2C2F4D.wem</Path>
+						</File>
+						<File Id="783101836" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_7557078D.wem</Path>
+						</File>
+						<File Id="816074482" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_EB62FEAD.wem</Path>
+						</File>
+						<File Id="819789367" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_12AB5163.wem</Path>
+						</File>
+						<File Id="845812315" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_0CA227D3.wem</Path>
+						</File>
+						<File Id="849459371" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_F4F8FC32.wem</Path>
+						</File>
+						<File Id="849570420" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_59DEFC1F.wem</Path>
+						</File>
+						<File Id="870003165" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_377522D1.wem</Path>
+						</File>
+						<File Id="895873022" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_EEA8FD9C.wem</Path>
+						</File>
+						<File Id="898170741" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_C197A55E.wem</Path>
+						</File>
+						<File Id="910759707" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_8C0F5159.wem</Path>
+						</File>
+						<File Id="916138291" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_CF916829.wem</Path>
+						</File>
+						<File Id="919307384" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_C2D55907.wem</Path>
+						</File>
+						<File Id="922440710" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_F942A31F.wem</Path>
+						</File>
+						<File Id="923935641" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_B714EC42.wem</Path>
+						</File>
+						<File Id="925278952" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_0B715C7A.wem</Path>
+						</File>
+						<File Id="927224820" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_1613E935.wem</Path>
+						</File>
+						<File Id="932348280" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_D458BBDA.wem</Path>
+						</File>
+						<File Id="968976730" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_3A9E7071.wem</Path>
+						</File>
+						<File Id="977767096" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_0C1521EB.wem</Path>
+						</File>
+						<File Id="982622575" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_57A2A348.wem</Path>
+						</File>
+						<File Id="989963085" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_D4C9784F.wem</Path>
+						</File>
+						<File Id="991389407" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_FC27F1F6.wem</Path>
+						</File>
+						<File Id="996019480" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_3EEBE1F7.wem</Path>
+						</File>
+						<File Id="996199351" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_316B4DBE.wem</Path>
+						</File>
+						<File Id="1001575401" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_0A0E209B.wem</Path>
+						</File>
+						<File Id="1009506491" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_A4DC23D9.wem</Path>
+						</File>
+						<File Id="1009893983" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_8D4E3879.wem</Path>
+						</File>
+						<File Id="1031769413" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_839E4557.wem</Path>
+						</File>
+						<File Id="1032260100" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_87B5C659.wem</Path>
+						</File>
+						<File Id="1037668369" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_EE3F8F79.wem</Path>
+						</File>
+						<File Id="1043569706" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_46C46890.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}">
+							<Media>
+								<File Id="225656067"/>
+								<File Id="194646047"/>
+								<File Id="503001097"/>
+								<File Id="414371596"/>
+								<File Id="1037668369"/>
+								<File Id="137500171"/>
+								<File Id="277105410"/>
+								<File Id="648255932"/>
+								<File Id="367246750"/>
+								<File Id="895873022"/>
+								<File Id="288213728"/>
+								<File Id="340167229"/>
+								<File Id="845812315"/>
+								<File Id="665787629"/>
+								<File Id="982622575"/>
+								<File Id="130196909"/>
+								<File Id="425962726"/>
+								<File Id="131773003"/>
+								<File Id="1009506491"/>
+								<File Id="563706583"/>
+								<File Id="625005486"/>
+								<File Id="242000775"/>
+								<File Id="503218574"/>
+								<File Id="1032260100"/>
+								<File Id="384308540"/>
+								<File Id="282284284"/>
+								<File Id="932348280"/>
+								<File Id="485508575"/>
+								<File Id="651832254"/>
+								<File Id="328359565"/>
+								<File Id="563489306"/>
+								<File Id="378544819"/>
+								<File Id="1009893983"/>
+								<File Id="925278952"/>
+								<File Id="621809787"/>
+								<File Id="52005449"/>
+								<File Id="366383927"/>
+								<File Id="1001575401"/>
+								<File Id="1031769413"/>
+								<File Id="358155434"/>
+								<File Id="43311077"/>
+								<File Id="476576348"/>
+								<File Id="105497965"/>
+								<File Id="996199351"/>
+								<File Id="849570420"/>
+								<File Id="870003165"/>
+								<File Id="694320869"/>
+								<File Id="223976991"/>
+								<File Id="726569166"/>
+								<File Id="910759707"/>
+								<File Id="916138291"/>
+								<File Id="778949430"/>
+								<File Id="575968081"/>
+								<File Id="849459371"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E343BF40-8DD6-4617-BFCE-4B29B30BD3E7}">
+							<Media>
+								<File Id="26463452"/>
+								<File Id="229787349"/>
+								<File Id="819789367"/>
+								<File Id="774893888"/>
+								<File Id="349575227"/>
+								<File Id="923935641"/>
+								<File Id="461036783"/>
+								<File Id="816074482"/>
+								<File Id="291796340"/>
+								<File Id="668750773"/>
+								<File Id="422545785"/>
+								<File Id="125026326"/>
+								<File Id="968976730"/>
+								<File Id="1043569706"/>
+								<File Id="132189293"/>
+								<File Id="336160307"/>
+								<File Id="121651179"/>
+								<File Id="671764571"/>
+								<File Id="580409958"/>
+								<File Id="675576625"/>
+								<File Id="919307384"/>
+								<File Id="595006944"/>
+								<File Id="676743867"/>
+								<File Id="417064176"/>
+								<File Id="927224820"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1523511-B33A-4A32-9C3D-D9006950D4F0}">
+							<Media>
+								<File Id="783101836"/>
+								<File Id="453299586"/>
+								<File Id="6886913"/>
+								<File Id="898170741"/>
+								<File Id="110735802"/>
+								<File Id="537305308"/>
+								<File Id="641114926"/>
+								<File Id="218156430"/>
+								<File Id="659858682"/>
+								<File Id="991389407"/>
+								<File Id="996019480"/>
+								<File Id="179142042"/>
+								<File Id="977767096"/>
+								<File Id="193407472"/>
+								<File Id="720779459"/>
+								<File Id="922440710"/>
+								<File Id="989963085"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2235524911" Name="Vx_Dialogues_Ch1_Stop" ObjectPath="\Events\Default Work Unit\VOICES\Dialogues\Vx_Dialogues_Ch1_Stop" GUID="{F4BA28CC-C39C-4540-BD76-664319D3D311}" DurationType="OneShot" DurationMin="0.508135" DurationMax="1.288172">
+					<IncludedMemoryFiles>
+						<File Id="158904851" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_11.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_11_10C4C929.wem</Path>
+						</File>
+						<File Id="187023469" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_09.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_09_10C4C929.wem</Path>
+						</File>
+						<File Id="317388020" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_10.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_10_10C4C929.wem</Path>
+						</File>
+						<File Id="420402105" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_08.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_08_10C4C929.wem</Path>
+						</File>
+						<File Id="569397010" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_13.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_13_10C4C929.wem</Path>
+						</File>
+						<File Id="600161241" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_02_10C4C929.wem</Path>
+						</File>
+						<File Id="667229448" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_12.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_12_10C4C929.wem</Path>
+						</File>
+						<File Id="736571307" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_01_10C4C929.wem</Path>
+						</File>
+						<File Id="903207299" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_03.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}">
+							<Media>
+								<File Id="420402105"/>
+								<File Id="187023469"/>
+								<File Id="317388020"/>
+								<File Id="158904851"/>
+								<File Id="667229448"/>
+								<File Id="569397010"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E343BF40-8DD6-4617-BFCE-4B29B30BD3E7}">
+							<Media>
+								<File Id="736571307"/>
+								<File Id="600161241"/>
+								<File Id="903207299"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3346929411" Name="Vx_Dialogues_Ch2" ObjectPath="\Events\Default Work Unit\VOICES\Dialogues\Vx_Dialogues_Ch2" GUID="{22120CD7-87B7-43FA-8D58-1C3E88DB1FE3}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="6886913" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_F4D233AF.wem</Path>
+						</File>
+						<File Id="26463452" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_82C2ACF1.wem</Path>
+						</File>
+						<File Id="43311077" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_55CB2CF4.wem</Path>
+						</File>
+						<File Id="52005449" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_32D23010.wem</Path>
+						</File>
+						<File Id="93572197" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_5C3C2D41.wem</Path>
+						</File>
+						<File Id="105497965" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_0E983EC6.wem</Path>
+						</File>
+						<File Id="110735802" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_3944DD88.wem</Path>
+						</File>
+						<File Id="121651179" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_B56D1AF1.wem</Path>
+						</File>
+						<File Id="130196909" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_68098537.wem</Path>
+						</File>
+						<File Id="131773003" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_7AF83B74.wem</Path>
+						</File>
+						<File Id="132189293" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_F435CED7.wem</Path>
+						</File>
+						<File Id="137500171" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_9C73CA93.wem</Path>
+						</File>
+						<File Id="179142042" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_05F039F9.wem</Path>
+						</File>
+						<File Id="193407472" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_126E1894.wem</Path>
+						</File>
+						<File Id="194646047" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_7C8CA28F.wem</Path>
+						</File>
+						<File Id="218156430" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_7FE56477.wem</Path>
+						</File>
+						<File Id="223976991" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_BCA62E85.wem</Path>
+						</File>
+						<File Id="225656067" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_B5D8F829.wem</Path>
+						</File>
+						<File Id="229787349" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_7405B5A7.wem</Path>
+						</File>
+						<File Id="242000775" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_EAD074CC.wem</Path>
+						</File>
+						<File Id="277105410" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_C2C659FE.wem</Path>
+						</File>
+						<File Id="282284284" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_788CC53E.wem</Path>
+						</File>
+						<File Id="288213728" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_987CFF34.wem</Path>
+						</File>
+						<File Id="291796340" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_7BA90D4F.wem</Path>
+						</File>
+						<File Id="328359565" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_85B3F907.wem</Path>
+						</File>
+						<File Id="336160307" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_58B7C75E.wem</Path>
+						</File>
+						<File Id="340167229" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_43E6D46E.wem</Path>
+						</File>
+						<File Id="349575227" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_9CAE2470.wem</Path>
+						</File>
+						<File Id="358155434" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_97E2FC88.wem</Path>
+						</File>
+						<File Id="366383927" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_A213968D.wem</Path>
+						</File>
+						<File Id="367246750" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_14B1F6C7.wem</Path>
+						</File>
+						<File Id="378544819" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_DB44D7D4.wem</Path>
+						</File>
+						<File Id="384308540" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_DC7957E0.wem</Path>
+						</File>
+						<File Id="384585216" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_B5C9D206.wem</Path>
+						</File>
+						<File Id="414371596" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_912DD766.wem</Path>
+						</File>
+						<File Id="425962726" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_30D01E26.wem</Path>
+						</File>
+						<File Id="453299586" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_1FE31DBA.wem</Path>
+						</File>
+						<File Id="461036783" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_716F2424.wem</Path>
+						</File>
+						<File Id="476576348" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_CBC560F9.wem</Path>
+						</File>
+						<File Id="485508575" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_06DA0B8E.wem</Path>
+						</File>
+						<File Id="503001097" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_0128AD79.wem</Path>
+						</File>
+						<File Id="503218574" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_35109B5A.wem</Path>
+						</File>
+						<File Id="513363956" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_AE476276.wem</Path>
+						</File>
+						<File Id="537305308" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_749F439C.wem</Path>
+						</File>
+						<File Id="563489306" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_70D5A275.wem</Path>
+						</File>
+						<File Id="563706583" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_978A8AF5.wem</Path>
+						</File>
+						<File Id="575968081" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_096B5D33.wem</Path>
+						</File>
+						<File Id="580409958" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_1AA515A0.wem</Path>
+						</File>
+						<File Id="621809787" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_6A078066.wem</Path>
+						</File>
+						<File Id="624401663" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_990EA66A.wem</Path>
+						</File>
+						<File Id="625005486" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_9E37833D.wem</Path>
+						</File>
+						<File Id="641114926" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_3530D4FC.wem</Path>
+						</File>
+						<File Id="648255932" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_45A3560F.wem</Path>
+						</File>
+						<File Id="651832254" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_E6BC4800.wem</Path>
+						</File>
+						<File Id="659858682" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_402338EA.wem</Path>
+						</File>
+						<File Id="665787629" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_4FFC85A2.wem</Path>
+						</File>
+						<File Id="671764571" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_A948A3D9.wem</Path>
+						</File>
+						<File Id="675576625" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_D6E5EDA4.wem</Path>
+						</File>
+						<File Id="692432169" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_026B790B.wem</Path>
+						</File>
+						<File Id="694320869" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_A663A2B2.wem</Path>
+						</File>
+						<File Id="720779459" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_761E3641.wem</Path>
+						</File>
+						<File Id="726569166" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_B9CD5813.wem</Path>
+						</File>
+						<File Id="774893888" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_6898572B.wem</Path>
+						</File>
+						<File Id="778949430" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_0E2C2F4D.wem</Path>
+						</File>
+						<File Id="783101836" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_7557078D.wem</Path>
+						</File>
+						<File Id="816074482" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_EB62FEAD.wem</Path>
+						</File>
+						<File Id="819789367" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_12AB5163.wem</Path>
+						</File>
+						<File Id="845812315" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_0CA227D3.wem</Path>
+						</File>
+						<File Id="849459371" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_F4F8FC32.wem</Path>
+						</File>
+						<File Id="849570420" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_59DEFC1F.wem</Path>
+						</File>
+						<File Id="870003165" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_377522D1.wem</Path>
+						</File>
+						<File Id="895873022" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_EEA8FD9C.wem</Path>
+						</File>
+						<File Id="898170741" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_C197A55E.wem</Path>
+						</File>
+						<File Id="910759707" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_8C0F5159.wem</Path>
+						</File>
+						<File Id="916138291" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_CF916829.wem</Path>
+						</File>
+						<File Id="916364965" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_B4405B3B.wem</Path>
+						</File>
+						<File Id="922440710" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_F942A31F.wem</Path>
+						</File>
+						<File Id="925278952" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_0B715C7A.wem</Path>
+						</File>
+						<File Id="932348280" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_D458BBDA.wem</Path>
+						</File>
+						<File Id="957269775" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_46DF335D.wem</Path>
+						</File>
+						<File Id="968976730" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_3A9E7071.wem</Path>
+						</File>
+						<File Id="977767096" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_0C1521EB.wem</Path>
+						</File>
+						<File Id="982622575" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_57A2A348.wem</Path>
+						</File>
+						<File Id="989963085" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_D4C9784F.wem</Path>
+						</File>
+						<File Id="991389407" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_01_FC27F1F6.wem</Path>
+						</File>
+						<File Id="995916378" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_01_1F0A9757.wem</Path>
+						</File>
+						<File Id="996019480" Language="SFX">
+							<ShortName>Vx_Sentences_Bad_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Bad_Ch2_02_3EEBE1F7.wem</Path>
+						</File>
+						<File Id="996199351" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_316B4DBE.wem</Path>
+						</File>
+						<File Id="998798179" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_4925BED4.wem</Path>
+						</File>
+						<File Id="1001575401" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_0A0E209B.wem</Path>
+						</File>
+						<File Id="1009506491" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_A4DC23D9.wem</Path>
+						</File>
+						<File Id="1009893983" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_8D4E3879.wem</Path>
+						</File>
+						<File Id="1031769413" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_03_839E4557.wem</Path>
+						</File>
+						<File Id="1032260100" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_02_87B5C659.wem</Path>
+						</File>
+						<File Id="1037668369" Language="SFX">
+							<ShortName>Voices\Vx_Sentences_Bored_Ch2_01.wav</ShortName>
+							<Path>SFX\Voices\Vx_Sentences_Bored_Ch2_01_EE3F8F79.wem</Path>
+						</File>
+						<File Id="1043569706" Language="SFX">
+							<ShortName>Vx_Sentences_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Vx_Sentences_Good_Ch2_02_46C46890.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}">
+							<Media>
+								<File Id="225656067"/>
+								<File Id="194646047"/>
+								<File Id="503001097"/>
+								<File Id="414371596"/>
+								<File Id="1037668369"/>
+								<File Id="137500171"/>
+								<File Id="277105410"/>
+								<File Id="648255932"/>
+								<File Id="367246750"/>
+								<File Id="895873022"/>
+								<File Id="288213728"/>
+								<File Id="340167229"/>
+								<File Id="845812315"/>
+								<File Id="665787629"/>
+								<File Id="982622575"/>
+								<File Id="130196909"/>
+								<File Id="425962726"/>
+								<File Id="131773003"/>
+								<File Id="1009506491"/>
+								<File Id="563706583"/>
+								<File Id="625005486"/>
+								<File Id="242000775"/>
+								<File Id="503218574"/>
+								<File Id="1032260100"/>
+								<File Id="384308540"/>
+								<File Id="282284284"/>
+								<File Id="932348280"/>
+								<File Id="485508575"/>
+								<File Id="651832254"/>
+								<File Id="328359565"/>
+								<File Id="563489306"/>
+								<File Id="378544819"/>
+								<File Id="1009893983"/>
+								<File Id="925278952"/>
+								<File Id="621809787"/>
+								<File Id="52005449"/>
+								<File Id="366383927"/>
+								<File Id="1001575401"/>
+								<File Id="1031769413"/>
+								<File Id="358155434"/>
+								<File Id="43311077"/>
+								<File Id="476576348"/>
+								<File Id="105497965"/>
+								<File Id="996199351"/>
+								<File Id="849570420"/>
+								<File Id="870003165"/>
+								<File Id="694320869"/>
+								<File Id="223976991"/>
+								<File Id="726569166"/>
+								<File Id="910759707"/>
+								<File Id="916138291"/>
+								<File Id="778949430"/>
+								<File Id="575968081"/>
+								<File Id="849459371"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E343BF40-8DD6-4617-BFCE-4B29B30BD3E7}">
+							<Media>
+								<File Id="26463452"/>
+								<File Id="229787349"/>
+								<File Id="819789367"/>
+								<File Id="774893888"/>
+								<File Id="349575227"/>
+								<File Id="916364965"/>
+								<File Id="461036783"/>
+								<File Id="816074482"/>
+								<File Id="291796340"/>
+								<File Id="384585216"/>
+								<File Id="995916378"/>
+								<File Id="692432169"/>
+								<File Id="968976730"/>
+								<File Id="1043569706"/>
+								<File Id="132189293"/>
+								<File Id="336160307"/>
+								<File Id="121651179"/>
+								<File Id="671764571"/>
+								<File Id="580409958"/>
+								<File Id="675576625"/>
+								<File Id="513363956"/>
+								<File Id="93572197"/>
+								<File Id="998798179"/>
+								<File Id="624401663"/>
+								<File Id="957269775"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C1523511-B33A-4A32-9C3D-D9006950D4F0}">
+							<Media>
+								<File Id="783101836"/>
+								<File Id="453299586"/>
+								<File Id="6886913"/>
+								<File Id="898170741"/>
+								<File Id="110735802"/>
+								<File Id="537305308"/>
+								<File Id="641114926"/>
+								<File Id="218156430"/>
+								<File Id="659858682"/>
+								<File Id="991389407"/>
+								<File Id="996019480"/>
+								<File Id="179142042"/>
+								<File Id="977767096"/>
+								<File Id="193407472"/>
+								<File Id="720779459"/>
+								<File Id="922440710"/>
+								<File Id="989963085"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="546057326" Name="Vx_Dialogues_Ch2_Stop" ObjectPath="\Events\Default Work Unit\VOICES\Dialogues\Vx_Dialogues_Ch2_Stop" GUID="{A3D6BEEF-F8E1-4882-8223-F1EBEC803A15}" DurationType="OneShot" DurationMin="0.670488" DurationMax="1.496628">
+					<IncludedMemoryFiles>
+						<File Id="77019479" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_02.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_02_10C4C929.wem</Path>
+						</File>
+						<File Id="87576229" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_03.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_03_10C4C929.wem</Path>
+						</File>
+						<File Id="116794088" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_04.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_04_10C4C929.wem</Path>
+						</File>
+						<File Id="430091001" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_05.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_05_10C4C929.wem</Path>
+						</File>
+						<File Id="436526702" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_07.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_07_10C4C929.wem</Path>
+						</File>
+						<File Id="600161241" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_02.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_02_10C4C929.wem</Path>
+						</File>
+						<File Id="736571307" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_01.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_01_10C4C929.wem</Path>
+						</File>
+						<File Id="903207299" Language="SFX">
+							<ShortName>Laugh\Vx_Laugh_Good_Ch2_03.wav</ShortName>
+							<Path>SFX\Laugh\Vx_Laugh_Good_Ch2_03_10C4C929.wem</Path>
+						</File>
+						<File Id="907419385" Language="SFX">
+							<ShortName>Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_06.wav</ShortName>
+							<Path>SFX\Voices\Yawn\Ch2\Vx_Yawn_Bored_Ch2_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}">
+							<Media>
+								<File Id="77019479"/>
+								<File Id="87576229"/>
+								<File Id="116794088"/>
+								<File Id="430091001"/>
+								<File Id="907419385"/>
+								<File Id="436526702"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E343BF40-8DD6-4617-BFCE-4B29B30BD3E7}">
+							<Media>
+								<File Id="736571307"/>
+								<File Id="600161241"/>
+								<File Id="903207299"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2025725552" Name="RTPC_Gauge" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Gauge" GUID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1504714416" Name="Ss_States" ObjectPath="\Switches\Default Work Unit\Ss_States" GUID="{CAB198F3-4D40-46F6-A3CA-9161CA426330}">
+					<Switches>
+						<Switch Id="2890913445" Name="Bored" ObjectPath="\Switches\Default Work Unit\Ss_States\Bored" GUID="{B4B1DD36-D12E-4CB3-96AF-A0C900890A8D}"/>
+						<Switch Id="1048449617" Name="Mad" ObjectPath="\Switches\Default Work Unit\Ss_States\Mad" GUID="{C1523511-B33A-4A32-9C3D-D9006950D4F0}"/>
+						<Switch Id="1273057318" Name="Flirt" ObjectPath="\Switches\Default Work Unit\Ss_States\Flirt" GUID="{E343BF40-8DD6-4617-BFCE-4B29B30BD3E7}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="3991942870" GUID="{2C710567-E650-4B35-B475-BFA234367CDF}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MUSIC</ObjectPath>
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1751147339" Name="Atm_Background_TV" ObjectPath="\Events\Default Work Unit\ATMOS\Atm_Background_TV" GUID="{D46ACC6B-36FD-476F-A6DA-BE2E26141792}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="928785681" Language="SFX">
+							<ShortName>TV\Atm_TVShow_Close.wav</ShortName>
+							<Path>SFX\TV\Atm_TVShow_Close_0241D95F.wem</Path>
+						</File>
+						<File Id="1027392780" Language="SFX">
+							<ShortName>TV\Atm_TVShow.wav</ShortName>
+							<Path>SFX\TV\Atm_TVShow_19674BEC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1745028472" Name="Mx_LesticosSong" ObjectPath="\Events\Default Work Unit\MUSIC\Mx_LesticosSong" GUID="{733A547C-42D6-416E-9060-7E0AC88DBAF5}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="226483068" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="852303102" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem</Path>
+						</File>
+						<File Id="971791574" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="13599532" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Intro.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Intro_C1F52A07.wem</Path>
+						</File>
+						<File Id="226483068" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem</Path>
+							<PrefetchSize>3116</PrefetchSize>
+						</File>
+						<File Id="852303102" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem</Path>
+							<PrefetchSize>2313</PrefetchSize>
+						</File>
+						<File Id="971791574" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem</Path>
+							<PrefetchSize>2208</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1751147339" Name="Atm_Background_TV" ObjectPath="\Events\Default Work Unit\ATMOS\Atm_Background_TV" GUID="{D46ACC6B-36FD-476F-A6DA-BE2E26141792}"/>
+					</ActionPostEvent>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="690456766" Name="RTPC_FarFromScene" ObjectPath="\Game Parameters\Default Work Unit\RTPC_FarFromScene" GUID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}"/>
+				<GameParameter Id="2025725552" Name="RTPC_Gauge" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Gauge" GUID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

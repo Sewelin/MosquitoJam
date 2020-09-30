@@ -26,8 +26,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Drink\\SFX_Drink_Ch1",
       "GUID": "{6BFF688F-0E02-45EB-A5CF-D2601A64DDFE}",
       "DurationType": "OneShot",
-      "DurationMin": "0.041470",
-      "DurationMax": "0.342002",
+      "DurationMin": "0.034075",
+      "DurationMax": "0.183838",
       "IncludedMemoryFiles": [
        {
         "Id": "19307305",
@@ -36,16 +36,22 @@
         "Path": "SFX\\Drink\\SFX_Drink_34_10C4C929.wem"
        },
        {
-        "Id": "51749834",
+        "Id": "26076559",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_04.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_04_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_23.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_23_F84A3F25.wem"
        },
        {
-        "Id": "70833988",
+        "Id": "59604473",
         "Language": "SFX",
         "ShortName": "Drink\\SFX_Drink_07.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_07_10C4C929.wem"
+        "Path": "SFX\\Drink\\SFX_Drink_07_9672A6F6.wem"
+       },
+       {
+        "Id": "114483156",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_06.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_06_F1633FC8.wem"
        },
        {
         "Id": "120636876",
@@ -54,40 +60,10 @@
         "Path": "SFX\\Drink\\SFX_Drink_36_10C4C929.wem"
        },
        {
-        "Id": "129380110",
+        "Id": "215829065",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_11.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_11_10C4C929.wem"
-       },
-       {
-        "Id": "146277035",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_33.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_33_10C4C929.wem"
-       },
-       {
-        "Id": "167252107",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_15.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_15_10C4C929.wem"
-       },
-       {
-        "Id": "217607679",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_21.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_21_10C4C929.wem"
-       },
-       {
-        "Id": "219732519",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_14.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_14_10C4C929.wem"
-       },
-       {
-        "Id": "224210942",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_06.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_06_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_12.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_12_EB6B1ED7.wem"
        },
        {
         "Id": "257394053",
@@ -96,10 +72,10 @@
         "Path": "SFX\\Drink\\SFX_Drink_17_10C4C929.wem"
        },
        {
-        "Id": "259374757",
+        "Id": "261860865",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_23.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_23_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_09.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_09_3E047799.wem"
        },
        {
         "Id": "272292531",
@@ -108,16 +84,52 @@
         "Path": "SFX\\Drink\\SFX_Drink_18_10C4C929.wem"
        },
        {
+        "Id": "281228963",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_15.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_15_D8C60625.wem"
+       },
+       {
+        "Id": "287706206",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_10.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_10_89EEE0FD.wem"
+       },
+       {
         "Id": "332746687",
         "Language": "SFX",
         "ShortName": "Drink\\SFX_Drink_16.wav",
         "Path": "SFX\\Drink\\SFX_Drink_16_10C4C929.wem"
        },
        {
-        "Id": "401455326",
+        "Id": "333267927",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_13.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_13_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_28.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_28_54193CE2.wem"
+       },
+       {
+        "Id": "374181212",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_29.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_29_D7512461.wem"
+       },
+       {
+        "Id": "380595528",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_03.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_03_D14B0007.wem"
+       },
+       {
+        "Id": "391982382",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_08.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_08_CA8004BA.wem"
+       },
+       {
+        "Id": "392133611",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_22.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_22_0F9A9710.wem"
        },
        {
         "Id": "440317210",
@@ -126,10 +138,16 @@
         "Path": "SFX\\Drink\\SFX_Drink_20_10C4C929.wem"
        },
        {
-        "Id": "454099835",
+        "Id": "511392884",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_22.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_22_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_13.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_13_785AF916.wem"
+       },
+       {
+        "Id": "530767652",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_14.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_14_59AB311F.wem"
        },
        {
         "Id": "541620795",
@@ -144,16 +162,16 @@
         "Path": "SFX\\Drink\\SFX_Drink_35_10C4C929.wem"
        },
        {
-        "Id": "586127417",
+        "Id": "552671402",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_29.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_29_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_04.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_04_FEE2D8B4.wem"
        },
        {
-        "Id": "595971199",
+        "Id": "561816934",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_02.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_02_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_33.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_33_5A4004CA.wem"
        },
        {
         "Id": "596022068",
@@ -162,34 +180,22 @@
         "Path": "SFX\\Drink\\SFX_Drink_27_10C4C929.wem"
        },
        {
-        "Id": "615012056",
+        "Id": "669779386",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_28.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_28_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_21.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_21_E05D496E.wem"
        },
        {
-        "Id": "636197602",
+        "Id": "673027948",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_10.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_10_10C4C929.wem"
-       },
-       {
-        "Id": "666080641",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_01.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_01_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_02.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_02_10642000.wem"
        },
        {
         "Id": "673643214",
         "Language": "SFX",
         "ShortName": "Drink\\SFX_Drink_26.wav",
         "Path": "SFX\\Drink\\SFX_Drink_26_10C4C929.wem"
-       },
-       {
-        "Id": "708195366",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_09.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_09_10C4C929.wem"
        },
        {
         "Id": "725034759",
@@ -210,16 +216,10 @@
         "Path": "SFX\\Drink\\SFX_Drink_30_10C4C929.wem"
        },
        {
-        "Id": "735996023",
+        "Id": "801731481",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_05.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_05_10C4C929.wem"
-       },
-       {
-        "Id": "805349185",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_24.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_24_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_01.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_01_C5AE4148.wem"
        },
        {
         "Id": "845429499",
@@ -228,10 +228,16 @@
         "Path": "SFX\\Drink\\SFX_Drink_39_10C4C929.wem"
        },
        {
-        "Id": "895049144",
+        "Id": "857136574",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_08.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_08_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_11.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_11_276C7F9D.wem"
+       },
+       {
+        "Id": "869737112",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_05.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_05_FCAD6C64.wem"
        },
        {
         "Id": "904502994",
@@ -246,10 +252,10 @@
         "Path": "SFX\\Drink\\SFX_Drink_40_10C4C929.wem"
        },
        {
-        "Id": "979151826",
+        "Id": "977863426",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_12.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_12_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_24.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_24_5C4B9089.wem"
        },
        {
         "Id": "987780225",
@@ -262,12 +268,6 @@
         "Language": "SFX",
         "ShortName": "Drink\\SFX_Drink_37.wav",
         "Path": "SFX\\Drink\\SFX_Drink_37_10C4C929.wem"
-       },
-       {
-        "Id": "1030893550",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_03.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_03_10C4C929.wem"
        }
       ]
      },
@@ -277,8 +277,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Drink\\SFX_Drink_Ch2",
       "GUID": "{D5F6BA38-B1BE-4C4A-AE49-61EE05E2A71B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.087365",
-      "DurationMax": "0.720504",
+      "DurationMin": "0.052551",
+      "DurationMax": "0.283517",
       "IncludedMemoryFiles": [
        {
         "Id": "19307305",
@@ -287,16 +287,22 @@
         "Path": "SFX\\Drink\\SFX_Drink_34_10C4C929.wem"
        },
        {
-        "Id": "51749834",
+        "Id": "26076559",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_04.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_04_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_23.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_23_F84A3F25.wem"
        },
        {
-        "Id": "70833988",
+        "Id": "59604473",
         "Language": "SFX",
         "ShortName": "Drink\\SFX_Drink_07.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_07_10C4C929.wem"
+        "Path": "SFX\\Drink\\SFX_Drink_07_9672A6F6.wem"
+       },
+       {
+        "Id": "114483156",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_06.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_06_F1633FC8.wem"
        },
        {
         "Id": "120636876",
@@ -305,40 +311,10 @@
         "Path": "SFX\\Drink\\SFX_Drink_36_10C4C929.wem"
        },
        {
-        "Id": "129380110",
+        "Id": "215829065",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_11.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_11_10C4C929.wem"
-       },
-       {
-        "Id": "146277035",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_33.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_33_10C4C929.wem"
-       },
-       {
-        "Id": "167252107",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_15.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_15_10C4C929.wem"
-       },
-       {
-        "Id": "217607679",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_21.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_21_10C4C929.wem"
-       },
-       {
-        "Id": "219732519",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_14.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_14_10C4C929.wem"
-       },
-       {
-        "Id": "224210942",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_06.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_06_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_12.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_12_EB6B1ED7.wem"
        },
        {
         "Id": "257394053",
@@ -347,10 +323,10 @@
         "Path": "SFX\\Drink\\SFX_Drink_17_10C4C929.wem"
        },
        {
-        "Id": "259374757",
+        "Id": "261860865",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_23.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_23_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_09.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_09_3E047799.wem"
        },
        {
         "Id": "272292531",
@@ -359,16 +335,52 @@
         "Path": "SFX\\Drink\\SFX_Drink_18_10C4C929.wem"
        },
        {
+        "Id": "281228963",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_15.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_15_D8C60625.wem"
+       },
+       {
+        "Id": "287706206",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_10.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_10_89EEE0FD.wem"
+       },
+       {
         "Id": "332746687",
         "Language": "SFX",
         "ShortName": "Drink\\SFX_Drink_16.wav",
         "Path": "SFX\\Drink\\SFX_Drink_16_10C4C929.wem"
        },
        {
-        "Id": "401455326",
+        "Id": "333267927",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_13.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_13_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_28.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_28_54193CE2.wem"
+       },
+       {
+        "Id": "374181212",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_29.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_29_D7512461.wem"
+       },
+       {
+        "Id": "380595528",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_03.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_03_D14B0007.wem"
+       },
+       {
+        "Id": "391982382",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_08.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_08_CA8004BA.wem"
+       },
+       {
+        "Id": "392133611",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_22.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_22_0F9A9710.wem"
        },
        {
         "Id": "440317210",
@@ -377,10 +389,16 @@
         "Path": "SFX\\Drink\\SFX_Drink_20_10C4C929.wem"
        },
        {
-        "Id": "454099835",
+        "Id": "511392884",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_22.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_22_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_13.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_13_785AF916.wem"
+       },
+       {
+        "Id": "530767652",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_14.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_14_59AB311F.wem"
        },
        {
         "Id": "541620795",
@@ -395,16 +413,16 @@
         "Path": "SFX\\Drink\\SFX_Drink_35_10C4C929.wem"
        },
        {
-        "Id": "586127417",
+        "Id": "552671402",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_29.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_29_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_04.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_04_FEE2D8B4.wem"
        },
        {
-        "Id": "595971199",
+        "Id": "561816934",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_02.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_02_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_33.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_33_5A4004CA.wem"
        },
        {
         "Id": "596022068",
@@ -413,34 +431,22 @@
         "Path": "SFX\\Drink\\SFX_Drink_27_10C4C929.wem"
        },
        {
-        "Id": "615012056",
+        "Id": "669779386",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_28.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_28_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_21.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_21_E05D496E.wem"
        },
        {
-        "Id": "636197602",
+        "Id": "673027948",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_10.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_10_10C4C929.wem"
-       },
-       {
-        "Id": "666080641",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_01.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_01_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_02.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_02_10642000.wem"
        },
        {
         "Id": "673643214",
         "Language": "SFX",
         "ShortName": "Drink\\SFX_Drink_26.wav",
         "Path": "SFX\\Drink\\SFX_Drink_26_10C4C929.wem"
-       },
-       {
-        "Id": "708195366",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_09.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_09_10C4C929.wem"
        },
        {
         "Id": "725034759",
@@ -461,16 +467,10 @@
         "Path": "SFX\\Drink\\SFX_Drink_30_10C4C929.wem"
        },
        {
-        "Id": "735996023",
+        "Id": "801731481",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_05.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_05_10C4C929.wem"
-       },
-       {
-        "Id": "805349185",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_24.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_24_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_01.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_01_C5AE4148.wem"
        },
        {
         "Id": "845429499",
@@ -479,10 +479,16 @@
         "Path": "SFX\\Drink\\SFX_Drink_39_10C4C929.wem"
        },
        {
-        "Id": "895049144",
+        "Id": "857136574",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_08.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_08_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_11.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_11_276C7F9D.wem"
+       },
+       {
+        "Id": "869737112",
+        "Language": "SFX",
+        "ShortName": "Drink\\SFX_Drink_05.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_05_FCAD6C64.wem"
        },
        {
         "Id": "904502994",
@@ -497,10 +503,10 @@
         "Path": "SFX\\Drink\\SFX_Drink_40_10C4C929.wem"
        },
        {
-        "Id": "979151826",
+        "Id": "977863426",
         "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_12.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_12_10C4C929.wem"
+        "ShortName": "Drink\\SFX_Drink_24.wav",
+        "Path": "SFX\\Drink\\SFX_Drink_24_5C4B9089.wem"
        },
        {
         "Id": "987780225",
@@ -513,29 +519,154 @@
         "Language": "SFX",
         "ShortName": "Drink\\SFX_Drink_37.wav",
         "Path": "SFX\\Drink\\SFX_Drink_37_10C4C929.wem"
-       },
-       {
-        "Id": "1030893550",
-        "Language": "SFX",
-        "ShortName": "Drink\\SFX_Drink_03.wav",
-        "Path": "SFX\\Drink\\SFX_Drink_03_10C4C929.wem"
        }
       ]
      },
      {
-      "Id": "3742372672",
-      "Name": "SFX_Drink_Test",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Drink\\SFX_Drink_Test",
-      "GUID": "{63D5066D-E4DA-43AE-A8F8-931CF9B4DD1A}",
+      "Id": "2428466393",
+      "Name": "SFX_End_Kiss",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\UI\\SFX_End_Kiss",
+      "GUID": "{A459DAED-83B3-4FF0-8A92-38F7A52584C4}",
       "DurationType": "OneShot",
-      "DurationMin": "1.031083",
-      "DurationMax": "1.031083",
+      "DurationMin": "6.918244",
+      "DurationMax": "6.918244",
       "IncludedMemoryFiles": [
        {
-        "Id": "875891286",
+        "Id": "182435311",
         "Language": "SFX",
-        "ShortName": "SFX_Drink_01.wav",
-        "Path": "SFX\\SFX_Drink_01_10C4C929.wem"
+        "ShortName": "SFX_Cartoon, Kiss.wav",
+        "Path": "SFX\\SFX_Cartoon, Kiss_10C4C929.wem"
+       },
+       {
+        "Id": "571644507",
+        "Language": "SFX",
+        "ShortName": "SFX_Chimes.wav",
+        "Path": "SFX\\SFX_Chimes_7C5BBB4C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2842188021",
+      "Name": "SFX_End_Slap",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Slap\\SFX_End_Slap",
+      "GUID": "{1A3DC964-1972-4E04-B39C-63239FF20E29}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.264625",
+      "DurationMax": "1.264625",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "60264027",
+        "Language": "SFX",
+        "ShortName": "SFX_Grunt.wav",
+        "Path": "SFX\\SFX_Grunt_10C4C929.wem"
+       },
+       {
+        "Id": "629193139",
+        "Language": "SFX",
+        "ShortName": "SFX_Slap_01.wav",
+        "Path": "SFX\\SFX_Slap_01_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "980603520",
+        "Name": "Rev",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Rev",
+        "GUID": "{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}"
+       }
+      ]
+     },
+     {
+      "Id": "3956444467",
+      "Name": "SFX_Pop_Out",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\UI\\SFX_Pop_Out",
+      "GUID": "{F2FBEF2C-CAE8-46A7-96F7-AA206AA227EA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.243270",
+      "DurationMax": "0.382116",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "53486594",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_03.wav",
+        "Path": "SFX\\SFX_PopUp_03_10C4C929.wem"
+       },
+       {
+        "Id": "182741952",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_c_01.wav",
+        "Path": "SFX\\SFX_PopUp_c_01_10C4C929.wem"
+       },
+       {
+        "Id": "664109693",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_04.wav",
+        "Path": "SFX\\SFX_PopUp_04_10C4C929.wem"
+       },
+       {
+        "Id": "992977486",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_c_02.wav",
+        "Path": "SFX\\SFX_PopUp_c_02_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1782989462",
+      "Name": "SFX_Pop_Up",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\UI\\SFX_Pop_Up",
+      "GUID": "{C67F6F82-574A-4B32-AAE2-E2B9836B49AD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.206942",
+      "DurationMax": "0.506999",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "53486594",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_03.wav",
+        "Path": "SFX\\SFX_PopUp_03_10C4C929.wem"
+       },
+       {
+        "Id": "100923663",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_06.wav",
+        "Path": "SFX\\SFX_PopUp_06_10C4C929.wem"
+       },
+       {
+        "Id": "182741952",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_c_01.wav",
+        "Path": "SFX\\SFX_PopUp_c_01_10C4C929.wem"
+       },
+       {
+        "Id": "497342484",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_05.wav",
+        "Path": "SFX\\SFX_PopUp_05_10C4C929.wem"
+       },
+       {
+        "Id": "664109693",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_04.wav",
+        "Path": "SFX\\SFX_PopUp_04_10C4C929.wem"
+       },
+       {
+        "Id": "992977486",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_c_02.wav",
+        "Path": "SFX\\SFX_PopUp_c_02_10C4C929.wem"
+       },
+       {
+        "Id": "1037594266",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_01.wav",
+        "Path": "SFX\\SFX_PopUp_01_10C4C929.wem"
+       },
+       {
+        "Id": "1069386461",
+        "Language": "SFX",
+        "ShortName": "SFX_PopUp_02.wav",
+        "Path": "SFX\\SFX_PopUp_02_10C4C929.wem"
        }
       ]
      }

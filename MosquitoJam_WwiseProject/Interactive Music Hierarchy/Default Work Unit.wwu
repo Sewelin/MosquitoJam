@@ -9,9 +9,278 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36C7F312-55D5-42E9-87C8-1A3DD59B91C4}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+							<ObjectRef Name="MUSIC" ID="{CE8806FC-FE40-4989-BA7C-84CB7F52D5C3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="17_Jazz Casino_A_Mañana" ID="{A67EC96E-E3E1-449E-AB35-689E38E770B7}" ShortID="67818197">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="184000"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="17_Jazz Casino_A_Mañana" ID="{F70D01B0-2A73-4E85-AAFB-7338EB0F8E4E}" ShortID="616901403">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="17_Jazz Casino_A_Mañana" ID="{475FDCBB-D85A-4DBB-B0A6-DE76BF2471D1}">
+											<Language>SFX</Language>
+											<AudioFile>17_Jazz Casino_A_Mañana.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="651075711"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1024C048-3E11-4C82-9C97-ADD652D3C768}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{DA5B8D39-5AD3-42DF-B866-E200F17607D4}">
+											<ClipList>
+												<MusicClip Name="17_Jazz Casino_A_Mañana" ID="{2EA4CC7E-5956-4F31-9E41-8E77F5FBE610}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="184000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="17_Jazz Casino_A_Mañana" ID="{475FDCBB-D85A-4DBB-B0A6-DE76BF2471D1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D519512B-C5B2-4911-96D0-21682BF36BBD}"/>
+								<MusicCue Name="Exit Cue" ID="{D7445B29-2EF4-4DA8-B752-CA5D982FD573}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="184000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicPlaylistContainer Name="OST" ID="{CFCAB6CC-3EDA-4E92-8658-FA9868560903}" ShortID="780036347">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Intro" ID="{8ABB10E4-1145-4CA7-95C2-A562AF658CDB}" ShortID="380652347">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="12571.4375"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="210"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36C7F312-55D5-42E9-87C8-1A3DD59B91C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="ENJAM 2020 - Mosquito's Song - Intro" ID="{67C5C3DB-5220-4391-9C9D-3384FF5F0B3C}" ShortID="237492175">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENJAM 2020 - Mosquito's Song - Intro" ID="{A4C39F9A-F7F8-454F-8431-9427CC3921D9}">
+													<Language>SFX</Language>
+													<AudioFile>ENJAM 2020 - Mosquito's Song - Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="991326011"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D04DF0E4-8BBC-40B2-9849-87683213F664}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{1076FB76-C35C-40C2-BCD6-828A556632E2}">
+													<ClipList>
+														<MusicClip Name="ENJAM 2020 - Mosquito's Song - Intro" ID="{9DB66D39-0BCB-4CF7-9123-7E34A8C7FCBB}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12571.4375"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="ENJAM 2020 - Mosquito's Song - Intro" ID="{A4C39F9A-F7F8-454F-8431-9427CC3921D9}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{F614200A-E27F-493E-951B-CE52D3733CC3}"/>
+										<MusicCue Name="Exit Cue" ID="{FC8BE527-CB20-4243-A5A2-A9B036EE7126}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="12571.4375"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Loop" ID="{45EC59B1-85BB-4519-A93F-0282EDF3119C}" ShortID="834949843">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="22857.1458333333"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="210"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36C7F312-55D5-42E9-87C8-1A3DD59B91C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="ENJAM 2020 - Mosquito's Song - Loop" ID="{FF515EB5-64C1-48FB-8AA3-594A73F04DDB}" ShortID="236150202">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENJAM 2020 - Mosquito's Song - Loop" ID="{CF3B2C31-5757-4F18-8D5F-95741DA87896}">
+													<Language>SFX</Language>
+													<AudioFile>ENJAM 2020 - Mosquito's Song - Loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="423796821"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E124A2EE-25C2-4DCA-8484-F62AA99E012C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{92519FBA-4ABC-44CF-B8A4-B667CCF4A90F}">
+													<ClipList>
+														<MusicClip Name="ENJAM 2020 - Mosquito's Song - Loop" ID="{90821210-7EA8-4731-9819-FDA46793ACE2}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="22857.1458333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="ENJAM 2020 - Mosquito's Song - Loop" ID="{CF3B2C31-5757-4F18-8D5F-95741DA87896}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Noob" ID="{EF7FE67B-15AC-4FB6-87A9-10183A7BC001}" ShortID="673230164">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B8F6F72D-90B2-4215-8E4A-E5F7CAE1B450}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0B77D4B0-6057-489E-B3DB-3CBBEB596089}"/>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{C3082FC2-D97F-4C42-BB86-D430124BE7D4}"/>
+										<MusicCue Name="Exit Cue" ID="{2D3C6838-88AA-4C3B-8CBA-AE9B7EEBA545}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="22857.1458333333"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{A3FC1CE3-5452-4AF5-9E35-3B55DB29FC99}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{34C707A7-51D3-448B-855E-A6C2B42EFB17}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{B7008169-1DAC-42FA-8D07-B7F9D7753DBF}" ShortID="456818521">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{DC67B4B8-EB5A-49A8-B747-7C484FD78A02}" ShortID="110926754">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Intro" ID="{8ABB10E4-1145-4CA7-95C2-A562AF658CDB}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{400A0B03-3B61-4D39-B17D-E1A032C1DC90}" ShortID="417762507">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Loop" ID="{45EC59B1-85BB-4519-A93F-0282EDF3119C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{4D79CF5F-8147-426A-9969-EB4C9713DFBD}">
 							<PropertyList>

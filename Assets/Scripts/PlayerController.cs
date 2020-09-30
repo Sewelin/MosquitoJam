@@ -9,35 +9,52 @@ using Random = UnityEngine.Random;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private GameManager gameManager;
-    [SerializeField] private Text drinkAction;
-    [SerializeField] private Text talkAction;
+    [SerializeField] private List<Image> drinkAction = new List<Image>();
+    [SerializeField] private List<Text> drinkActionText = new List<Text>();
+    [SerializeField] private List<Image> talkAction = new List<Image>();
+    [SerializeField] private List<Text> talkActionText = new List<Text>();
+    [SerializeField] private List<Sprite> buttonSprites = new List<Sprite>();
 
-    [SerializeField] private AK.Wwise.Event drinkSound;
+    [SerializeField] private AK.Wwise.Event drinkSound1;
+    [SerializeField] private AK.Wwise.Event drinkSound2;
     
     private Controls _controls;
     private List<InputAction> _actions;
-    private InputAction _currentDrinkAction;
-    private InputAction _currentTalkAction;
+    private readonly List<InputAction> _currentDrinkAction = new List<InputAction> {null, null};
+    private readonly List<InputAction> _currentTalkAction = new List<InputAction> {null, null};
+    private List<Animator> _drinkAnimators = new List<Animator>();
+    private readonly List<bool> _talkPossible = new List<bool> {false, false};
+
+    [SerializeField] private Rect talkZone0 = new Rect();
+    [SerializeField] private Rect talkZone1 = new Rect();
 
     [SerializeField] private float drinkChangeTime = 4f; 
     [SerializeField] private float talkAppearTime = 1f;
 
-    private bool _talkPossible = false;
+    private static readonly int Pressed = Animator.StringToHash("Pressed");
 
-    private bool TalkPossible
+    private void SetTalkPossible(int num, bool value, string actionName = "", Sprite buttonSprite = null)
     {
-        get => _talkPossible;
-        set
+        _talkPossible[num] = value;
+        if (value)
         {
-            _talkPossible = value;
-            talkAction.gameObject.SetActive(_talkPossible);
+            var talkZone = num == 0 ? talkZone0 : talkZone1;
+            var min = new Vector2(Random.Range(talkZone.xMin, talkZone.xMax),
+                Random.Range(talkZone.yMin, talkZone.yMax));
+            ((RectTransform) talkAction[num].transform).anchorMin = min;
+            ((RectTransform) talkAction[num].transform).anchorMax = min + new Vector2(0.07f, 0.124f);
+
+            talkAction[num].sprite = buttonSprite;
+            talkActionText[num].text = actionName;
         }
+        talkAction[num].gameObject.SetActive(_talkPossible[num]);
     }
 
     private void Awake()
     {
         _controls = new Controls();
         _controls.Everything.Enable();
+        GameManager.Controls = _controls;
         
         _actions = new List<InputAction>
         {
@@ -54,61 +71,122 @@ public class PlayerController : MonoBehaviour
             _controls.Everything.RS,
             _controls.Everything.RT
         };
+        
+        drinkAction.ForEach(action => _drinkAnimators.Add(action.GetComponent<Animator>()));
     }
 
     private void Start()
     {
-        StartCoroutine("DrinkAssignation");
-        StartCoroutine("TalkAssignation");
+        StartCoroutine("DrinkAssignation", 0);
+        StartCoroutine("TalkAssignation", 0);
+        StartCoroutine("DrinkAssignation", 1);
+        StartCoroutine("TalkAssignation", 1);
     }
 
-    private IEnumerator DrinkAssignation()
+    private IEnumerator DrinkAssignation(int num)
     {
         while (!GameManager.GameEnded)
         {
-            var testAction = _currentDrinkAction;
-            while (testAction == _currentDrinkAction || testAction == _currentTalkAction)
+            var testAction = _currentDrinkAction[num];
+            var buttonSprite = drinkAction[num].sprite;
+            while (testAction == _currentDrinkAction[0] || testAction == _currentDrinkAction[1] ||
+                   testAction == _currentTalkAction[0] || testAction == _currentTalkAction[1])
             {
-                testAction = _actions[Random.Range(0, _actions.Count - 4)];
+                var i = Random.Range(0, _actions.Count - 4);
+                testAction = _actions[i];
+                buttonSprite = buttonSprites[i];
             }
-            _currentDrinkAction = testAction;
-            drinkAction.text = _currentDrinkAction.name;
+            _currentDrinkAction[num] = testAction;
+            drinkAction[num].sprite = buttonSprite;
+            drinkActionText[num].text = _currentDrinkAction[num].name;
             
-            _currentDrinkAction.performed += Drink;
+            switch (num)
+            {
+                case 0:
+                    _currentDrinkAction[num].performed += Drink0;
+                    break;
+                case 1:
+                    _currentDrinkAction[num].performed += Drink1;
+                    break;
+            }
             yield return new WaitForSeconds(drinkChangeTime);
-            _currentDrinkAction.performed -= Drink;
+            switch (num)
+            {
+                case 0:
+                    _currentDrinkAction[num].performed -= Drink0;
+                    break;
+                case 1:
+                    _currentDrinkAction[num].performed -= Drink1;
+                    break;
+            }
         }
     }
     
-    private IEnumerator TalkAssignation()
+    private IEnumerator TalkAssignation(int num)
     {
         while (!GameManager.GameEnded)
         {
-            var testAction = _currentTalkAction;
-            while (testAction == _currentDrinkAction || testAction == _currentTalkAction)
+            var testAction = _currentTalkAction[num];
+            var buttonSprite = talkAction[num].sprite;
+            while (testAction == _currentDrinkAction[0] || testAction == _currentDrinkAction[1] ||
+                   testAction == _currentTalkAction[0] || testAction == _currentTalkAction[1])
             {
-                testAction = _actions[Random.Range(0, _actions.Count - 4)];
+                var i = Random.Range(0, _actions.Count - 4);
+                testAction = _actions[i];
+                buttonSprite = buttonSprites[i];
             }
-            _currentTalkAction = testAction;
-            talkAction.text = _currentTalkAction.name;
+            _currentTalkAction[num] = testAction;
 
-            TalkPossible = true;
-            _currentTalkAction.performed += Talk;
+            SetTalkPossible(num, true, _currentTalkAction[num].name, buttonSprite);
+            switch (num)
+            {
+                case 0:
+                    _currentTalkAction[num].performed += Talk0;
+                    break;
+                case 1:
+                    _currentTalkAction[num].performed += Talk1;
+                    break;
+            }
             yield return new WaitForSeconds(talkAppearTime);
-            _currentTalkAction.performed -= Talk;
+            switch (num)
+            {
+                case 0:
+                    _currentTalkAction[num].performed -= Talk0;
+                    break;
+                case 1:
+                    _currentTalkAction[num].performed -= Talk1;
+                    break;
+            }
         }
     }
 
-    private void Drink(InputAction.CallbackContext ctx)
+    private void Drink0(InputAction.CallbackContext ctx)
     {
+        if (GameManager.GameEnded) return;
         gameManager.Drink();
-        drinkSound.Post(gameObject);
+        _drinkAnimators[0].SetTrigger(Pressed);
+        drinkSound1.Post(gameObject);
+    }
+    
+    private void Drink1(InputAction.CallbackContext ctx)
+    {
+        if (GameManager.GameEnded) return;
+        gameManager.Drink();
+        _drinkAnimators[1].SetTrigger(Pressed);
+        drinkSound2.Post(gameObject);
     }
 
-    private void Talk(InputAction.CallbackContext ctx)
+    private void Talk0(InputAction.CallbackContext ctx)
     {
-        if (!TalkPossible) return;
-        TalkPossible = false;
+        if (!_talkPossible[0] || GameManager.GameEnded) return;
+        SetTalkPossible(0, false);
+        gameManager.Talk();
+    }
+    
+    private void Talk1(InputAction.CallbackContext ctx)
+    {
+        if (!_talkPossible[1] || GameManager.GameEnded) return;
+        SetTalkPossible(1, false);
         gameManager.Talk();
     }
 }

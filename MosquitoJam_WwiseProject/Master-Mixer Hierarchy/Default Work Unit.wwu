@@ -10,9 +10,199 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="ATMOS" ID="{D464279A-1168-4861-A9C8-1FC9212F41AA}"/>
-						<Bus Name="SFX" ID="{BD7A3D14-54E1-457C-B050-B86F3DC8654D}"/>
-						<Bus Name="MUSIC" ID="{CE8806FC-FE40-4989-BA7C-84CB7F52D5C3}"/>
+						<Bus Name="ATMOS" ID="{D464279A-1168-4861-A9C8-1FC9212F41AA}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{BD7A3D14-54E1-457C-B050-B86F3DC8654D}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{853EFE64-94D1-451F-B78B-8A3FBF5B0DE2}" ShortID="485720494">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_FarFromScene" ID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AA919776-D811-4D39-A495-0F2D9F9790BE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="MUSIC" ID="{CE8806FC-FE40-4989-BA7C-84CB7F52D5C3}"/>
+									<DuckingParam>
+										<Volume>-3</Volume>
+										<FadeInTime>0.5</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="ATMOS" ID="{D464279A-1168-4861-A9C8-1FC9212F41AA}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="MUSIC" ID="{CE8806FC-FE40-4989-BA7C-84CB7F52D5C3}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8D65F00C-3745-4BB6-BDC4-19A5E99C4B68}" ShortID="983170785">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_FarFromScene" ID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{13E38167-A048-46DF-A02E-018EFD1AFB5C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="VOICES" ID="{8DAEBE4E-919A-48E4-8C4E-F59C58E4D36E}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{AB25873B-4B9B-4A53-A55D-5542FD38AF91}" ShortID="435143867">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_FarFromScene" ID="{F4544AB0-8914-42DD-BE70-2C710ED316BA}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{06CB7CC3-4859-42FD-A2AD-277B4AECC343}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="MUSIC" ID="{CE8806FC-FE40-4989-BA7C-84CB7F52D5C3}"/>
+									<DuckingParam>
+										<Volume>-3</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="ATMOS" ID="{D464279A-1168-4861-A9C8-1FC9212F41AA}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="SFX" ID="{BD7A3D14-54E1-457C-B050-B86F3DC8654D}"/>
+									<DuckingParam>
+										<Volume>-3</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<AuxBus Name="Rev" ID="{02C60B10-8A54-4BAA-990F-5A5BE25E9EB3}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}">
+										<Effect Name="Medium_Room1_(Custom)" ID="{25CC873D-1DEB-4618-BAEA-F048B795E00E}" ShortID="825441742" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<PropertyList>
+												<Property Name="HFRatio" Type="Real32" Value="6"/>
+												<Property Name="NumberOfDelays" Type="int32" Value="12"/>
+												<Property Name="ReverbTime" Type="Real32" Value="2"/>
+												<Property Name="WetLevel" Type="Real32" Value="-30"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
