@@ -353,9 +353,23 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{BF48C7E6-99CA-4A2E-A8DF-88F34D88F524}" ShortID="541899778">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="OST" ID="{A47B56A2-2E7D-4E7C-9B9B-C6963591F900}" WorkUnitID="{10C9D154-2D26-442E-8FD3-BE5BCF20DD69}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3B3E883C-403C-4C0B-AC63-6737077BC450}" ShortID="4298439">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OST" ID="{CFCAB6CC-3EDA-4E92-8658-FA9868560903}" WorkUnitID="{BE3C9BC6-0500-40F4-A0D3-2B29B9D947FE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
