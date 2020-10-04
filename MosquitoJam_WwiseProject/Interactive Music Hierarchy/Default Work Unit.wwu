@@ -264,6 +264,21 @@
 										</MusicTrack>
 										<MusicTrack Name="ENJAM 2020 - Mosquito's Song - Loop_Good" ID="{193F59F0-EA58-419F-8FB5-9AE966BFDB43}" ShortID="656178610">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsZeroLantency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PreFetchLength" Type="int16">
+													<ValueList>
+														<Value>6000</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>2</Value>

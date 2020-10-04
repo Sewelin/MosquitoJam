@@ -26,10 +26,17 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1745028472" Name="Mx_LesticosSong" ObjectPath="\Events\Default Work Unit\MUSIC\Mx_LesticosSong" GUID="{733A547C-42D6-416E-9060-7E0AC88DBAF5}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="407271610" Language="SFX">
+							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
+							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
 					<IncludedMemoryFiles>
 						<File Id="407271610" Language="SFX">
 							<ShortName>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</ShortName>
 							<Path>SFX\ENJAM 2020 - Mosquito's Song - Loop_Good_D79FB2B7.wem</Path>
+							<PrefetchSize>1152064</PrefetchSize>
 						</File>
 						<File Id="423796821" Language="SFX">
 							<ShortName>ENJAM 2020 - Mosquito's Song - Loop.wav</ShortName>
