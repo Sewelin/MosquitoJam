@@ -180,6 +180,51 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="ENJAM 2020 - Mosquito's Song - Loop" ID="{FF515EB5-64C1-48FB-8AA3-594A73F04DDB}" ShortID="236150202">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{CE2924B2-84DA-4B6B-BE1D-EA45A05DC80E}" ShortID="198929231">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5FEB016F-C1AE-4963-8817-69BF9A579A38}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>25</XPos>
+																		<YPos>0.06447</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>0.02319</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
@@ -217,14 +262,77 @@
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
-										<MusicTrack Name="Noob" ID="{EF7FE67B-15AC-4FB6-87A9-10183A7BC001}" ShortID="673230164">
+										<MusicTrack Name="ENJAM 2020 - Mosquito's Song - Loop_Good" ID="{193F59F0-EA58-419F-8FB5-9AE966BFDB43}" ShortID="656178610">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsZeroLantency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PreFetchLength" Type="int16">
+													<ValueList>
+														<Value>6000</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{04F090E6-E57C-44EB-BE41-8405E33958BA}" ShortID="36307800">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{8C4A9977-3043-46A1-A8B5-1A13F9952F10}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENJAM 2020 - Mosquito's Song - Loop_Good" ID="{D5E07582-0CD5-49BE-96DA-2D5D44E50C5F}">
+													<Language>SFX</Language>
+													<AudioFile>ENJAM 2020 - Mosquito's Song - Loop_Good.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="407271610"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{B8F6F72D-90B2-4215-8E4A-E5F7CAE1B450}">
+												<MusicTransition Name="Root" ID="{FD6BAA5D-B536-499B-BA21-0AF65EEDCDD5}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -232,7 +340,95 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{0B77D4B0-6057-489E-B3DB-3CBBEB596089}"/>
+												<MusicTrackSequence Name="" ID="{05F9BE9F-D1CC-4FF7-9956-97D11D5C11E4}">
+													<ClipList>
+														<MusicClip Name="ENJAM 2020 - Mosquito's Song - Loop_Good" ID="{F0D0AF4D-8723-4C10-8244-5BE1313C30E9}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="22857.1458333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="ENJAM 2020 - Mosquito's Song - Loop_Good" ID="{D5E07582-0CD5-49BE-96DA-2D5D44E50C5F}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="ENJAM 2020 - Mosquito's Song - Loop_Noob" ID="{6D2E8279-A66D-4C3D-9778-E86F5CE8B4AC}" ShortID="74866309">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{15E81D31-E630-471C-924C-DDD68FE8F3CE}" ShortID="688455583">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_Gauge" ID="{C77F48BE-49E5-4F18-B953-727FA48DF73E}" WorkUnitID="{E50EA4C8-EA66-4BFC-8B3B-9E9F4F3A6E8E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{B123E68D-3C5D-4061-B415-90F6F7533055}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>InvertedSCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>35</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE0468A-CACF-4845-9065-60BD8E407586}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENJAM 2020 - Mosquito's Song - Loop_Noob" ID="{8D02889D-A8E3-40FE-866E-DC54502DA000}">
+													<Language>SFX</Language>
+													<AudioFile>ENJAM 2020 - Mosquito's Song - Loop_Noob.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1032295030"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{938F94A6-3548-4532-A373-9206A1559661}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D8F903F3-BA1E-4AB8-ADCD-B37198CB5287}">
+													<ClipList>
+														<MusicClip Name="ENJAM 2020 - Mosquito's Song - Loop_Noob" ID="{016855A8-E3A9-4566-8422-D6F50DD2BF9E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="22857.1458333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="ENJAM 2020 - Mosquito's Song - Loop_Noob" ID="{8D02889D-A8E3-40FE-866E-DC54502DA000}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 									</ChildrenList>
