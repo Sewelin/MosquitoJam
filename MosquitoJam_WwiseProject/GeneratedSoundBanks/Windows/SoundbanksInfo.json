@@ -12,26 +12,7 @@
    "ExternalSourcesOutputRoot": "D:\\ENJMIN\\4 - ENJAM 2020 - Mosquitos\\Git\\MosquitoJam\\MosquitoJam_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
-  "StreamedFiles": [
-   {
-    "Id": "226483068",
-    "Language": "SFX",
-    "ShortName": "ENJAM 2020 - Mosquito's Song - Loop_Good.wav",
-    "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem"
-   },
-   {
-    "Id": "852303102",
-    "Language": "SFX",
-    "ShortName": "ENJAM 2020 - Mosquito's Song - Loop.wav",
-    "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem"
-   },
-   {
-    "Id": "971791574",
-    "Language": "SFX",
-    "ShortName": "ENJAM 2020 - Mosquito's Song - Loop_Noob.wav",
-    "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem"
-   }
-  ],
+  "StreamedFiles": [],
   "MediaFilesNotInAnyBank": [],
   "SoundBanks": [
    {
@@ -2791,53 +2772,30 @@
       "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Mx_LesticosSong",
       "GUID": "{733A547C-42D6-416E-9060-7E0AC88DBAF5}",
       "DurationType": "Infinite",
-      "ReferencedStreamedFiles": [
-       {
-        "Id": "226483068",
-        "Language": "SFX",
-        "ShortName": "ENJAM 2020 - Mosquito's Song - Loop_Good.wav",
-        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem"
-       },
-       {
-        "Id": "852303102",
-        "Language": "SFX",
-        "ShortName": "ENJAM 2020 - Mosquito's Song - Loop.wav",
-        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem"
-       },
-       {
-        "Id": "971791574",
-        "Language": "SFX",
-        "ShortName": "ENJAM 2020 - Mosquito's Song - Loop_Noob.wav",
-        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem"
-       }
-      ],
       "IncludedMemoryFiles": [
        {
-        "Id": "13599532",
-        "Language": "SFX",
-        "ShortName": "ENJAM 2020 - Mosquito's Song - Intro.wav",
-        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Intro_C1F52A07.wem"
-       },
-       {
-        "Id": "226483068",
+        "Id": "407271610",
         "Language": "SFX",
         "ShortName": "ENJAM 2020 - Mosquito's Song - Loop_Good.wav",
-        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_Good_3D1D1BA5.wem",
-        "PrefetchSize": "3116"
+        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_Good_D79FB2B7.wem"
        },
        {
-        "Id": "852303102",
+        "Id": "423796821",
         "Language": "SFX",
         "ShortName": "ENJAM 2020 - Mosquito's Song - Loop.wav",
-        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_AC5B4AE3.wem",
-        "PrefetchSize": "2313"
+        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_D79FB2B7.wem"
        },
        {
-        "Id": "971791574",
+        "Id": "991326011",
+        "Language": "SFX",
+        "ShortName": "ENJAM 2020 - Mosquito's Song - Intro.wav",
+        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Intro_D79FB2B7.wem"
+       },
+       {
+        "Id": "1032295030",
         "Language": "SFX",
         "ShortName": "ENJAM 2020 - Mosquito's Song - Loop_Noob.wav",
-        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_Noob_3D1D1BA5.wem",
-        "PrefetchSize": "2208"
+        "Path": "SFX\\ENJAM 2020 - Mosquito's Song - Loop_Noob_D79FB2B7.wem"
        }
       ],
       "ActionPostEvent": [
